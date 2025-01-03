@@ -1,7 +1,8 @@
 # Dependencias node.js
 node_modules/
 
-
+# Logs
+./src/utils/logger/logs
 
 # Variaveis de ambiente
 .env
