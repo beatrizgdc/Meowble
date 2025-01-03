@@ -1,0 +1,20 @@
+# Dependencias node.js
+node_modules/
+
+# Logs
+logs/
+
+# Variaveis de ambiente
+.env
+
+# Type
+dist/
+build/
+
+# Teste e debug
+*.test.js
+*.spec.js
+.jest/
+
+
+
