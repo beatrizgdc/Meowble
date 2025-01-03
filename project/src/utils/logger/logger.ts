@@ -9,8 +9,8 @@ import { createLogger, format, transports } from 'winston';
         format.json()
         ),
         transports: [
-        new transports.File({ filename: 'erro.log', level: 'error' }),
-        new transports.File({ filename: 'informacao.log', level: 'info' }),
+        new transports.File({ filename: './src/utils/logger/logs/erro.log', level: 'error' }),
+        new transports.File({ filename: './src/utils/logger/logs/informacao.log', level: 'info' }),
         ],
     });
 
@@ -28,9 +28,13 @@ import { createLogger, format, transports } from 'winston';
     }
 
     //erro
-    error(mensagem: string, trace: string) {
-        this.logger.error(mensagem, trace);
-    }
+    error(mensagem: string, trace: unknown) {
+        if (trace instanceof Error) {
+            this.logger.error(mensagem, trace.stack);
+        } else {
+            this.logger.error(mensagem, trace);
+        }
+    }    
 
     //avisos
     warn(mensagem: string) {
