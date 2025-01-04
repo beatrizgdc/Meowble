@@ -1,4 +1,5 @@
-import { IsString, IsBoolean, IsNumber, IsNotEmpty, Matches, IsIn } from 'class-validator';
+import { IsString, IsBoolean, IsNumber, IsNotEmpty, Matches, IsIn, Validate } from 'class-validator';
+import { IsValidCep } from '../../../validators/cepValidator';
 
 export class CreateLojaDto {
   @IsNotEmpty({ message: 'O nome da loja é um campo obrigatório.' })
@@ -31,6 +32,7 @@ export class CreateLojaDto {
   @IsNotEmpty({ message: 'O código postal da loja é um campo obrigatório.' })
   @IsString({ message: 'O código postal deve estar no formato 99999-999.' })
   @Matches(/^[0-9]{5}-[0-9]{3}$/, { message: 'O código postal deve estar no formato 99999-999.' })
+  @Validate(IsValidCep, { message: 'O CEP informado é inválido.' })
   codigoPostal!: string;
 
   @IsNumber({}, { message: 'O número deve ser um número.' })

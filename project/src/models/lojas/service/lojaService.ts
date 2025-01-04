@@ -30,3 +30,4 @@ export class LojaService {
       return this.lojaModel.find().exec(); 
     } 
 }
+
