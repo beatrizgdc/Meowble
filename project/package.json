@@ -2,7 +2,14 @@
     "name": "meowble-1",
     "version": "1.0.0",
     "scripts": {
-        "start": "nest start"
+        "start": "nest start",
+        "test": "jest"
+    },
+    "jest": {
+        "transform": {
+            "^.+\\.ts$": "ts-jest"
+        },
+        "testEnvironment": "node"
     },
     "devDependencies": {
         "@nestjs/platform-express": "^10.4.15",
