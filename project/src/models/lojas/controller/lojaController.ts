@@ -4,6 +4,7 @@ import {
     Post,
     Body,
     Get,
+    Query,
     Param,
     Put,
     Delete,
@@ -25,9 +26,14 @@ export class LojaController {
     }
 
     @Get()
-    async findAll(): Promise<Loja[]> {
-        this.logger.log('Get lojas ok');
-        return this.lojaService.findAll();
+    async listAll(@Query('limit') limit = 1, @Query('offset') offset = 0) {
+        const resultado = await this.lojaService.findAll(limit, offset);
+        return {
+            stores: resultado.stores,
+            limit: resultado.limit,
+            offset: resultado.offset,
+            total: resultado.total,
+        };
     }
 
     // @Get(':id')

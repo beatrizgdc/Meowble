@@ -11,11 +11,13 @@ export class LojaRepository {
         @InjectModel('Loja') private readonly lojaModel: Model<LojaDocument>
     ) {}
 
+    //criar loja
     async create(createLojaDto: CreateLojaDto): Promise<Loja> {
         const novaLoja = new this.lojaModel(createLojaDto);
         return novaLoja.save();
     }
 
+    //listar tudo
     async findAll(): Promise<Loja[]> {
         return this.lojaModel.find().exec();
     }

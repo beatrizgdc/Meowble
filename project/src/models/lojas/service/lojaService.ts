@@ -12,6 +12,7 @@ export class LojaService {
         private readonly logger: ServicoDeLogger
     ) {}
 
+    //Criar a loja
     async create(createLojaDto: CreateLojaDto): Promise<LojaDocument> {
         this.logger.log('Recebendo dados para criação da loja 👩‍💻👩‍💻👩‍💻👩‍💻');
 
@@ -26,7 +27,43 @@ export class LojaService {
         }
     }
 
-    async findAll(): Promise<LojaDocument[]> {
-        return this.lojaModel.find().exec();
+    //listar todas
+    async findAll(
+        limit: number = 1,
+        offset: number = 0
+    ): Promise<{
+        stores: any[];
+        limit: number;
+        offset: number;
+        total: number;
+    }> {
+        try {
+            const lojas = await this.lojaModel
+                .find()
+                .skip(offset)
+                .limit(limit)
+                .exec();
+            const total = await this.lojaModel.countDocuments().exec();
+            if (lojas.length === 0) {
+                this.logger.warn('Nenhuma loja encontrada 😔');
+                return { stores: [], limit, offset, total };
+            }
+            const lojasFiltradas = lojas.map((loja) => {
+                const {
+                    _id,
+                    latitude,
+                    longitude,
+                    tempoDePreparo,
+                    disponivelNoEstoque,
+                    ...resto
+                } = loja.toObject();
+                return resto;
+            });
+            this.logger.log('Lojas listadas com sucesso 😸😸');
+            return { stores: lojasFiltradas, limit, offset, total };
+        } catch (error) {
+            this.logger.error('Erro ao listar as lojas: 😿😿', error);
+            throw error;
+        }
     }
 }
