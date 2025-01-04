@@ -1,23 +1,7 @@
-import { Schema, Document } from 'mongoose';
-
-export interface LojaDocument extends Document, Loja {}
-
-export interface Loja {
-    lojaID: "String";
-    lojaNome: "String";
-    lojaTipo: "String";
-    disponivelNoEstoque: boolean;
-    tempoDePreparo: number;
-    latitude: "String";
-    longitude: "String";
-    codigoPostal: "String";
-    numero: number;
-    pais: "String";
-    lojaTelefone: "String";
-}
+import mongoose, { Schema, Document, model } from 'mongoose';
+import { LojaDocument } from '../interface/lojaInterface';
 
 export const LojaSchema = new Schema({
-    lojaID: { type: String, required: true },
     lojaNome: { type: String, required: true },
     lojaTipo: { type: String, required: true },
     disponivelNoEstoque: { type: Boolean, required: true },
@@ -29,3 +13,6 @@ export const LojaSchema = new Schema({
     pais: { type: String, required: true },
     lojaTelefone: { type: String, required: true },
 });
+
+export const LojaModel = model<LojaDocument>('Loja', LojaSchema);
+export type {LojaDocument};

@@ -1,8 +1,11 @@
+import { Document } from 'mongoose';
+
+export interface LojaDocument extends Document, Loja {}
+
 export interface Loja {
-    lojaID: "String";
     lojaNome: "String";
     lojaTipo: "String";
-    disponivelNoEstoque: true;
+    disponivelNoEstoque: boolean;
     tempoDePreparo: number;
     latitude: "String";
     longitude: "String";
@@ -11,4 +14,3 @@ export interface Loja {
     pais: "String";
     lojaTelefone: "String";
 }
-  

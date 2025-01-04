@@ -1,6 +1,6 @@
 import { Controller, Post, Body, Get, Param, Put, Delete } from '@nestjs/common';
 import { CreateLojaDto } from '../dtos/lojaDto';
-import { Loja } from '../modelo/lojaSchema';
+import { Loja } from '../interface/lojaInterface';
 import { LojaService } from '../service/lojaService';
 
 
