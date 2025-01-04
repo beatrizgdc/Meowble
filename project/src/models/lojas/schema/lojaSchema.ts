@@ -15,4 +15,4 @@ export const LojaSchema = new Schema({
 });
 
 export const LojaModel = model<LojaDocument>('Loja', LojaSchema);
-export type {LojaDocument};
+export type { LojaDocument };

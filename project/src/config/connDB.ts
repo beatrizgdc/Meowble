@@ -1,6 +1,6 @@
 import { MongooseModule } from '@nestjs/mongoose';
 import { MONGO_URI } from './dotenvConfig';
-import { ModuloAplicacao, ServicoDeLogger } from '../utils/logger/logger'
+import { ModuloAplicacao, ServicoDeLogger } from '../utils/logger/logger';
 
 if (!MONGO_URI) {
     throw new Error('Variável de ambiente MONGO_URI ausente. 😿');
@@ -15,8 +15,8 @@ export const DatabaseModule = MongooseModule.forRootAsync({
                 uri: MONGO_URI,
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
-                connectionFactory: (connection) => { 
-                    logger.log('MongoDB conectado com sucesso! 🎉 😺 😺'); 
+                connectionFactory: (connection) => {
+                    logger.log('MongoDB conectado com sucesso! 🎉 😺 😺');
                     return connection;
                 },
             };
@@ -26,4 +26,4 @@ export const DatabaseModule = MongooseModule.forRootAsync({
         }
     },
     inject: [ServicoDeLogger],
-})
+});

@@ -2,23 +2,28 @@ import { Injectable, LoggerService, Module } from '@nestjs/common';
 import { createLogger, format, transports } from 'winston';
 
 @Injectable()
-    class ServicoDeLogger implements LoggerService {
+class ServicoDeLogger implements LoggerService {
     private readonly logger = createLogger({
-        format: format.combine(
-        format.errors({ stack: true }),
-        format.json()
-        ),
+        format: format.combine(format.errors({ stack: true }), format.json()),
         transports: [
-        new transports.File({ filename: './src/utils/logger/logs/erro.log', level: 'error' }),
-        new transports.File({ filename: './src/utils/logger/logs/informacao.log', level: 'info' }),
+            new transports.File({
+                filename: './src/utils/logger/logs/erro.log',
+                level: 'error',
+            }),
+            new transports.File({
+                filename: './src/utils/logger/logs/informacao.log',
+                level: 'info',
+            }),
         ],
     });
 
     constructor() {
         if (process.env.NODE_ENV !== 'producao') {
-        this.logger.add(new transports.Console({
-            format: format.simple(),
-        }));
+            this.logger.add(
+                new transports.Console({
+                    format: format.simple(),
+                })
+            );
         }
     }
 
@@ -34,7 +39,7 @@ import { createLogger, format, transports } from 'winston';
         } else {
             this.logger.error(mensagem, trace);
         }
-    }    
+    }
 
     //avisos
     warn(mensagem: string) {
@@ -45,16 +50,16 @@ import { createLogger, format, transports } from 'winston';
     debug(mensagem: string) {
         this.logger.debug(mensagem);
     }
-    }
+}
 
-    @Module({
+@Module({
     providers: [ServicoDeLogger],
     exports: [ServicoDeLogger],
-    })
-    class ModuloAplicacao {}
+})
+class ModuloAplicacao {}
 
-    @Injectable()
-    class SeuServico {
+@Injectable()
+class SeuServico {
     constructor(private readonly logger: ServicoDeLogger) {}
 
     algumMetodo() {

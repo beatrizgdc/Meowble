@@ -18,21 +18,21 @@ describe('LojaService', () => {
         }));
 
         const module: TestingModule = await Test.createTestingModule({
-        providers: [
-            LojaService,
-            LojaRepository,
-            {
-                provide: getModelToken('Loja'),
-                useValue: lojaModelMock,
-            },
-            {
-                provide: ServicoDeLogger,
-                useValue: {
-                    log: jest.fn(),
-                    error: jest.fn(),
+            providers: [
+                LojaService,
+                LojaRepository,
+                {
+                    provide: getModelToken('Loja'),
+                    useValue: lojaModelMock,
                 },
-            },
-        ],
+                {
+                    provide: ServicoDeLogger,
+                    useValue: {
+                        log: jest.fn(),
+                        error: jest.fn(),
+                    },
+                },
+            ],
         }).compile();
 
         lojaService = module.get<LojaService>(LojaService);

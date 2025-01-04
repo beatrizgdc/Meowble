@@ -1,5 +1,4 @@
 export const paisesTraducoes: { [key: string]: string } = {
-    'Brasil': 'Brazil',
+    Brasil: 'Brazil',
     'Estados Unidos': 'United States',
-  };
-  
+};

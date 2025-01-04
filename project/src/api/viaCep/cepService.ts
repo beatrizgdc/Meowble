@@ -13,13 +13,14 @@ export class CepService {
 
     async validarCep(cep: string): Promise<boolean> {
         try {
-            const response: AxiosResponse<any> = await lastValueFrom(this.httpService.get(`http://viacep.com.br/ws/${cep}/json/`));
+            const response: AxiosResponse<any> = await lastValueFrom(
+                this.httpService.get(`http://viacep.com.br/ws/${cep}/json/`)
+            );
 
             if (!response || response.data.erro) {
                 return false;
             }
             return true;
-
         } catch (error) {
             this.logger.error('Erro ao validar o CEP:', error);
             return false;
