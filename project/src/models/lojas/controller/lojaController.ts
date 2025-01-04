@@ -1,3 +1,4 @@
+import { ServicoDeLogger } from '../../../utils/logger/logger';
 import { Controller, Post, Body, Get, Param, Put, Delete } from '@nestjs/common';
 import { CreateLojaDto } from '../dtos/lojaDto';
 import { Loja } from '../interface/lojaInterface';
@@ -6,7 +7,10 @@ import { LojaService } from '../service/lojaService';
 
 @Controller('lojas')
 export class LojaController {
-  constructor(private readonly lojaService: LojaService) { }
+  constructor(
+    private readonly lojaService: LojaService,
+    private readonly logger: ServicoDeLogger
+  ) { }
 
   @Post()
   async create(@Body() createLojaDto: CreateLojaDto): Promise<Loja> {
@@ -15,7 +19,7 @@ export class LojaController {
 
   @Get()
   async findAll(): Promise<Loja[]> {
-    console.log('Get lojas ok');
+    this.logger.log('Get lojas ok');
     return this.lojaService.findAll();
   }
 

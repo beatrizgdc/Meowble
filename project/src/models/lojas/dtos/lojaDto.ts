@@ -1,5 +1,6 @@
 import { IsString, IsBoolean, IsNumber, IsNotEmpty, Matches, IsIn, Validate } from 'class-validator';
 import { IsValidCep } from '../../../validators/cepValidator';
+import { IsValidCountry } from '../../../validators/paisValidator';
 
 export class CreateLojaDto {
   @IsNotEmpty({ message: 'O nome da loja é um campo obrigatório.' })
@@ -40,6 +41,7 @@ export class CreateLojaDto {
 
   @IsNotEmpty({ message: 'O país da loja é um campo obrigatório.' })
   @IsString({ message: 'O país deve ser uma string.' })
+  @Validate(IsValidCountry, { message: 'O País informado é inválido.' })
   pais!: string;
 
   @IsString({ message: 'O telefone da loja deve ser uma string.' })
