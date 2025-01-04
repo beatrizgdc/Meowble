@@ -17,15 +17,15 @@ export class LojaRepository {
     return this.lojaModel.find().exec();
   }
 
-  async findById(id: string): Promise<Loja> {
+  async findById(id: string): Promise<Loja | null> {
     return this.lojaModel.findById(id).exec();
   }
 
-  async update(id: string, createLojaDto: CreateLojaDto): Promise<Loja> {
+  async update(id: string, createLojaDto: CreateLojaDto): Promise<Loja | null> {
     return this.lojaModel.findByIdAndUpdate(id, createLojaDto, { new: true }).exec();
   }
 
-  async delete(id: string): Promise<any> {
-    return this.lojaModel.findByIdAndRemove(id).exec();
-  }
+  // async delete(id: string): Promise<Loja | null> {
+  //   return this.lojaModel.findByIdAndRemove(id).exec();
+  // }
 }

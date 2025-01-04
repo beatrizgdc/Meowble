@@ -15,21 +15,22 @@ export class LojaController {
 
   @Get()
   async findAll(): Promise<Loja[]> {
+    console.log('Get lojas ok');
     return this.lojaService.findAll();
   }
 
-  @Get(':id')
-  async findById(@Param('id') id: string): Promise<Loja> {
-    return this.lojaService.findById(id);
-  }
+  // @Get(':id')
+  // async findById(@Param('id') id: string): Promise<Loja> {
+  //   return this.lojaService.findById(id);
+  // }
 
-  @Put(':id')
-  async update(@Param('id') id: string, @Body() createLojaDto: CreateLojaDto): Promise<Loja> {
-    return this.lojaService.update(id, createLojaDto);
-  }
+  // @Put(':id')
+  // async update(@Param('id') id: string, @Body() createLojaDto: CreateLojaDto): Promise<Loja> {
+  //   return this.lojaService.update(id, createLojaDto);
+  // }
 
-  @Delete(':id')
-  async delete(@Param('id') id: string): Promise<any> {
-    return this.lojaService.delete(id);
-  }
+  // @Delete(':id')
+  // async delete(@Param('id') id: string): Promise<any> {
+  //   return this.lojaService.delete(id);
+  // }
 }

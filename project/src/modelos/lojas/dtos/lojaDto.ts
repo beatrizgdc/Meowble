@@ -2,7 +2,7 @@ export class CreateLojaDto {
     lojaID!: "String";
     lojaNome!: "String";
     lojaTipo!: "String";
-    disponivelNoEstoque!: true;
+    disponivelNoEstoque!: boolean;
     tempoDePreparo!: number;
     latitude!: "String";
     longitude!: "String";
