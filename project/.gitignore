@@ -2,14 +2,13 @@
 node_modules/
 
 # Logs
-./src/utils/logger/logs
+*.log
 
 # Variaveis de ambiente
 .env
 
 # Type
 dist/
-build/
 
 # Teste e debug
 *.test.js

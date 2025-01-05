@@ -10,7 +10,7 @@ export const LojaSchema = new Schema({
     longitude: { type: String, required: true },
     codigoPostal: { type: String, required: true },
     numero: { type: Number, required: true },
-    estado: { type: String, required: true },
+    uf: { type: String, required: true },
     pais: { type: String, required: true },
     lojaTelefone: { type: String, required: true },
 });

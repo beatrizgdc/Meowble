@@ -47,7 +47,7 @@ describe('LojaService', () => {
         longitude: '-10.9833225',
         codigoPostal: '49037-050',
         numero: 800,
-        estado: 'SP',
+        uf: 'SP',
         pais: 'Brazil',
         lojaTelefone: '12345678',
     };

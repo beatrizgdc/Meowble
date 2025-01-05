@@ -10,6 +10,7 @@ import { IsValidCep } from '../../validators/cepValidator';
 import { HttpModule } from '@nestjs/axios';
 import { PaisService } from '../../api/restCountries/paisService';
 import { IsValidCountry } from '../../validators/paisValidator';
+import { IsValidState } from '../../validators/estadoValidator';
 
 @Module({
     imports: [
@@ -25,6 +26,7 @@ import { IsValidCountry } from '../../validators/paisValidator';
         IsValidCep,
         PaisService,
         IsValidCountry,
+        IsValidState,
     ],
     exports: [LojaService, LojaRepository],
 })
