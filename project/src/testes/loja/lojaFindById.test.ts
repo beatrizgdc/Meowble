@@ -3,10 +3,12 @@ import { getModelToken } from '@nestjs/mongoose';
 import { Test, TestingModule } from '@nestjs/testing';
 import { ServicoDeLogger } from '../../utils/logger/logger';
 import { LojaDocument } from '../../models/lojas/schema/lojaSchema';
+import { LojaRepository } from '../../models/lojas/repo/lojaRepo';
 
 describe('LojaService', () => {
     let lojaService: LojaService;
     let lojaModelMock: any;
+    let lojaRepositoryMock: any;
     let lojaData: LojaDocument;
     let loggerMock: { log: jest.Mock; error: jest.Mock; warn: jest.Mock };
 
@@ -41,6 +43,15 @@ describe('LojaService', () => {
             exec: jest.fn().mockResolvedValue(lojaData),
         };
 
+        lojaRepositoryMock = {
+            create: jest.fn().mockResolvedValue(lojaData),
+            findAll: jest.fn().mockResolvedValue([lojaData]),
+            count: jest.fn().mockResolvedValue(1),
+            findById: jest.fn().mockResolvedValue(lojaData),
+            findByUf: jest.fn().mockResolvedValue([lojaData]),
+            countByUf: jest.fn().mockResolvedValue(1),
+        };
+
         loggerMock = {
             log: jest.fn(),
             error: jest.fn(),
@@ -51,8 +62,8 @@ describe('LojaService', () => {
             providers: [
                 LojaService,
                 {
-                    provide: getModelToken('Loja'),
-                    useValue: lojaModelMock,
+                    provide: LojaRepository,
+                    useValue: lojaRepositoryMock,
                 },
                 {
                     provide: ServicoDeLogger,
@@ -86,7 +97,7 @@ describe('LojaService', () => {
 
     it('deve registrar um aviso quando a loja com ID não for encontrada', async () => {
         const id = 'someNonExistentId';
-        lojaModelMock.exec.mockResolvedValueOnce(null);
+        lojaRepositoryMock.findById.mockResolvedValueOnce(null);
         const result = await lojaService.findById(id);
 
         expect(result.stores.length).toBe(0);
@@ -102,7 +113,9 @@ describe('LojaService', () => {
     it('deve registrar um erro em caso de falha', async () => {
         const id = 'someId';
         const errorMessage = 'Erro ao buscar a loja com ID';
-        lojaModelMock.exec.mockRejectedValueOnce(new Error(errorMessage));
+        lojaRepositoryMock.findById.mockRejectedValueOnce(
+            new Error(errorMessage)
+        );
 
         try {
             await lojaService.findById(id);
