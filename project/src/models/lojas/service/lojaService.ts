@@ -50,7 +50,6 @@ export class LojaService {
             }
             const lojasFiltradas = lojas.map((loja) => {
                 const {
-                    _id,
                     latitude,
                     longitude,
                     tempoDePreparo,
@@ -63,6 +62,38 @@ export class LojaService {
             return { stores: lojasFiltradas, limit, offset, total };
         } catch (error) {
             this.logger.error('Erro ao listar as lojas: 😿😿', error);
+            throw error;
+        }
+    }
+
+    //Listar por ID
+    async findById(id: string): Promise<{
+        stores: any[];
+        limit: number;
+        offset: number;
+        total: number;
+    }> {
+        try {
+            const loja = await this.lojaModel.findById(id).exec();
+            if (!loja) {
+                this.logger.warn(`Loja com ID ${id} não encontrada 😔`);
+                return { stores: [], limit: 1, offset: 0, total: 0 };
+            }
+            const {
+                _id,
+                latitude,
+                longitude,
+                tempoDePreparo,
+                disponivelNoEstoque,
+                ...resto
+            } = loja.toObject();
+            this.logger.log(`Loja com ID ${id} encontrada com sucesso 😸😸`);
+            return { stores: [resto], limit: 1, offset: 0, total: 1 };
+        } catch (error) {
+            this.logger.error(
+                `Erro ao buscar a loja com ID ${id}: 😿😿`,
+                error
+            );
             throw error;
         }
     }

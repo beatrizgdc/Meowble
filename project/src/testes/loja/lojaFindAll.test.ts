@@ -73,7 +73,6 @@ describe('LojaService', () => {
         const result = await lojaService.findAll(limit, offset);
 
         expect(result.stores.length).toBe(1);
-        expect(result.stores[0]).not.toHaveProperty('_id');
         expect(result.stores[0]).not.toHaveProperty('latitude');
         expect(result.stores[0]).not.toHaveProperty('longitude');
         expect(result.stores[0]).not.toHaveProperty('tempoDePreparo');
