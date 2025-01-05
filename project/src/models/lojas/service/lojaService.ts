@@ -5,6 +5,14 @@ import { LojaDocument } from '../schema/lojaSchema';
 import { CreateLojaDto } from '../dtos/lojaDto';
 import { ServicoDeLogger } from '../../../utils/logger/logger';
 
+interface LojaRetorno {
+    stores: any[];
+    limit: number;
+    offset: number;
+    total: number;
+    mensagem?: string;
+}
+
 @Injectable()
 export class LojaService {
     constructor(
@@ -12,7 +20,7 @@ export class LojaService {
         private readonly logger: ServicoDeLogger
     ) {}
 
-    //Criar a loja
+    // Criar a loja
     async create(createLojaDto: CreateLojaDto): Promise<LojaDocument> {
         this.logger.log('Recebendo dados para criação da loja 👩‍💻👩‍💻👩‍💻👩‍💻');
 
@@ -27,16 +35,9 @@ export class LojaService {
         }
     }
 
-    //listar todas
-    async findAll(
-        limit: number = 1,
-        offset: number = 0
-    ): Promise<{
-        stores: any[];
-        limit: number;
-        offset: number;
-        total: number;
-    }> {
+    // Listar todas
+    async findAll(limit: number = 1, offset: number = 0): Promise<LojaRetorno> {
+        // Usando a nova interface LojaRetorno
         try {
             const lojas = await this.lojaModel
                 .find()
@@ -46,7 +47,13 @@ export class LojaService {
             const total = await this.lojaModel.countDocuments();
             if (lojas.length === 0) {
                 this.logger.warn('Nenhuma loja encontrada 😔');
-                return { stores: [], limit, offset, total };
+                return {
+                    stores: [],
+                    limit,
+                    offset,
+                    total,
+                    mensagem: `Nenhuma loja encontrada 😔`,
+                };
             }
             const lojasFiltradas = lojas.map((loja) => {
                 const {
@@ -66,18 +73,20 @@ export class LojaService {
         }
     }
 
-    //Listar por ID
-    async findById(id: string): Promise<{
-        stores: any[];
-        limit: number;
-        offset: number;
-        total: number;
-    }> {
+    // Listar por ID
+    async findById(id: string): Promise<LojaRetorno> {
+        // Usando a nova interface LojaRetorno
         try {
             const loja = await this.lojaModel.findById(id).exec();
             if (!loja) {
                 this.logger.warn(`Loja com ID ${id} não encontrada 😔`);
-                return { stores: [], limit: 1, offset: 0, total: 0 };
+                return {
+                    stores: [],
+                    limit: 1,
+                    offset: 0,
+                    total: 0,
+                    mensagem: `A loja com ID ${id} não foi encontrada 😔`,
+                };
             }
             const {
                 _id,
@@ -88,7 +97,13 @@ export class LojaService {
                 ...resto
             } = loja.toObject();
             this.logger.log(`Loja com ID ${id} encontrada com sucesso 😸😸`);
-            return { stores: [resto], limit: 1, offset: 0, total: 1 };
+            return {
+                stores: [resto],
+                limit: 1,
+                offset: 0,
+                total: 1,
+                mensagem: `Erro ao buscar a loja com ID ${id}: 😿😿`,
+            };
         } catch (error) {
             this.logger.error(
                 `Erro ao buscar a loja com ID ${id}: 😿😿`,

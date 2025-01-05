@@ -1,14 +1,13 @@
 import {
-    registerDecorator,
     ValidationArguments,
-    ValidationOptions,
     ValidatorConstraint,
     ValidatorConstraintInterface,
 } from 'class-validator';
 import { Injectable } from '@nestjs/common';
+import { ServicoDeLogger } from '../utils/logger/logger';
 
 @Injectable()
-@ValidatorConstraint({ async: false }) // Você pode alterar para true se houver validação assíncrona
+@ValidatorConstraint({ async: false })
 export class IsValidState implements ValidatorConstraintInterface {
     private readonly states = [
         'AC',
@@ -40,14 +39,16 @@ export class IsValidState implements ValidatorConstraintInterface {
         'TO',
     ];
 
+    constructor(private readonly logger: ServicoDeLogger) {}
+
     validate(value: string, args: ValidationArguments): boolean {
-        console.log(`Validating state: ${value}`); // Log para depuração
+        this.logger.log(`Validating state: ${value}`);
         const isValid = this.states.includes(value);
-        console.log(`Is valid: ${isValid}`); // Log para depuração
+        this.logger.log(`Is valid: ${isValid}`);
         return isValid;
     }
 
     defaultMessage(args: ValidationArguments): string {
-        return 'O estado informado é inválido.'; // Mensagem de erro padrão
+        return 'O estado informado é inválido.';
     }
 }
