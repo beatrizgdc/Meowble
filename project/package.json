@@ -6,6 +6,10 @@
         "test": "jest"
     },
     "jest": {
+        "testPathIgnorePatterns": [ 
+            "/node_modules/", 
+            "/dist/" 
+        ],
         "transform": {
             "^.+\\.ts$": "ts-jest"
         },
