@@ -1,9 +1,8 @@
 import { Injectable } from '@nestjs/common';
-import { InjectModel } from '@nestjs/mongoose';
-import { Model } from 'mongoose';
 import { LojaDocument } from '../schema/lojaSchema';
 import { CreateLojaDto } from '../dtos/lojaDto';
 import { ServicoDeLogger } from '../../../utils/logger/logger';
+import { LojaRepository } from '../repo/lojaRepo';
 
 interface LojaRetorno {
     stores: any[];
@@ -16,17 +15,15 @@ interface LojaRetorno {
 @Injectable()
 export class LojaService {
     constructor(
-        @InjectModel('Loja') private readonly lojaModel: Model<LojaDocument>,
+        private readonly lojaRepository: LojaRepository, // Injetando o repositório
         private readonly logger: ServicoDeLogger
     ) {}
 
     // Criar a loja
     async create(createLojaDto: CreateLojaDto): Promise<LojaDocument> {
         this.logger.log('Recebendo dados para criação da loja 👩‍💻👩‍💻👩‍💻👩‍💻');
-
         try {
-            const novaLoja = new this.lojaModel(createLojaDto);
-            const resultado = await novaLoja.save();
+            const resultado = await this.lojaRepository.create(createLojaDto);
             this.logger.log('Loja criada com sucesso 😸😸');
             return resultado;
         } catch (error) {
@@ -37,14 +34,9 @@ export class LojaService {
 
     // Listar todas
     async findAll(limit: number = 1, offset: number = 0): Promise<LojaRetorno> {
-        // Usando a nova interface LojaRetorno
         try {
-            const lojas = await this.lojaModel
-                .find()
-                .skip(offset)
-                .limit(limit)
-                .exec();
-            const total = await this.lojaModel.countDocuments();
+            const lojas = await this.lojaRepository.findAll(limit, offset);
+            const total = await this.lojaRepository.count();
             if (lojas.length === 0) {
                 this.logger.warn('Nenhuma loja encontrada 😔');
                 return {
@@ -55,7 +47,7 @@ export class LojaService {
                     mensagem: `Nenhuma loja encontrada 😔`,
                 };
             }
-            const lojasFiltradas = lojas.map((loja) => {
+            const lojasFiltradas = lojas.map((loja: LojaDocument) => {
                 const {
                     latitude,
                     longitude,
@@ -75,9 +67,8 @@ export class LojaService {
 
     // Listar por ID
     async findById(id: string): Promise<LojaRetorno> {
-        // Usando a nova interface LojaRetorno
         try {
-            const loja = await this.lojaModel.findById(id).exec();
+            const loja = await this.lojaRepository.findById(id);
             if (!loja) {
                 this.logger.warn(`Loja com ID ${id} não encontrada 😔`);
                 return {
@@ -102,11 +93,50 @@ export class LojaService {
                 limit: 1,
                 offset: 0,
                 total: 1,
-                mensagem: `Erro ao buscar a loja com ID ${id}: 😿😿`,
             };
         } catch (error) {
             this.logger.error(
                 `Erro ao buscar a loja com ID ${id}: 😿😿`,
+                error
+            );
+            throw error;
+        }
+    }
+
+    // Listar por UF
+    async findByUf(
+        uf: string,
+        limit: number = 1,
+        offset: number = 0
+    ): Promise<LojaRetorno> {
+        try {
+            const lojas = await this.lojaRepository.findByUf(uf, limit, offset);
+            const total = await this.lojaRepository.countByUf(uf);
+            if (lojas.length === 0) {
+                this.logger.warn(`Nenhuma loja encontrada na UF ${uf} 😔`);
+                return {
+                    stores: [],
+                    limit,
+                    offset,
+                    total,
+                    mensagem: `Nenhuma loja encontrada na UF ${uf} 😔`,
+                };
+            }
+            const lojasFiltradas = lojas.map((loja: LojaDocument) => {
+                const {
+                    latitude,
+                    longitude,
+                    tempoDePreparo,
+                    disponivelNoEstoque,
+                    ...resto
+                } = loja.toObject();
+                return resto;
+            });
+            this.logger.log(`Lojas na UF ${uf} listadas com sucesso 😸😸`);
+            return { stores: lojasFiltradas, limit, offset, total };
+        } catch (error) {
+            this.logger.error(
+                `Erro ao listar as lojas na UF ${uf}: 😿😿`,
                 error
             );
             throw error;

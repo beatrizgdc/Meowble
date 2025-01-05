@@ -160,3 +160,32 @@
 {"level":"info","message":"Lojas listadas com sucesso 😸😸"}
 {"level":"error","message":"Erro ao buscar a loja com ID fgvyufyui: 😿😿"}
 {"level":"info","message":"Loja com ID 67792c4b08eb0f4717b94127 encontrada com sucesso 😸😸"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"info","message":"Loja com ID 67792c4b08eb0f4717b94127 encontrada com sucesso 😸😸"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"error","message":"Erro ao buscar a loja com ID SP: 😿😿"}
+{"level":"error","message":"Erro ao buscar a loja com ID SP: 😿😿"}
+{"level":"error","message":"Erro ao buscar a loja com ID SP: 😿😿"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"info","message":"Lojas na UF SP listadas com sucesso 😸😸"}
+{"level":"info","message":"Lojas na UF SP listadas com sucesso 😸😸"}
+{"level":"info","message":"Lojas na UF SP listadas com sucesso 😸😸"}
+{"level":"warn","message":"Nenhuma loja encontrada na UF SSC 😔"}
+{"level":"warn","message":"Nenhuma loja encontrada na UF SC 😔"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"warn","message":"Nenhuma loja encontrada na UF SC 😔"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"info","message":"Validating state: SSC"}
+{"level":"info","message":"Is valid: false"}
+{"level":"info","message":"Validating state: SC"}
+{"level":"info","message":"Is valid: true"}
+{"level":"warn","message":"Nenhuma loja encontrada na UF SC 😔"}
+{"level":"info","message":"Loja com ID 67792c4b08eb0f4717b94127 encontrada com sucesso 😸😸"}
+{"level":"info","message":"Lojas listadas com sucesso 😸😸"}

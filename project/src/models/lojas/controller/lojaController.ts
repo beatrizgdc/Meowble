@@ -1,4 +1,3 @@
-import { ServicoDeLogger } from '../../../utils/logger/logger';
 import {
     Controller,
     Post,
@@ -6,23 +5,23 @@ import {
     Get,
     Query,
     Param,
-    Put,
-    Delete,
+    BadRequestException,
 } from '@nestjs/common';
 import { CreateLojaDto } from '../dtos/lojaDto';
-import { Loja } from '../interface/lojaInterface';
 import { LojaService } from '../service/lojaService';
 import { LojaDocument } from '../schema/lojaSchema';
+import { IsValidState } from '../../../validators/estadoValidator';
+import { ValidationArguments } from 'class-validator';
 
 @Controller('lojas')
 export class LojaController {
     constructor(
         private readonly lojaService: LojaService,
-        private readonly logger: ServicoDeLogger
+        private readonly IsValidState: IsValidState
     ) {}
 
     @Post()
-    async create(@Body() createLojaDto: CreateLojaDto): Promise<Loja> {
+    async create(@Body() createLojaDto: CreateLojaDto): Promise<LojaDocument> {
         return this.lojaService.create(createLojaDto);
     }
 
@@ -37,28 +36,35 @@ export class LojaController {
         };
     }
 
-    @Get(':id') async findById(@Param('id') id: string): Promise<{
-        stores: LojaDocument[];
-        limit: number;
-        offset: number;
-        total: number;
-    }> {
+    @Get(':id')
+    async findById(@Param('id') id: string) {
         const resultado = await this.lojaService.findById(id);
         return {
             stores: resultado.stores,
             limit: resultado.limit,
             offset: resultado.offset,
             total: resultado.total,
+            mensagem: resultado.mensagem || '',
         };
     }
 
-    // @Put(':id')
-    // async update(@Param('id') id: string, @Body() createLojaDto: CreateLojaDto): Promise<Loja> {
-    //   return this.lojaService.update(id, createLojaDto);
-    // }
+    @Get('uf/:uf')
+    async findByUf(
+        @Param('uf') uf: string,
+        @Query('limit') limit: number = 1,
+        @Query('offset') offset: number = 0
+    ) {
+        if (!this.IsValidState.validate(uf, {} as ValidationArguments)) {
+            throw new BadRequestException('O estado informado é inválido.');
+        }
 
-    // @Delete(':id')
-    // async delete(@Param('id') id: string): Promise<any> {
-    //   return this.lojaService.delete(id);
-    // }
+        const resultado = await this.lojaService.findByUf(uf, limit, offset);
+        return {
+            stores: resultado.stores,
+            limit: resultado.limit,
+            offset: resultado.offset,
+            total: resultado.total,
+            mensagem: resultado.mensagem || '',
+        };
+    }
 }

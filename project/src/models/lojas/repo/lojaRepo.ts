@@ -11,31 +11,38 @@ export class LojaRepository {
         @InjectModel('Loja') private readonly lojaModel: Model<LojaDocument>
     ) {}
 
-    //criar loja
-    async create(createLojaDto: CreateLojaDto): Promise<Loja> {
+    // Criar loja
+    async create(createLojaDto: CreateLojaDto): Promise<LojaDocument> {
         const novaLoja = new this.lojaModel(createLojaDto);
         return novaLoja.save();
     }
 
-    //listar tudo
-    async findAll(): Promise<Loja[]> {
-        return this.lojaModel.find().exec();
+    // Listar tudo com paginação
+    async findAll(limit: number, offset: number): Promise<LojaDocument[]> {
+        return this.lojaModel.find().skip(offset).limit(limit).exec();
     }
 
-    async findById(id: string): Promise<Loja | null> {
+    // Contar todas as lojas
+    async count(): Promise<number> {
+        return this.lojaModel.countDocuments().exec();
+    }
+
+    // Listar por ID
+    async findById(id: string): Promise<LojaDocument | null> {
         return this.lojaModel.findById(id).exec();
     }
 
-    async update(
-        id: string,
-        createLojaDto: CreateLojaDto
-    ): Promise<Loja | null> {
-        return this.lojaModel
-            .findByIdAndUpdate(id, createLojaDto, { new: true })
-            .exec();
+    // Listar por UF
+    async findByUf(
+        uf: string,
+        limit: number,
+        offset: number
+    ): Promise<LojaDocument[]> {
+        return this.lojaModel.find({ uf }).skip(offset).limit(limit).exec();
     }
 
-    // async delete(id: string): Promise<Loja | null> {
-    //   return this.lojaModel.findByIdAndRemove(id).exec();
-    // }
+    // Contar documentos por UF
+    async countByUf(uf: string): Promise<number> {
+        return this.lojaModel.countDocuments({ uf }).exec();
+    }
 }
