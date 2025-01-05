@@ -69,6 +69,11 @@ export class CreateLojaDto {
     @IsNumber({}, { message: 'O número deve ser um número.' })
     numero?: number;
 
+    @IsNotEmpty({ message: 'O estado da loja é um campo obrigatório.' })
+    @IsString({ message: 'O estado deve ser uma string.' })
+    // @Validate(IsValidCountry, { message: 'O estado informado é inválido.' })
+    estado!: string;
+
     @IsNotEmpty({ message: 'O país da loja é um campo obrigatório.' })
     @IsString({ message: 'O país deve ser uma string.' })
     @Validate(IsValidCountry, { message: 'O País informado é inválido.' })

@@ -11,6 +11,7 @@ export interface Loja {
     longitude: 'String';
     codigoPostal: 'String';
     numero: number;
+    estado: 'String';
     pais: 'String';
     lojaTelefone: 'String';
 }
