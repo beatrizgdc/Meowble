@@ -43,7 +43,7 @@ export class LojaService {
                 .skip(offset)
                 .limit(limit)
                 .exec();
-            const total = await this.lojaModel.countDocuments().exec();
+            const total = await this.lojaModel.countDocuments();
             if (lojas.length === 0) {
                 this.logger.warn('Nenhuma loja encontrada 😔');
                 return { stores: [], limit, offset, total };
