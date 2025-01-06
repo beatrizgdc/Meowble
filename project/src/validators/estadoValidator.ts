@@ -4,7 +4,6 @@ import {
     ValidatorConstraintInterface,
 } from 'class-validator';
 import { Injectable } from '@nestjs/common';
-import { ServicoDeLogger } from '../utils/logger/logger';
 
 @Injectable()
 @ValidatorConstraint({ async: false })
@@ -39,12 +38,8 @@ export class IsValidState implements ValidatorConstraintInterface {
         'TO',
     ];
 
-    constructor(private readonly logger: ServicoDeLogger) {}
-
     validate(value: string, args: ValidationArguments): boolean {
-        this.logger.log(`Validating state: ${value}`);
         const isValid = this.states.includes(value);
-        this.logger.log(`Is valid: ${isValid}`);
         return isValid;
     }
 
