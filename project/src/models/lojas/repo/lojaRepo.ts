@@ -54,9 +54,4 @@ export class LojaRepository {
     ): Promise<LojaDocument[]> {
         return this.lojaModel.find({ cep }).skip(offset).limit(limit).exec();
     }
-
-    // Contar documentos por Cep
-    async countByCep(cep: string): Promise<number> {
-        return this.lojaModel.countDocuments({ cep }).exec();
-    }
 }

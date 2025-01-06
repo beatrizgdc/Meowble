@@ -9,12 +9,14 @@ import { IsValidCep } from '../../validators/cepValidator';
 import { HttpModule } from '@nestjs/axios';
 import { IsValidCountry } from '../../validators/paisValidator';
 import { IsValidState } from '../../validators/estadoValidator';
+import { HereMapsModule } from '../../api/hereMaps/hereMapsModule';
 
 @Module({
     imports: [
         MongooseModule.forFeature([{ name: 'Loja', schema: LojaSchema }]),
         ModuloAplicacao,
         HttpModule,
+        HereMapsModule,
     ],
     controllers: [LojaController],
     providers: [

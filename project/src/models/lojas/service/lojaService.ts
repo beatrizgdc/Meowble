@@ -3,6 +3,7 @@ import { LojaDocument } from '../schema/lojaSchema';
 import { CreateLojaDto } from '../dtos/lojaDto';
 import { ServicoDeLogger } from '../../../utils/logger/logger';
 import { LojaRepository } from '../repo/lojaRepo';
+import { HereMapsService } from '../../../api/hereMaps/hereMapsService';
 
 interface LojaRetorno {
     stores: any[];
@@ -16,7 +17,8 @@ interface LojaRetorno {
 export class LojaService {
     constructor(
         private readonly lojaRepository: LojaRepository,
-        private readonly logger: ServicoDeLogger
+        private readonly logger: ServicoDeLogger,
+        private readonly HereMapsService: HereMapsService
     ) {}
 
     // Criar a loja
@@ -149,42 +151,10 @@ export class LojaService {
         limit: number = 1,
         offset: number = 0
     ): Promise<any> {
-        this.logger.log(`Buscando loja pelo CEP: ${cep} 👨‍💻`);
-        try {
-            const lojas = await this.lojaRepository.findByCep(
-                cep,
-                limit,
-                offset
-            );
-            const total = await this.lojaRepository.countByCep(cep);
-            if (lojas.length === 0) {
-                this.logger.warn(`Nenhuma loja encontrada na cep ${cep} 😔`);
-                return {
-                    stores: [],
-                    limit,
-                    offset,
-                    total,
-                    mensagem: `Nenhuma loja encontrada na cep ${cep} 😔`,
-                };
-            }
-            const lojasFiltradas = lojas.map((loja: LojaDocument) => {
-                const {
-                    latitude,
-                    longitude,
-                    tempoDePreparo,
-                    disponivelNoEstoque,
-                    ...resto
-                } = loja.toObject();
-                return resto;
-            });
-            this.logger.log(`Lojas na cep ${cep} listadas com sucesso 😸😸`);
-            return { stores: lojasFiltradas, limit, offset, total };
-        } catch (error) {
-            this.logger.error(
-                `Erro ao listar as lojas na cep ${cep}: 😿😿`,
-                error
-            );
-            throw error;
-        }
+        const coordenadas = await this.HereMapsService.getCoordinates(cep);
+        return {
+            latitude: coordenadas.latitude,
+            longitude: coordenadas.longitude,
+        };
     }
 }

@@ -70,14 +70,19 @@ export class LojaController {
         };
     }
 
-    @Get('/buscarProx/:cep')
-    async findByCep(
-        @Param('cep') uf: string,
+    @Get('/buscarProx/:cep') async findByCep(
+        @Param('cep') cep: string,
         @Query('limit') limit: number = 1,
         @Query('offset') offset: number = 0
     ) {
-        if (!this.IsValidCep.validate(uf, {} as ValidationArguments)) {
-            throw new BadRequestException('O estado informado é inválido.');
+        if (!(await this.IsValidCep.validate(cep, {} as ValidationArguments))) {
+            throw new BadRequestException('O CEP informado é inválido.');
         }
+        const result = await this.lojaService.buscarLojaPorCep(
+            cep,
+            limit,
+            offset
+        );
+        return result;
     }
 }
