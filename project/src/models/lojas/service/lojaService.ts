@@ -149,7 +149,7 @@ export class LojaService {
         offset: number = 0
     ): Promise<any> {
         try {
-            // coordenadas do CEP pela HereMap
+            // Coordenadas do CEP pela HereMap
             const coordenadas = await this.HereMapsService.getCoordinates(cep);
             if (
                 !coordenadas ||
@@ -200,9 +200,14 @@ export class LojaService {
                         `Distância calculada para a loja ${loja.lojaNome} (metros): ${distanceInMeters}`
                     );
 
+                    // Modificando o tipo da loja com base na distância
+                    const tipoLoja =
+                        distanceInMeters / 1000 < 50 ? 'PDV' : 'Loja';
+
                     return {
                         ...loja,
                         distanciaKm: distanceInMeters / 1000, // Converte para km
+                        lojaTipo: tipoLoja, // Atualiza o tipo da loja
                     };
                 }
             );
