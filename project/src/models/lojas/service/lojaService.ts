@@ -4,6 +4,8 @@ import { CreateLojaDto } from '../dtos/lojaDto';
 import { ServicoDeLogger } from '../../../utils/logger/logger';
 import { LojaRepository } from '../repo/lojaRepo';
 import { HereMapsService } from '../../../api/hereMaps/hereMapsService';
+import { getDistance } from 'geolib';
+import { Error } from 'mongoose';
 
 interface LojaRetorno {
     stores: any[];
@@ -50,13 +52,8 @@ export class LojaService {
                 };
             }
             const lojasFiltradas = lojas.map((loja: LojaDocument) => {
-                const {
-                    latitude,
-                    longitude,
-                    tempoDePreparo,
-                    disponivelNoEstoque,
-                    ...resto
-                } = loja.toObject();
+                const { tempoDePreparo, disponivelNoEstoque, ...resto } =
+                    loja.toObject();
                 return resto;
             });
             this.logger.log('Lojas listadas com sucesso 😸😸');
@@ -151,10 +148,79 @@ export class LojaService {
         limit: number = 1,
         offset: number = 0
     ): Promise<any> {
-        const coordenadas = await this.HereMapsService.getCoordinates(cep);
-        return {
-            latitude: coordenadas.latitude,
-            longitude: coordenadas.longitude,
-        };
+        try {
+            // coordenadas do CEP pela HereMap
+            const coordenadas = await this.HereMapsService.getCoordinates(cep);
+            if (
+                !coordenadas ||
+                !coordenadas.latitude ||
+                !coordenadas.longitude
+            ) {
+                throw new Error(
+                    'Não foi possível obter as coordenadas do CEP.'
+                );
+            }
+            this.logger.log(
+                `Coordenadas do CEP: Latitude ${coordenadas.latitude}, Longitude ${coordenadas.longitude}`
+            );
+
+            // Obtendo as lojas do banco de dados
+            const lojasData = await this.findAll(limit, offset);
+            const totalLojas = await this.lojaRepository.count();
+
+            // Calculando a distância entre o CEP e as lojas
+            const lojasComDistancia = lojasData.stores.map(
+                (loja: LojaDocument) => {
+                    const lojaLatitude = parseFloat(loja.latitude);
+                    const lojaLongitude = parseFloat(loja.longitude);
+
+                    if (isNaN(lojaLatitude) || isNaN(lojaLongitude)) {
+                        this.logger.error(
+                            `Coordenadas inválidas para a loja ${loja.lojaNome}: Latitude ${loja.latitude}, Longitude ${loja.longitude}`,
+                            Error
+                        );
+                        return { ...loja, distanciaKm: null };
+                    }
+
+                    this.logger.log(
+                        `Calculando distância para a loja ${loja.lojaNome}:
+                        Coordenadas da loja: [${lojaLatitude}, ${lojaLongitude}],
+                        Coordenadas do CEP: [${coordenadas.latitude}, ${coordenadas.longitude}]`
+                    );
+
+                    // Calculando a distância
+                    const distanceInMeters = getDistance(
+                        {
+                            latitude: coordenadas.latitude,
+                            longitude: coordenadas.longitude,
+                        },
+                        { latitude: lojaLatitude, longitude: lojaLongitude }
+                    );
+                    this.logger.log(
+                        `Distância calculada para a loja ${loja.lojaNome} (metros): ${distanceInMeters}`
+                    );
+
+                    return {
+                        ...loja,
+                        distanciaKm: distanceInMeters / 1000, // Converte para km
+                    };
+                }
+            );
+
+            const lojasValidas = lojasComDistancia.filter(
+                (loja) => loja.distanciaKm !== null
+            );
+            lojasValidas.sort((a, b) => a.distanciaKm! - b.distanciaKm!);
+
+            return {
+                stores: lojasValidas,
+                limit,
+                offset,
+                total: totalLojas,
+            };
+        } catch (error) {
+            this.logger.error('Erro ao buscar lojas por CEP:', Error);
+            throw new Error('Erro ao buscar lojas próximas ao CEP fornecido.');
+        }
     }
 }

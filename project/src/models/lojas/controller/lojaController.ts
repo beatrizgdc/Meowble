@@ -28,13 +28,12 @@ export class LojaController {
     }
 
     @Get()
-    async listAll(@Query('limit') limit = 1, @Query('offset') offset = 0) {
-        const resultado = await this.lojaService.findAll(limit, offset);
+    async listAll() {
+        const resultado = await this.lojaService.findAll();
         return {
             stores: resultado.stores,
-            limit: resultado.limit,
-            offset: resultado.offset,
             total: resultado.total,
+            mensagem: resultado.mensagem || '',
         };
     }
 
@@ -43,8 +42,6 @@ export class LojaController {
         const resultado = await this.lojaService.findById(id);
         return {
             stores: resultado.stores,
-            limit: resultado.limit,
-            offset: resultado.offset,
             total: resultado.total,
             mensagem: resultado.mensagem || '',
         };
@@ -70,7 +67,8 @@ export class LojaController {
         };
     }
 
-    @Get('/buscarProx/:cep') async findByCep(
+    @Get('/buscarProx/:cep')
+    async findByCep(
         @Param('cep') cep: string,
         @Query('limit') limit: number = 1,
         @Query('offset') offset: number = 0
