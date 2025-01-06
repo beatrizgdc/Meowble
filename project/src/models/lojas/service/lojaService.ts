@@ -15,7 +15,7 @@ interface LojaRetorno {
 @Injectable()
 export class LojaService {
     constructor(
-        private readonly lojaRepository: LojaRepository, // Injetando o repositório
+        private readonly lojaRepository: LojaRepository,
         private readonly logger: ServicoDeLogger
     ) {}
 
@@ -137,6 +137,51 @@ export class LojaService {
         } catch (error) {
             this.logger.error(
                 `Erro ao listar as lojas na UF ${uf}: 😿😿`,
+                error
+            );
+            throw error;
+        }
+    }
+
+    //Buscar por CEP
+    async buscarLojaPorCep(
+        cep: string,
+        limit: number = 1,
+        offset: number = 0
+    ): Promise<any> {
+        this.logger.log(`Buscando loja pelo CEP: ${cep} 👨‍💻`);
+        try {
+            const lojas = await this.lojaRepository.findByCep(
+                cep,
+                limit,
+                offset
+            );
+            const total = await this.lojaRepository.countByCep(cep);
+            if (lojas.length === 0) {
+                this.logger.warn(`Nenhuma loja encontrada na cep ${cep} 😔`);
+                return {
+                    stores: [],
+                    limit,
+                    offset,
+                    total,
+                    mensagem: `Nenhuma loja encontrada na cep ${cep} 😔`,
+                };
+            }
+            const lojasFiltradas = lojas.map((loja: LojaDocument) => {
+                const {
+                    latitude,
+                    longitude,
+                    tempoDePreparo,
+                    disponivelNoEstoque,
+                    ...resto
+                } = loja.toObject();
+                return resto;
+            });
+            this.logger.log(`Lojas na cep ${cep} listadas com sucesso 😸😸`);
+            return { stores: lojasFiltradas, limit, offset, total };
+        } catch (error) {
+            this.logger.error(
+                `Erro ao listar as lojas na cep ${cep}: 😿😿`,
                 error
             );
             throw error;

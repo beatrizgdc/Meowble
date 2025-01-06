@@ -12,12 +12,14 @@ import { LojaService } from '../service/lojaService';
 import { LojaDocument } from '../schema/lojaSchema';
 import { IsValidState } from '../../../validators/estadoValidator';
 import { ValidationArguments } from 'class-validator';
+import { IsValidCep } from '../../../validators/cepValidator';
 
 @Controller('lojas')
 export class LojaController {
     constructor(
         private readonly lojaService: LojaService,
-        private readonly IsValidState: IsValidState
+        private readonly IsValidState: IsValidState,
+        private readonly IsValidCep: IsValidCep
     ) {}
 
     @Post()
@@ -66,5 +68,16 @@ export class LojaController {
             total: resultado.total,
             mensagem: resultado.mensagem || '',
         };
+    }
+
+    @Get('/buscarProx/:cep')
+    async findByCep(
+        @Param('cep') uf: string,
+        @Query('limit') limit: number = 1,
+        @Query('offset') offset: number = 0
+    ) {
+        if (!this.IsValidCep.validate(uf, {} as ValidationArguments)) {
+            throw new BadRequestException('O estado informado é inválido.');
+        }
     }
 }

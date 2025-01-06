@@ -45,4 +45,18 @@ export class LojaRepository {
     async countByUf(uf: string): Promise<number> {
         return this.lojaModel.countDocuments({ uf }).exec();
     }
+
+    // Listar por Cep
+    async findByCep(
+        cep: string,
+        limit: number,
+        offset: number
+    ): Promise<LojaDocument[]> {
+        return this.lojaModel.find({ cep }).skip(offset).limit(limit).exec();
+    }
+
+    // Contar documentos por Cep
+    async countByCep(cep: string): Promise<number> {
+        return this.lojaModel.countDocuments({ cep }).exec();
+    }
 }
