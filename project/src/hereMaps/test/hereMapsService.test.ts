@@ -4,6 +4,7 @@ import { ConfigService } from '@nestjs/config';
 import { of } from 'rxjs';
 import { HereMapsService } from '../hereMapsService';
 import { AxiosHeaders, AxiosResponse } from 'axios';
+import { CoordinatesDto } from '../hereMapsDto';
 
 describe('HereMapsService', () => {
     let service: HereMapsService;
@@ -70,10 +71,12 @@ describe('HereMapsService', () => {
 
         jest.spyOn(httpService, 'get').mockReturnValue(of(result));
 
-        const coordinates = await service.getCoordinates('01001-000');
+        const coordinates: CoordinatesDto = await service.getCoordinates(
+            '01001-000'
+        );
         expect(coordinates).toEqual({
             latitude: -23.55052,
             longitude: -46.633308,
-        });
+        } as CoordinatesDto);
     });
 });

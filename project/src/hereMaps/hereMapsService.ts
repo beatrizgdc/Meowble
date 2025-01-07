@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { HttpService } from '@nestjs/axios';
 import { ConfigService } from '@nestjs/config';
 import { firstValueFrom } from 'rxjs';
+import { CoordinatesDto } from './hereMapsDto';
 
 @Injectable()
 export class HereMapsService {
@@ -20,9 +21,7 @@ export class HereMapsService {
         this.apiKey = apiKey;
     }
 
-    async getCoordinates(
-        cep: string
-    ): Promise<{ latitude: number; longitude: number }> {
+    async getCoordinates(cep: string): Promise<CoordinatesDto> {
         const response = await firstValueFrom(
             this.httpService.get(
                 'https://geocode.search.hereapi.com/v1/geocode',
@@ -39,6 +38,6 @@ export class HereMapsService {
         return {
             latitude: location.lat,
             longitude: location.lng,
-        };
+        } as CoordinatesDto;
     }
 }
