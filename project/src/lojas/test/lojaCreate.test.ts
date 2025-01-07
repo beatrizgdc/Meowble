@@ -4,7 +4,7 @@ import { CreateLojaDto } from '../dtos/lojaDto';
 import { getModelToken } from '@nestjs/mongoose';
 import { Test, TestingModule } from '@nestjs/testing';
 import { ServicoDeLogger } from '../../utils/logger/logger';
-import { HereMapsService } from '../../hereMaps/hereMapsService';
+import { HereMapsService } from '../../hereMaps/buscarLatLong/service/hereMapsService';
 
 describe('LojaService', () => {
     let lojaService: LojaService;

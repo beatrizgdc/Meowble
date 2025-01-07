@@ -2,9 +2,9 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { HttpService } from '@nestjs/axios';
 import { ConfigService } from '@nestjs/config';
 import { of } from 'rxjs';
-import { HereMapsService } from '../hereMapsService';
+import { HereMapsService } from '../service/hereMapsService';
 import { AxiosHeaders, AxiosResponse } from 'axios';
-import { CoordinatesDto } from '../hereMapsDto';
+import { CoordinatesDto } from '../dto/hereMapsDto';
 
 describe('HereMapsService', () => {
     let service: HereMapsService;

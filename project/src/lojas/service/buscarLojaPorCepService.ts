@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { LojaDocument } from '../schema/lojaSchema';
 import { ServicoDeLogger } from '../../utils/logger/logger';
 import { LojaRepository } from '../repo/lojaRepo';
-import { HereMapsService } from '../../hereMaps/hereMapsService';
+import { HereMapsService } from '../../hereMaps/buscarLatLong/service/hereMapsService';
 import { getDistance } from 'geolib';
 import { Error } from 'mongoose';
 

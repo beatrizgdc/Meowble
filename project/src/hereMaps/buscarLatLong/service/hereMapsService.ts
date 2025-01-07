@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { HttpService } from '@nestjs/axios';
 import { ConfigService } from '@nestjs/config';
 import { firstValueFrom } from 'rxjs';
-import { CoordinatesDto } from './hereMapsDto';
+import { CoordinatesDto } from '../dto/hereMapsDto';
 
 @Injectable()
 export class HereMapsService {

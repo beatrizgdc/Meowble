@@ -3,12 +3,10 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { ServicoDeLogger } from '../../utils/logger/logger';
 import { LojaDocument } from '../schema/lojaSchema';
 import { LojaRepository } from '../repo/lojaRepo';
-import { HereMapsService } from '../../hereMaps/hereMapsService';
 
 describe('LojaService', () => {
     let lojaService: LojaService;
     let lojaRepositoryMock: any;
-    let hereMapsServiceMock: any;
     let lojaData: LojaDocument;
     let loggerMock: { log: jest.Mock; error: jest.Mock; warn: jest.Mock };
 
@@ -45,10 +43,6 @@ describe('LojaService', () => {
             countByUf: jest.fn().mockResolvedValue(1),
         };
 
-        hereMapsServiceMock = {
-            getCoordinates: jest.fn(),
-        };
-
         loggerMock = {
             log: jest.fn(),
             error: jest.fn(),
@@ -61,10 +55,6 @@ describe('LojaService', () => {
                 {
                     provide: LojaRepository,
                     useValue: lojaRepositoryMock,
-                },
-                {
-                    provide: HereMapsService,
-                    useValue: hereMapsServiceMock,
                 },
                 {
                     provide: ServicoDeLogger,
