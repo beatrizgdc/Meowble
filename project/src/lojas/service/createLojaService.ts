@@ -2,7 +2,9 @@ import { LojaDocument } from '../schema/lojaSchema';
 import { CreateLojaDto } from '../dtos/lojaDto';
 import { ServicoDeLogger } from '../../utils/logger/logger';
 import { LojaRepository } from '../repo/lojaRepo';
+import { Injectable } from '@nestjs/common';
 
+@Injectable()
 export class CreateLojaService {
     constructor(
         private readonly lojaRepository: LojaRepository,
