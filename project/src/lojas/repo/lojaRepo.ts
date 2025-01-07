@@ -2,7 +2,6 @@ import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { LojaDocument } from '../schema/lojaSchema';
-import { Loja } from '../interface/lojaInterface';
 import { CreateLojaDto } from '../dtos/lojaDto';
 
 @Injectable()
