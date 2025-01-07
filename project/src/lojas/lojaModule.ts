@@ -10,6 +10,13 @@ import { HttpModule } from '@nestjs/axios';
 import { IsValidCountry } from '../validators/paisValidator';
 import { IsValidState } from '../validators/estadoValidator';
 import { HereMapsModule } from '../hereMaps/hereMapsModule';
+import { CreateLojaService } from './service/createLojaService';
+import { FindAllLojaService } from './service/findAllLojaService';
+import { FindByIdService } from './service/findByIdLojaService';
+import { FindByUfService } from './service/findByUfService';
+import { findByCepServiceService } from './service/findByCepService';
+import { CorreiosModule } from '../correios/correiosModule';
+import { ServicoDeLogger } from '../utils/logger/logger';
 
 @Module({
     imports: [
@@ -17,6 +24,7 @@ import { HereMapsModule } from '../hereMaps/hereMapsModule';
         ModuloAplicacao,
         HttpModule,
         HereMapsModule,
+        CorreiosModule,
     ],
     controllers: [LojaController],
     providers: [
@@ -25,6 +33,12 @@ import { HereMapsModule } from '../hereMaps/hereMapsModule';
         IsValidCep,
         IsValidCountry,
         IsValidState,
+        CreateLojaService,
+        FindAllLojaService,
+        FindByIdService,
+        FindByUfService,
+        findByCepServiceService,
+        ServicoDeLogger,
     ],
     exports: [LojaService, LojaRepository],
 })

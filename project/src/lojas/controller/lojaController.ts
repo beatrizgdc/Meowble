@@ -29,14 +29,18 @@ export class LojaController {
 
     @Get()
     async listAll() {
-        const resultado = await this.lojaService.findAll();
-        return {
-            stores: resultado.stores,
-            total: resultado.total,
-            mensagem: resultado.mensagem || '',
-        };
+        try {
+            const resultado = await this.lojaService.findAll();
+            return {
+                stores: resultado.stores,
+                total: resultado.total,
+                mensagem: resultado.mensagem || '',
+            };
+        } catch (error) {
+            console.error('Erro ao listar lojas:', error);
+            return { mensagem: 'Erro ao listar lojas' };
+        }
     }
-
     @Get(':id')
     async findById(@Param('id') id: string) {
         const resultado = await this.lojaService.findById(id);
