@@ -3,15 +3,15 @@ import { Document } from 'mongoose';
 export interface LojaDocument extends Document, Loja {}
 
 export interface Loja {
-    lojaNome: 'String';
-    lojaTipo: 'String';
+    lojaNome: string;
+    lojaTipo: string;
     disponivelNoEstoque: boolean;
     tempoDePreparo: number;
-    latitude: 'String';
-    longitude: 'String';
-    codigoPostal: 'String';
+    latitude: string;
+    longitude: string;
+    codigoPostal: string;
     numero: number;
-    uf: 'String';
-    pais: 'String';
-    lojaTelefone: 'String';
+    uf: string;
+    pais: string;
+    lojaTelefone: string;
 }

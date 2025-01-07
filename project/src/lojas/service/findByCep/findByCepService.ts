@@ -6,13 +6,15 @@ import { getCoordinates } from './getCoordinates';
 import { calculateDistances } from './calculateDistances';
 import { filterStores } from './filterStores';
 import { categorizeStores } from './categorizeStores';
+import { CorreiosService } from '../../../correios/correiosService';
 
 @Injectable()
 export class findByCepServiceService {
     constructor(
         private readonly lojaRepository: LojaRepository,
         private readonly logger: ServicoDeLogger,
-        private readonly hereMapsService: HereMapsService
+        private readonly hereMapsService: HereMapsService,
+        private readonly correiosService: CorreiosService
     ) {}
 
     async findByCep(cep: string, limit: number = 1, offset: number = 0) {
@@ -24,21 +26,24 @@ export class findByCepServiceService {
             );
             const lojasData = await this.lojaRepository.findAll(limit, offset);
             const totalLojas = await this.lojaRepository.count();
-
             const lojasComDistancia = calculateDistances(
                 lojasData,
                 coordenadas,
                 this.logger
             );
-            const { lojasMenor50Km, lojasMaiorIgual50Km } = filterStores(
+            const { lojasMenor50Km, lojasMaiorIgual50Km } = await filterStores(
                 lojasComDistancia,
-                50
+                50,
+                this.correiosService,
+                this.logger,
+                cep,
+                coordenadas.latitude.toString(),
+                coordenadas.longitude.toString()
             );
             const tiposDeLojasMenor50Km = categorizeStores(
                 lojasMenor50Km,
                 this.logger
             );
-
             return {
                 stores: {
                     menor50Km: {
