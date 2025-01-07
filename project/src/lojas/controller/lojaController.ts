@@ -10,9 +10,9 @@ import {
 import { CreateLojaDto } from '../dtos/lojaDto';
 import { LojaService } from '../service/lojaService';
 import { LojaDocument } from '../schema/lojaSchema';
-import { IsValidState } from '../../../validators/estadoValidator';
+import { IsValidState } from '../../validators/estadoValidator';
 import { ValidationArguments } from 'class-validator';
-import { IsValidCep } from '../../../validators/cepValidator';
+import { IsValidCep } from '../../validators/cepValidator';
 
 @Controller('lojas')
 export class LojaController {

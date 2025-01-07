@@ -1,10 +1,10 @@
-import { LojaService } from '../../models/lojas/service/lojaService';
-import { LojaRepository } from '../../models/lojas/repo/lojaRepo';
-import { CreateLojaDto } from '../../models/lojas/dtos/lojaDto';
+import { LojaService } from '../service/lojaService';
+import { LojaRepository } from '../repo/lojaRepo';
+import { CreateLojaDto } from '../dtos/lojaDto';
 import { getModelToken } from '@nestjs/mongoose';
 import { Test, TestingModule } from '@nestjs/testing';
 import { ServicoDeLogger } from '../../utils/logger/logger';
-import { HereMapsService } from '../../api/hereMaps/hereMapsService';
+import { HereMapsService } from '../../hereMaps/hereMapsService';
 
 describe('LojaService', () => {
     let lojaService: LojaService;

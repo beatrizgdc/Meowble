@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { ServicoDeLogger } from '../../utils/logger/logger';
+import { ServicoDeLogger } from '../utils/logger/logger';
 
 export class CorreiosService {
     private apiKey: string;

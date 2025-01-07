@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { CorreiosService } from '../../api/correios/correiosService';
+import { CorreiosService } from '../../correios/correiosService';
 import { ServicoDeLogger } from '../../utils/logger/logger';
 
 jest.mock('axios');

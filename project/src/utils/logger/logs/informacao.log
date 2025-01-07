@@ -354,3 +354,81 @@
 {"level":"info","message":"Distância calculada para a loja MEOWBLE 02 (metros): 29807"}
 {"level":"info","message":"Calculando distância para a loja MEOWBLE 03:\n                        Coordenadas da loja: [-23.21287, -46.83805],\n                        Coordenadas do CEP: [-23.40038, -46.74581]"}
 {"level":"info","message":"Distância calculada para a loja MEOWBLE 03 (metros): 22905"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"info","message":"Coordenadas do CEP: Latitude -23.40038, Longitude -46.74581"}
+{"level":"info","message":"Lojas listadas com sucesso 😸😸"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 01:\n                        Coordenadas da loja: [-22.7281492, -47.6491166],\n                        Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Buscando informações de frete para o CEP: 05202-140 usando o serviço: PAC"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01 (metros): 118993"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 01:\n                        Coordenadas da loja: [-22.7058, -47.67344],\n                        Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Buscando informações de frete para o CEP: 05202-140 usando o serviço: PAC"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01 (metros): 122501"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 02:\n                        Coordenadas da loja: [-23.57457, -46.68876],\n                        Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 02 (metros): 20247"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 02:\n                        Coordenadas da loja: [-23.66558, -46.78614],\n                        Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 02 (metros): 29807"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 03:\n                        Coordenadas da loja: [-23.21287, -46.83805],\n                        Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03 (metros): 22905"}
+{"level":"error","message":"Erro ao buscar informações de frete"}
+{"level":"error","message":"Erro ao buscar lojas por CEP:"}
+{"level":"error","message":"Erro ao buscar informações de frete"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"info","message":"Coordenadas do CEP: Latitude -23.40038, Longitude -46.74581"}
+{"level":"info","message":"Lojas listadas com sucesso 😸😸"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 01:\n                        Coordenadas da loja: [-22.7281492, -47.6491166],\n                        Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01 (metros): 118993"}
+{"level":"info","message":"Buscando informações de frete para o CEP: 05202-140 usando o serviço: PAC"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 01:\n                        Coordenadas da loja: [-22.7058, -47.67344],\n                        Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01 (metros): 122501"}
+{"level":"info","message":"Buscando informações de frete para o CEP: 05202-140 usando o serviço: PAC"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 02:\n                        Coordenadas da loja: [-23.57457, -46.68876],\n                        Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 02 (metros): 20247"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 02:\n                        Coordenadas da loja: [-23.66558, -46.78614],\n                        Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 02 (metros): 29807"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 03:\n                        Coordenadas da loja: [-23.21287, -46.83805],\n                        Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03 (metros): 22905"}
+{"level":"error","message":"Erro ao buscar informações de frete"}
+{"level":"error","message":"Erro ao buscar lojas por CEP:"}
+{"level":"error","message":"Erro ao buscar informações de frete"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"info","message":"Coordenadas do CEP: Latitude -23.40038, Longitude -46.74581"}
+{"level":"info","message":"Lojas listadas com sucesso 😸😸"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01 (metros): 118993"}
+{"level":"info","message":"Buscando informações de frete para o CEP: 05202-140 usando o serviço: PAC"}
+{"level":"error","message":"Erro ao buscar informações de frete"}
+{"level":"error","message":"Erro ao buscar frete para a loja MEOWBLE 01:"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"info","message":"Coordenadas do CEP: Latitude -23.40038, Longitude -46.74581"}
+{"level":"info","message":"Lojas listadas com sucesso 😸😸"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01 (metros): 118993"}
+{"level":"info","message":"Buscando frete PAC para o CEP 05202-140"}
+{"level":"info","message":"Buscando informações de frete para o CEP: 05202-140 usando o serviço: PAC"}
+{"level":"error","message":"Erro ao buscar informações de frete"}
+{"level":"error","message":"Erro ao buscar frete para a loja MEOWBLE 01:"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"info","message":"Coordenadas do CEP: Latitude -23.40038, Longitude -46.74581"}
+{"level":"info","message":"Lojas listadas com sucesso 😸😸"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01 (metros): 118993"}
+{"level":"info","message":"Buscando frete PAC para o CEP 05202-140"}
+{"level":"info","message":"Buscando informações de frete para o CEP: 05202-140 usando o serviço: PAC"}
+{"level":"error","message":"Erro ao buscar informações de frete"}
+{"level":"error","message":"Erro ao buscar frete para a loja MEOWBLE 01:"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"info","message":"Coordenadas do CEP: Latitude -23.40038, Longitude -46.74581"}
+{"level":"info","message":"Lojas listadas com sucesso 😸😸"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01 (metros): 118993"}
+{"level":"info","message":"Buscando frete PAC para o CEP 05202-140"}
+{"level":"info","message":"Buscando informações de frete para o CEP: 05202-140 usando o serviço: PAC"}
+{"level":"error","message":"Erro ao buscar informações de frete"}
+{"level":"error","message":"Erro ao buscar frete para a loja MEOWBLE 01:"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"warn","message":"Loja com ID 67792c4b08eb0f4717b94127 não encontrada 😔"}
+{"level":"warn","message":"Nenhuma loja encontrada na UF SC 😔"}
+{"level":"info","message":"Lojas listadas com sucesso 😸😸"}

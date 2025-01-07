@@ -7,9 +7,9 @@ import {
     IsIn,
     Validate,
 } from 'class-validator';
-import { IsValidCep } from '../../../validators/cepValidator';
-import { IsValidCountry } from '../../../validators/paisValidator';
-import { IsValidState } from '../../../validators/estadoValidator';
+import { IsValidCep } from '../../validators/cepValidator';
+import { IsValidCountry } from '../../validators/paisValidator';
+import { IsValidState } from '../../validators/estadoValidator';
 
 export class CreateLojaDto {
     @IsNotEmpty({ message: 'O nome da loja é um campo obrigatório.' })

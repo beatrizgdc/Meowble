@@ -4,12 +4,12 @@ import { LojaController } from './controller/lojaController';
 import { LojaService } from './service/lojaService';
 import { LojaRepository } from './repo/lojaRepo';
 import { LojaSchema } from './schema/lojaSchema';
-import { ModuloAplicacao } from '../../utils/logger/logger';
-import { IsValidCep } from '../../validators/cepValidator';
+import { ModuloAplicacao } from '../utils/logger/logger';
+import { IsValidCep } from '../validators/cepValidator';
 import { HttpModule } from '@nestjs/axios';
-import { IsValidCountry } from '../../validators/paisValidator';
-import { IsValidState } from '../../validators/estadoValidator';
-import { HereMapsModule } from '../../api/hereMaps/hereMapsModule';
+import { IsValidCountry } from '../validators/paisValidator';
+import { IsValidState } from '../validators/estadoValidator';
+import { HereMapsModule } from '../hereMaps/hereMapsModule';
 
 @Module({
     imports: [
