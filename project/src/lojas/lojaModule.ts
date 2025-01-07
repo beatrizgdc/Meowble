@@ -14,7 +14,7 @@ import { CreateLojaService } from './service/createLojaService';
 import { FindAllLojaService } from './service/findAllLojaService';
 import { FindByIdService } from './service/findByIdLojaService';
 import { FindByUfService } from './service/findByUfService';
-import { findByCepServiceService } from './service/findByCepService';
+import { findByCepServiceService } from './service/findByCep/findByCepService';
 import { CorreiosModule } from '../correios/correiosModule';
 import { ServicoDeLogger } from '../utils/logger/logger';
 

@@ -501,3 +501,18 @@
 {"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
 {"level":"info","message":"Recebendo dados para criação da loja 👩‍💻👩‍💻"}
 {"level":"info","message":"Loja criada com sucesso 😸😸"}
+{"level":"info","message":"Conectando no MongoDB 🐈"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺"}
+{"level":"info","message":"Recebendo dados para criação da loja 👩‍💻👩‍💻"}
+{"level":"info","message":"Loja criada com sucesso 😸😸"}
+{"level":"info","message":"Coordenadas do CEP: Latitude -23.40038, Longitude -46.74581"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 01: Coordenadas da loja: [-22.7281492, -47.6491166], Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01 (metros): 118993"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 01: Coordenadas da loja: [-22.7058, -47.67344], Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01 (metros): 122501"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 02: Coordenadas da loja: [-23.57457, -46.68876], Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 02 (metros): 20247"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 02: Coordenadas da loja: [-23.66558, -46.78614], Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 02 (metros): 29807"}
+{"level":"info","message":"Calculando distância para a loja MEOWBLE 03: Coordenadas da loja: [-23.21287, -46.83805], Coordenadas do CEP: [-23.40038, -46.74581]"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03 (metros): 22905"}

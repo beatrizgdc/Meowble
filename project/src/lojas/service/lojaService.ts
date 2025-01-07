@@ -4,7 +4,7 @@ import { CreateLojaService } from './createLojaService';
 import { FindAllLojaService } from './findAllLojaService';
 import { FindByIdService } from './findByIdLojaService';
 import { FindByUfService } from './findByUfService';
-import { findByCepServiceService } from './findByCepService';
+import { findByCepServiceService } from './findByCep/findByCepService';
 
 interface LojaRetorno {
     stores: any[];
