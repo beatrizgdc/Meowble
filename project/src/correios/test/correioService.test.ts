@@ -1,74 +1,77 @@
+import { Test, TestingModule } from '@nestjs/testing';
+import { CorreiosService } from '../correiosService';
 import axios from 'axios';
-import { CorreiosService } from '../../correios/correiosService';
-import { ServicoDeLogger } from '../../utils/logger/logger';
+import { CorreiosDto } from '../correiosDTO';
 
 jest.mock('axios');
-jest.mock('../../utils/logger/logger');
 
 describe('CorreiosService', () => {
-    let correiosService: CorreiosService;
-    let mockLogger: jest.Mocked<ServicoDeLogger>;
-
-    beforeEach(() => {
-        process.env.CORREIOS_API_KEY = 'fake-api-key';
-        mockLogger = new ServicoDeLogger() as jest.Mocked<ServicoDeLogger>;
-        correiosService = new CorreiosService();
-        (correiosService as any).logger = mockLogger;
+    let service: CorreiosService;
+    beforeEach(async () => {
+        const module: TestingModule = await Test.createTestingModule({
+            providers: [CorreiosService],
+        }).compile();
+        service = module.get<CorreiosService>(CorreiosService);
     });
-
-    afterEach(() => {
-        jest.clearAllMocks();
+    it('should be defined', () => {
+        expect(service).toBeDefined();
     });
-
-    const services = ['SEDEX', 'PAC'] as const;
-
-    services.forEach((serviceType) => {
-        it(`should log and fetch freight info for ${serviceType}`, async () => {
-            const cep = '12345678';
-            const mockResponse = { data: { price: 20.0, deliveryTime: 2 } };
-            (axios.get as jest.Mock).mockResolvedValue(mockResponse);
-
-            const result = await correiosService.getFreightInfo(
-                cep,
-                serviceType
-            );
-
-            expect(mockLogger.log).toHaveBeenCalledWith(
-                `Buscando informações de frete para o CEP: ${cep} usando o serviço: ${serviceType}`
-            );
-            expect(mockLogger.log).toHaveBeenCalledWith(
-                `Informações de frete obtidas com sucesso para o CEP: ${cep} usando o serviço: ${serviceType}`
-            );
-            expect(result).toEqual(mockResponse.data);
-            expect(axios.get).toHaveBeenCalledWith(
-                `https://api.correios.com.br/${serviceType}`,
-                {
-                    params: { cep },
-                    headers: { Authorization: `Bearer fake-api-key` },
-                }
-            );
-        });
+    it('should call API and return data', async () => {
+        const correiosDto: CorreiosDto = {
+            servico: '04014',
+            cepOrigem: '01311000',
+            cepDestino: '22041001',
+            Peso: '1',
+            Formato: '1',
+            Comprimento: '20',
+            Altura: '10',
+            Largura: '15',
+            Diametro: '0',
+            MaoPropria: 'N',
+            ValorDeclarado: '0',
+            AvisoRecebimento: 'N',
+        };
+        const responseData = [
+            {
+                status: 200,
+                mensagemPrecoAgencia: 'Postagem nas agências',
+                prazo: '1 dia útil',
+                url: 'https://www.correios.com.br/estrutura-da-pagina/precos-e-prazos/imagens/sedex.png',
+                mensagemPrecoPPN: 'Postagem no App ou site dos Correios',
+                codProdutoAgencia: '04014',
+                precoPPN: 'R$ 26,94',
+                codProdutoPPN: '41955',
+                mensagemPrazo: 'Prazo de entrega',
+                msg: ' ',
+                precoAgencia: 'R$ 36,80',
+                urlTitulo: 'Sedex a encomenda expressa dos Correios',
+            },
+        ];
+        (axios.post as jest.Mock).mockResolvedValue({ data: responseData });
+        const result = await service.obterPrecosEPrazos(correiosDto);
+        expect(result).toEqual(responseData);
+        expect(axios.post).toHaveBeenCalledWith(service['apiUrl'], correiosDto);
     });
-
-    services.forEach((serviceType) => {
-        it(`should log an error if fetch fails for ${serviceType}`, async () => {
-            const cep = '12345678';
-            const mockError = new Error('Network Error');
-            (axios.get as jest.Mock).mockRejectedValue(mockError);
-
-            await expect(
-                correiosService.getFreightInfo(cep, serviceType)
-            ).rejects.toThrow(
-                'Não foi possível buscar as informações de frete'
-            );
-
-            expect(mockLogger.log).toHaveBeenCalledWith(
-                `Buscando informações de frete para o CEP: ${cep} usando o serviço: ${serviceType}`
-            );
-            expect(mockLogger.error).toHaveBeenCalledWith(
-                'Erro ao buscar informações de frete',
-                mockError.message
-            );
-        });
+    it('should handle errors', async () => {
+        const correiosDto: CorreiosDto = {
+            servico: '04014',
+            cepOrigem: '01311000',
+            cepDestino: '22041001',
+            Peso: '2',
+            Formato: '1',
+            Comprimento: '20',
+            Altura: '10',
+            Largura: '15',
+            Diametro: '0',
+            MaoPropria: 'N',
+            ValorDeclarado: '0',
+            AvisoRecebimento: 'N',
+        };
+        (axios.post as jest.Mock).mockRejectedValue(
+            new Error('Erro na chamada à API')
+        );
+        await expect(service.obterPrecosEPrazos(correiosDto)).rejects.toThrow(
+            'Erro na chamada à API dos Correios'
+        );
     });
 });

@@ -1,44 +1,26 @@
+import { Injectable } from '@nestjs/common';
 import axios from 'axios';
+import { CorreiosDto } from './correiosDTO';
 import { ServicoDeLogger } from '../utils/logger/logger';
 
+@Injectable()
 export class CorreiosService {
-    private apiKey: string;
-    private logger: ServicoDeLogger;
+    private readonly logger: ServicoDeLogger;
+    private readonly apiUrl: string;
 
     constructor() {
-        this.apiKey = process.env.CORREIOS_API_KEY || '';
         this.logger = new ServicoDeLogger();
+        this.apiUrl = 'https://www.correios.com.br/@@precosEPrazosView';
     }
 
-    public async getFreightInfo(
-        cep: string,
-        serviceType: 'SEDEX' | 'PAC'
-    ): Promise<any> {
+    async obterPrecosEPrazos(correiosDto: CorreiosDto): Promise<any> {
         try {
-            this.logger.log(
-                `Buscando informações de frete para o CEP: ${cep} usando o serviço: ${serviceType}`
-            );
-            const response = await axios.get(
-                `https://api.correios.com.br/${serviceType}`,
-                {
-                    params: { cep },
-                    headers: {
-                        Authorization: `Bearer ${this.apiKey}`,
-                    },
-                }
-            );
-            this.logger.log(
-                `Informações de frete obtidas com sucesso para o CEP: ${cep} usando o serviço: ${serviceType}`
-            );
+            const response = await axios.post(this.apiUrl, correiosDto);
+            this.logger.log('Chamada à API dos Correios bem-sucedida.');
             return response.data;
-        } catch (error: any) {
-            this.logger.error(
-                'Erro ao buscar informações de frete',
-                error.message
-            );
-            throw new Error('Não foi possível buscar as informações de frete');
+        } catch (error) {
+            this.logger.error('Erro na chamada à API dos Correios:', error);
+            throw new Error('Erro na chamada à API dos Correios');
         }
     }
 }
-
-export const correiosService = new CorreiosService();

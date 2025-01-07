@@ -432,3 +432,5 @@
 {"level":"warn","message":"Loja com ID 67792c4b08eb0f4717b94127 não encontrada 😔"}
 {"level":"warn","message":"Nenhuma loja encontrada na UF SC 😔"}
 {"level":"info","message":"Lojas listadas com sucesso 😸😸"}
+{"level":"info","message":"Chamada à API dos Correios bem-sucedida."}
+{"level":"error","message":"Erro na chamada à API dos Correios:"}
