@@ -4,7 +4,7 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { ServicoDeLogger } from '../../utils/logger/logger';
 import { LojaDocument } from '../schema/lojaSchema';
 import { LojaRepository } from '../repo/lojaRepo';
-import { HereMapsService } from '../../hereMaps/hereMapsService';
+// import { HereMapsService } from '../../hereMaps/hereMapsService';
 
 describe('LojaService', () => {
     let lojaService: LojaService;
@@ -70,10 +70,10 @@ describe('LojaService', () => {
                     provide: ServicoDeLogger,
                     useValue: loggerMock,
                 },
-                {
-                    provide: HereMapsService,
-                    useValue: {}, // Mock vazio para satisfazer a dependência
-                },
+                // {
+                //     // provide: HereMapsService,
+                //     // useValue: {}, // Mock vazio para satisfazer a dependência
+                // },
             ],
         }).compile();
 

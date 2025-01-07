@@ -76,11 +76,7 @@ export class LojaController {
         if (!(await this.IsValidCep.validate(cep, {} as ValidationArguments))) {
             throw new BadRequestException('O CEP informado é inválido.');
         }
-        const result = await this.lojaService.buscarLojaPorCep(
-            cep,
-            limit,
-            offset
-        );
+        const result = await this.lojaService.findByCep(cep, limit, offset);
         return result;
     }
 }

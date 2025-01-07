@@ -4,7 +4,7 @@ import { CreateLojaService } from './createLojaService';
 import { FindAllLojaService } from './findAllLojaService';
 import { FindByIdService } from './findByIdLojaService';
 import { FindByUfService } from './findByUfService';
-import { BuscarLojaPorCepService } from './buscarLojaPorCepService';
+import { findByCepServiceService } from './findByCepService';
 
 interface LojaRetorno {
     stores: any[];
@@ -21,7 +21,7 @@ export class LojaService {
         private readonly findAllService: FindAllLojaService,
         private readonly findByIdService: FindByIdService,
         private readonly findByUfService: FindByUfService,
-        private readonly buscarLojaPorCepService: BuscarLojaPorCepService
+        private readonly buscarLojaPorCepService: findByCepServiceService
     ) {}
 
     // Criar a loja
@@ -45,11 +45,7 @@ export class LojaService {
     }
 
     // Buscar por CEP
-    async buscarLojaPorCep(cep: string, limit: number = 1, offset: number = 0) {
-        return this.buscarLojaPorCepService.buscarLojaPorCep(
-            cep,
-            limit,
-            offset
-        );
+    async findByCep(cep: string, limit: number = 1, offset: number = 0) {
+        return this.buscarLojaPorCepService.findByCep(cep, limit, offset);
     }
 }
