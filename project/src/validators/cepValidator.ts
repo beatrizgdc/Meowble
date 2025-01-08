@@ -13,7 +13,7 @@ export class IsValidCep implements ValidatorConstraintInterface {
     constructor(private readonly logger: ServicoDeLogger) {}
 
     async validate(cep: string, args: ValidationArguments) {
-        this.logger.log(`Iniciando validação do CEP: ${cep}`);
+        // this.logger.log(`Iniciando validação do CEP: ${cep}`);
 
         try {
             const response = await axios.get(

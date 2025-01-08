@@ -15,9 +15,9 @@ export class IsValidCountry implements ValidatorConstraintInterface {
 
     async validate(pais: string, args: ValidationArguments) {
         const paisIngles = paisesTraducoes[pais] || pais;
-        this.logger.log(
-            `Iniciando validação do país: ${pais} (convertido para inglês: ${paisIngles}).`
-        );
+        // this.logger.log(
+        //     `Iniciando validação do país: ${pais} (convertido para inglês: ${paisIngles}).`
+        // );
 
         try {
             const response = await axios.get(
@@ -25,14 +25,14 @@ export class IsValidCountry implements ValidatorConstraintInterface {
             );
 
             if (response.data && !response.data.erro) {
-                this.logger.log(
-                    `Validação bem-sucedida para o país: ${pais} (inglês: ${paisIngles}).`
-                );
+                // this.logger.log(
+                //     `Validação bem-sucedida para o país: ${pais} (inglês: ${paisIngles}).`
+                // );
                 return true;
             } else {
-                this.logger.warn(
-                    `A API retornou uma resposta inválida para o país: ${paisIngles}.`
-                );
+                // this.logger.warn(
+                //     `A API retornou uma resposta inválida para o país: ${paisIngles}.`
+                // );
                 return false;
             }
         } catch (error) {

@@ -5,7 +5,7 @@ import { HereMapsService } from '../../../hereMaps/buscarLatLong/service/hereMap
 import { getCoordinates } from './getCoordinates';
 import { calculateDistances } from './calculateDistances';
 import { filterStores } from './filterLoja';
-import { categorizeStores } from './categorizeloja';
+import { categorizeStores } from './categorizeLoja';
 import { CorreiosService } from '../../../correios/correiosService';
 import { HereMapsServiceDelivery } from '../../../hereMaps/calculoDelivery/service/hereMapsDeliveryService';
 import { error } from 'console';

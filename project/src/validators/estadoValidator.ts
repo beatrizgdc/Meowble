@@ -42,7 +42,7 @@ export class IsValidState implements ValidatorConstraintInterface {
     constructor(private readonly logger: ServicoDeLogger) {}
 
     validate(value: string, args: ValidationArguments): boolean {
-        this.logger.log(`Iniciando validação para o estado: ${value}`);
+        // this.logger.log(`Iniciando validação para o estado: ${value}`);
 
         const isValid = this.states.includes(value);
 
