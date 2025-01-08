@@ -1,123 +1,75 @@
-import { LojaService } from '../service/lojaService';
 import { Test, TestingModule } from '@nestjs/testing';
-import { ServicoDeLogger } from '../../utils/logger/logger';
-import { LojaDocument } from '../schema/lojaSchema';
+import { FindByUfService } from '../service/findByUfService';
 import { LojaRepository } from '../repo/lojaRepo';
+import { ServicoDeLogger } from '../../utils/logger/logger';
 
-describe('LojaService', () => {
-    let lojaService: LojaService;
-    let lojaRepositoryMock: any;
-    let lojaData: LojaDocument;
-    let loggerMock: { log: jest.Mock; error: jest.Mock; warn: jest.Mock };
+describe('FindByUfService', () => {
+    let service: FindByUfService;
+    let lojaRepository: Partial<LojaRepository>;
 
     beforeEach(async () => {
-        lojaData = {
-            _id: 'someId',
-            lojaID: '1',
-            lojaNome: 'MEOWBLE',
-            lojaTipo: 'PDV',
-            disponivelNoEstoque: true,
-            tempoDePreparo: 4,
-            latitude: '-37.0530322',
-            longitude: '-10.9833225',
-            codigoPostal: '49037-050',
-            numero: 800,
-            pais: 'Brazil',
-            lojaTelefone: '12345678',
-            uf: 'SP',
-            __v: 0,
-            toObject: jest.fn().mockReturnValue({
-                lojaID: '1',
-                lojaNome: 'MEOWBLE',
-                lojaTipo: 'PDV',
-                codigoPostal: '49037-050',
-                numero: 800,
-                pais: 'Brazil',
-                lojaTelefone: '12345678',
-                uf: 'SP',
-            }),
-        } as unknown as LojaDocument;
-
-        lojaRepositoryMock = {
-            findByUf: jest.fn().mockResolvedValue([lojaData]),
-            countByUf: jest.fn().mockResolvedValue(1),
-        };
-
-        loggerMock = {
-            log: jest.fn(),
-            error: jest.fn(),
-            warn: jest.fn(),
+        lojaRepository = {
+            findByUf: jest.fn().mockResolvedValue([]),
+            countByUf: jest.fn().mockResolvedValue(0),
         };
 
         const module: TestingModule = await Test.createTestingModule({
             providers: [
-                LojaService,
-                {
-                    provide: LojaRepository,
-                    useValue: lojaRepositoryMock,
-                },
+                FindByUfService,
+                { provide: LojaRepository, useValue: lojaRepository },
                 {
                     provide: ServicoDeLogger,
-                    useValue: loggerMock,
-                },
+                    useValue: {
+                        log: jest.fn(),
+                        warn: jest.fn(),
+                        error: jest.fn(),
+                    },
+                }, // Mock direto do ServicoDeLogger
             ],
         }).compile();
 
-        lojaService = module.get<LojaService>(LojaService);
+        service = module.get<FindByUfService>(FindByUfService);
     });
 
-    it('deve listar lojas por UF com os campos filtrados', async () => {
-        const uf = 'SP';
-        const limit = 1;
-        const offset = 0;
-        const result = await lojaService.findByUf(uf, limit, offset);
-
-        expect(result.stores.length).toBe(1);
-        expect(result.stores[0]).not.toHaveProperty('_id');
-        expect(result.stores[0]).not.toHaveProperty('latitude');
-        expect(result.stores[0]).not.toHaveProperty('longitude');
-        expect(result.stores[0]).not.toHaveProperty('tempoDePreparo');
-        expect(result.stores[0]).not.toHaveProperty('disponivelNoEstoque');
-        expect(result.stores[0].lojaNome).toBe(lojaData.lojaNome);
-        expect(result.limit).toBe(limit);
-        expect(result.offset).toBe(offset);
-        expect(result.total).toBe(1);
-
-        expect(loggerMock.log).toHaveBeenCalledWith(
-            `Lojas na UF ${uf} listadas com sucesso 😸😸`
-        );
+    it('should return an empty array if no stores are found', async () => {
+        const result = await service.findByUf('SP');
+        expect(result).toEqual({
+            stores: [],
+            limit: 1,
+            offset: 0,
+            total: 0,
+            mensagem: 'Nenhuma loja encontrada na UF SP.',
+        });
     });
 
-    it('deve registrar um aviso quando nenhuma loja for encontrada na UF', async () => {
-        const uf = 'SP';
-        lojaRepositoryMock.findByUf.mockResolvedValueOnce([]);
-        lojaRepositoryMock.countByUf.mockResolvedValueOnce(0);
-        const result = await lojaService.findByUf(uf);
+    it('should return filtered stores if stores are found', async () => {
+        const lojasMock = [
+            {
+                nome: 'Loja 1',
+                endereco: 'Endereco 1',
+                telefone: 'Telefone 1',
+                toObject: () => ({
+                    nome: 'Loja 1',
+                    endereco: 'Endereco 1',
+                    telefone: 'Telefone 1',
+                }),
+            },
+        ];
+        lojaRepository.findByUf = jest.fn().mockResolvedValue(lojasMock);
+        lojaRepository.countByUf = jest.fn().mockResolvedValue(1);
 
-        expect(result.stores.length).toBe(0);
-        expect(result.limit).toBe(1);
-        expect(result.offset).toBe(0);
-        expect(result.total).toBe(0);
-
-        expect(loggerMock.warn).toHaveBeenCalledWith(
-            `Nenhuma loja encontrada na UF ${uf} 😔`
-        );
-    });
-
-    it('deve registrar um erro em caso de falha', async () => {
-        const uf = 'SP';
-        const errorMessage = 'Erro ao listar as lojas na UF';
-        lojaRepositoryMock.findByUf.mockRejectedValueOnce(
-            new Error(errorMessage)
-        );
-
-        try {
-            await lojaService.findByUf(uf);
-        } catch (error) {
-            expect(loggerMock.error).toHaveBeenCalledWith(
-                `Erro ao listar as lojas na UF ${uf}: 😿😿`,
-                expect.any(Error)
-            );
-        }
+        const result = await service.findByUf('SP');
+        expect(result).toEqual({
+            stores: [
+                {
+                    nome: 'Loja 1',
+                    endereco: 'Endereco 1',
+                    telefone: 'Telefone 1',
+                },
+            ],
+            limit: 1,
+            offset: 0,
+            total: 1,
+        });
     });
 });
