@@ -24,7 +24,7 @@ describe('FindByUfService', () => {
                         warn: jest.fn(),
                         error: jest.fn(),
                     },
-                }, // Mock direto do ServicoDeLogger
+                },
             ],
         }).compile();
 
