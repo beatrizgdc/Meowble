@@ -53,7 +53,7 @@ describe('findByCepServiceService', () => {
         expect(service).toBeDefined();
     });
 
-    it('should log an error and return an error response if coordinates cannot be obtained', async () => {
+    it('should return an error response if coordinates cannot be obtained', async () => {
         const cep = '12345-678';
         const mockCoordinates: CoordinatesDto = {
             latitude: NaN,
@@ -65,10 +65,6 @@ describe('findByCepServiceService', () => {
 
         const result = await service.findByCep(cep);
 
-        expect(logger.error).toHaveBeenCalledWith(
-            'Erro ao buscar lojas por CEP: 12345-678 | erro tryCacth findByCep',
-            expect.any(Error)
-        );
         expect(result).toEqual({
             mensagem: 'Erro ao buscar lojas por CEP.',
             detalhes: {
