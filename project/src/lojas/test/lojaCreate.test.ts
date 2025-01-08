@@ -1,67 +1,122 @@
-import { LojaService } from '../service/lojaService';
-import { LojaRepository } from '../repo/lojaRepo';
-import { CreateLojaDto } from '../dtos/lojaDto';
-import { getModelToken } from '@nestjs/mongoose';
 import { Test, TestingModule } from '@nestjs/testing';
+import { CreateLojaService } from '../service/createLojaService';
+import { LojaRepository } from '../repo/lojaRepo';
 import { ServicoDeLogger } from '../../utils/logger/logger';
-import { HereMapsService } from '../../hereMaps/buscarLatLong/service/hereMapsService';
+import { CreateLojaDto } from '../dtos/lojaDto';
+import { LojaDocument } from '../schema/lojaSchema';
 
-describe('LojaService', () => {
-    let lojaService: LojaService;
-    let lojaModelMock: jest.Mock;
-
-    const lojaData: CreateLojaDto = {
-        lojaNome: 'MEOWBLE',
-        lojaTipo: 'PDV',
-        disponivelNoEstoque: true,
-        tempoDePreparo: 4,
-        latitude: '-37.0530322',
-        longitude: '-10.9833225',
-        codigoPostal: '49037-050',
-        numero: 800,
-        uf: 'SP',
-        pais: 'Brazil',
-        lojaTelefone: '12345678',
-    };
+describe('CreateLojaService', () => {
+    let service: CreateLojaService;
+    let lojaRepository: Partial<LojaRepository>;
+    let logger: Partial<ServicoDeLogger>;
 
     beforeEach(async () => {
-        lojaModelMock = jest.fn().mockImplementation(() => ({
-            save: jest.fn().mockResolvedValue({
-                _id: 'someId',
-                ...lojaData,
-            }),
-        }));
+        lojaRepository = {
+            create: jest.fn(),
+        };
+
+        logger = {
+            log: jest.fn(),
+            error: jest.fn(),
+        };
 
         const module: TestingModule = await Test.createTestingModule({
             providers: [
-                LojaService,
-                LojaRepository,
-                {
-                    provide: getModelToken('Loja'),
-                    useValue: lojaModelMock,
-                },
-                {
-                    provide: ServicoDeLogger,
-                    useValue: {
-                        log: jest.fn(),
-                        error: jest.fn(),
-                    },
-                },
-                {
-                    provide: HereMapsService,
-                    useValue: {},
-                },
+                CreateLojaService,
+                { provide: LojaRepository, useValue: lojaRepository },
+                { provide: ServicoDeLogger, useValue: logger },
             ],
         }).compile();
 
-        lojaService = module.get<LojaService>(LojaService);
+        service = module.get<CreateLojaService>(CreateLojaService);
     });
 
-    it('deve criar uma nova loja', async () => {
-        const result = await lojaService.create(lojaData);
+    it('should create a loja successfully', async () => {
+        const createLojaDto: CreateLojaDto = {
+            lojaNome: 'MEOWBLE 03',
+            lojaTipo: 'LOJA',
+            disponivelNoEstoque: true,
+            tempoDePreparo: 4,
+            latitude: '-23.21287',
+            longitude: '-46.83805',
+            codigoPostal: '13220-001',
+            numero: 800,
+            uf: 'SP',
+            pais: 'Brasil',
+            lojaTelefone: '12345678',
+        };
 
-        expect(result._id).toBe('someId');
-        expect(result.lojaNome).toBe(lojaData.lojaNome);
-        expect(lojaModelMock).toHaveBeenCalledWith(lojaData);
+        // Mock do LojaDocument com campos necessários
+        const lojaMock: Partial<LojaDocument> = {
+            _id: '123',
+            lojaNome: 'MEOWBLE 03',
+            lojaTipo: 'LOJA',
+            disponivelNoEstoque: true,
+            tempoDePreparo: 4,
+            latitude: '-23.21287',
+            longitude: '-46.83805',
+            codigoPostal: '13220-001',
+            numero: 800,
+            uf: 'SP',
+            pais: 'Brasil',
+            lojaTelefone: '12345678',
+            toObject: () => ({
+                _id: '123',
+                lojaNome: 'MEOWBLE 03',
+                lojaTipo: 'LOJA',
+                disponivelNoEstoque: true,
+                tempoDePreparo: 4,
+                latitude: '-23.21287',
+                longitude: '-46.83805',
+                codigoPostal: '13220-001',
+                numero: 800,
+                uf: 'SP',
+                pais: 'Brasil',
+                lojaTelefone: '12345678',
+            }),
+        };
+
+        lojaRepository.create = jest.fn().mockResolvedValue(lojaMock);
+
+        const result = await service.create(createLojaDto);
+
+        expect(result).toEqual(lojaMock);
+        expect(logger.log).toHaveBeenCalledWith(
+            'Recebendo dados para criação da loja...'
+        );
+        expect(logger.log).toHaveBeenCalledWith('Loja criada com sucesso!');
+        expect(lojaRepository.create).toHaveBeenCalledWith(createLojaDto);
+    });
+
+    it('should throw an error if creation fails', async () => {
+        const createLojaDto: CreateLojaDto = {
+            lojaNome: 'MEOWBLE 03',
+            lojaTipo: 'LOJA',
+            disponivelNoEstoque: true,
+            tempoDePreparo: 4,
+            latitude: '-23.21287',
+            longitude: '-46.83805',
+            codigoPostal: '13220-001',
+            numero: 800,
+            uf: 'SP',
+            pais: 'Brasil',
+            lojaTelefone: '12345678',
+        };
+
+        lojaRepository.create = jest
+            .fn()
+            .mockRejectedValue(new Error('Erro na criação'));
+
+        await expect(service.create(createLojaDto)).rejects.toThrow(
+            'Falha na criação da loja. Por favor, tente novamente.'
+        );
+        expect(logger.log).toHaveBeenCalledWith(
+            'Recebendo dados para criação da loja...'
+        );
+        expect(logger.error).toHaveBeenCalledWith(
+            'Erro ao tentar criar a loja:',
+            expect.any(Error)
+        );
+        expect(lojaRepository.create).toHaveBeenCalledWith(createLojaDto);
     });
 });
