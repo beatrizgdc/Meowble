@@ -1555,3 +1555,174 @@
 {"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-08 15:30:41"}
 {"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-08 15:31:20"}
 {"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-08 15:31:20"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-08 15:32:05"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-08 15:32:05"}
+{"level":"info","message":"Iniciando a criação da loja com os dados: {\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"PDV\",\"disponivelNoEstoque\":true,\"tempoDePreparo\":4,\"latitude\":\"-30.02515\",\"longitude\":\"-51.16217\",\"codigoPostal\":\"91349-900\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\"}","timestamp":"2025-01-08 15:32:07"}
+{"level":"info","message":"Recebendo dados para criação da loja...","timestamp":"2025-01-08 15:32:07"}
+{"level":"info","message":"Loja criada com sucesso!","timestamp":"2025-01-08 15:32:08"}
+{"level":"info","message":"Loja criada com sucesso: {\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"PDV\",\"disponivelNoEstoque\":true,\"tempoDePreparo\":4,\"latitude\":\"-30.02515\",\"longitude\":\"-51.16217\",\"codigoPostal\":\"91349-900\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"_id\":\"677ec4a7c1993b295ae80205\",\"__v\":0}","timestamp":"2025-01-08 15:32:08"}
+{"level":"info","message":"Iniciando a criação da loja com os dados: {\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"PDV\",\"disponivelNoEstoque\":true,\"tempoDePreparo\":4,\"latitude\":\"-29.99769\",\"longitude\":\"-51.14093\",\"codigoPostal\":\"91110-581\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\"}","timestamp":"2025-01-08 15:33:51"}
+{"level":"info","message":"Recebendo dados para criação da loja...","timestamp":"2025-01-08 15:33:51"}
+{"level":"info","message":"Loja criada com sucesso!","timestamp":"2025-01-08 15:33:51"}
+{"level":"info","message":"Loja criada com sucesso: {\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"PDV\",\"disponivelNoEstoque\":true,\"tempoDePreparo\":4,\"latitude\":\"-29.99769\",\"longitude\":\"-51.14093\",\"codigoPostal\":\"91110-581\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"_id\":\"677ec50fc1993b295ae80207\",\"__v\":0}","timestamp":"2025-01-08 15:33:51"}
+{"level":"info","message":"Iniciando a criação da loja com os dados: {\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"PDV\",\"disponivelNoEstoque\":true,\"tempoDePreparo\":4,\"latitude\":\"-30.22534\",\"longitude\":\"-51.07524\",\"codigoPostal\":\"91787-170\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\"}","timestamp":"2025-01-08 15:38:36"}
+{"level":"info","message":"Recebendo dados para criação da loja...","timestamp":"2025-01-08 15:38:36"}
+{"level":"info","message":"Loja criada com sucesso!","timestamp":"2025-01-08 15:38:36"}
+{"level":"info","message":"Loja criada com sucesso: {\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"PDV\",\"disponivelNoEstoque\":true,\"tempoDePreparo\":4,\"latitude\":\"-30.22534\",\"longitude\":\"-51.07524\",\"codigoPostal\":\"91787-170\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"_id\":\"677ec62cc1993b295ae80209\",\"__v\":0}","timestamp":"2025-01-08 15:38:36"}
+{"level":"info","message":"Iniciando a criação da loja com os dados: {\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"LOJA\",\"disponivelNoEstoque\":true,\"tempoDePreparo\":4,\"latitude\":\"-30.15787\",\"longitude\":\"-51.16188\",\"codigoPostal\":\"91786-299\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\"}","timestamp":"2025-01-08 15:40:08"}
+{"level":"info","message":"Recebendo dados para criação da loja...","timestamp":"2025-01-08 15:40:08"}
+{"level":"info","message":"Loja criada com sucesso!","timestamp":"2025-01-08 15:40:08"}
+{"level":"info","message":"Loja criada com sucesso: {\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"LOJA\",\"disponivelNoEstoque\":true,\"tempoDePreparo\":4,\"latitude\":\"-30.15787\",\"longitude\":\"-51.16188\",\"codigoPostal\":\"91786-299\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"_id\":\"677ec688c1993b295ae8020b\",\"__v\":0}","timestamp":"2025-01-08 15:40:08"}
+{"level":"info","message":"Iniciando a criação da loja com os dados: {\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"LOJA\",\"disponivelNoEstoque\":true,\"tempoDePreparo\":4,\"latitude\":\"-30.15208\",\"longitude\":\"-51.14924\",\"codigoPostal\":\"91790-180\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\"}","timestamp":"2025-01-08 15:41:17"}
+{"level":"info","message":"Recebendo dados para criação da loja...","timestamp":"2025-01-08 15:41:17"}
+{"level":"info","message":"Loja criada com sucesso!","timestamp":"2025-01-08 15:41:17"}
+{"level":"info","message":"Loja criada com sucesso: {\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"LOJA\",\"disponivelNoEstoque\":true,\"tempoDePreparo\":4,\"latitude\":\"-30.15208\",\"longitude\":\"-51.14924\",\"codigoPostal\":\"91790-180\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"_id\":\"677ec6cdc1993b295ae8020d\",\"__v\":0}","timestamp":"2025-01-08 15:41:17"}
+{"level":"info","message":"Iniciando a criação da loja com os dados: {\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"LOJA\",\"disponivelNoEstoque\":true,\"tempoDePreparo\":4,\"latitude\":\"-29.50284\",\"longitude\":\"-50.97666\",\"codigoPostal\":\"93995-000\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\"}","timestamp":"2025-01-08 15:42:41"}
+{"level":"info","message":"Recebendo dados para criação da loja...","timestamp":"2025-01-08 15:42:41"}
+{"level":"info","message":"Loja criada com sucesso!","timestamp":"2025-01-08 15:42:41"}
+{"level":"info","message":"Loja criada com sucesso: {\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"LOJA\",\"disponivelNoEstoque\":true,\"tempoDePreparo\":4,\"latitude\":\"-29.50284\",\"longitude\":\"-50.97666\",\"codigoPostal\":\"93995-000\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"_id\":\"677ec721c1993b295ae8020f\",\"__v\":0}","timestamp":"2025-01-08 15:42:41"}
+{"level":"info","message":"Buscando lojas pelo CEP: 94510-120 com limite: 10 e offset: 0","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 94510-120","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 94510-120","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 10","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Total de lojas no banco de dados: 17","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01: 884.485 km","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01: 885.864 km","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 02: 842.894 km","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 02: 829.151 km","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 870.674 km","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 878.022 km","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 878.022 km","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 878.022 km","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 823.296 km","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 823.296 km","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-08 15:43:44"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-08 15:43:45"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-08 15:43:45"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-08 15:43:45"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-08 15:43:45"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-08 15:43:45"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-08 15:43:45"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-08 15:43:45"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"18590-000\",\"lojaTipo\":\"LOJA\",\"distance\":\"823 km\",\"value\":[{\"prazo\":\"4 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 58,20\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 30,80\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-23.10326\",\"lng\":\"-48.26095\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":\"10\",\"offset\":0,\"total\":17}","timestamp":"2025-01-08 15:43:45"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 10 e offset: 0","timestamp":"2025-01-08 15:45:13"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-08 15:45:13"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 10","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Total de lojas no banco de dados: 17","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01: 884.699 km","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01: 886.043 km","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 02: 844.52 km","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 02: 830.739 km","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 871.941 km","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 879.384 km","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 879.384 km","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 879.384 km","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 823.027 km","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 823.027 km","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"18590-000\",\"lojaTipo\":\"LOJA\",\"distance\":\"823 km\",\"value\":[{\"prazo\":\"4 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 58,20\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 30,80\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-23.10326\",\"lng\":\"-48.26095\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":\"10\",\"offset\":0,\"total\":17}","timestamp":"2025-01-08 15:45:14"}
+{"level":"info","message":"Buscando loja pelo ID: limit=20","timestamp":"2025-01-08 15:46:16"}
+{"level":"info","message":"Buscando loja pelo ID: limit=20...","timestamp":"2025-01-08 15:46:16"}
+{"detalhes":"CastError","level":"error","message":"Erro ao buscar loja com ID limit=20:: Cast to ObjectId failed for value \"limit=20\" (type string) at path \"_id\" for model \"Loja\"","stack":"CastError: Cast to ObjectId failed for value \"limit=20\" (type string) at path \"_id\" for model \"Loja\"\n    at SchemaObjectId.cast (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)\n    at SchemaType.applySetters (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\schemaType.js:1255:12)\n    at SchemaType.castForQuery (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\schemaType.js:1673:17)\n    at cast (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\cast.js:390:32)\n    at Query.cast (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\query.js:4889:12)\n    at Query._castConditions (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\query.js:2306:10)\n    at model.Query._findOne (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\query.js:2630:8)\n    at model.Query.exec (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\query.js:4438:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async FindByIdService.findById (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\service\\findByIdLojaService.ts:17:26)","timestamp":"2025-01-08 15:46:16"}
+{"detalhes":"CastError","level":"error","message":"Erro ao buscar loja com ID: limit=20: Cast to ObjectId failed for value \"limit=20\" (type string) at path \"_id\" for model \"Loja\"","stack":"CastError: Cast to ObjectId failed for value \"limit=20\" (type string) at path \"_id\" for model \"Loja\"\n    at SchemaObjectId.cast (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)\n    at SchemaType.applySetters (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\schemaType.js:1255:12)\n    at SchemaType.castForQuery (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\schemaType.js:1673:17)\n    at cast (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\cast.js:390:32)\n    at Query.cast (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\query.js:4889:12)\n    at Query._castConditions (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\query.js:2306:10)\n    at model.Query._findOne (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\query.js:2630:8)\n    at model.Query.exec (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\query.js:4438:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async FindByIdService.findById (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\service\\findByIdLojaService.ts:17:26)","timestamp":"2025-01-08 15:46:16"}
+{"level":"info","message":"Listando lojas com limite: 1 e offset: 0","timestamp":"2025-01-08 15:46:45"}
+{"level":"info","message":"Buscando todas as lojas com limite: 1 e offset: 0...","timestamp":"2025-01-08 15:46:45"}
+{"level":"info","message":"Lojas listadas com sucesso. Total de lojas: 17","timestamp":"2025-01-08 15:46:45"}
+{"level":"info","message":"Lojas listadas com sucesso: {\"stores\":[{\"_id\":\"677c52643b8db6ae4c4439c0\",\"lojaNome\":\"MEOWBLE 01\",\"lojaTipo\":\"PDV\",\"latitude\":\"-22.7281492\",\"longitude\":\"-47.6491166\",\"codigoPostal\":\"13400-070\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0}],\"limit\":1,\"offset\":0,\"total\":17}","timestamp":"2025-01-08 15:46:45"}
+{"level":"info","message":"Listando lojas com limite: 1 e offset: 0","timestamp":"2025-01-08 15:47:15"}
+{"level":"info","message":"Buscando todas as lojas com limite: 1 e offset: 0...","timestamp":"2025-01-08 15:47:15"}
+{"level":"info","message":"Lojas listadas com sucesso. Total de lojas: 17","timestamp":"2025-01-08 15:47:15"}
+{"level":"info","message":"Lojas listadas com sucesso: {\"stores\":[{\"_id\":\"677c52643b8db6ae4c4439c0\",\"lojaNome\":\"MEOWBLE 01\",\"lojaTipo\":\"PDV\",\"latitude\":\"-22.7281492\",\"longitude\":\"-47.6491166\",\"codigoPostal\":\"13400-070\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0}],\"limit\":1,\"offset\":0,\"total\":17}","timestamp":"2025-01-08 15:47:15"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 50 e offset: 0","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 17","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Total de lojas no banco de dados: 17","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01: 884.699 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 01: 886.043 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 02: 844.52 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 02: 830.739 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 871.941 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 879.384 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 879.384 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 879.384 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 823.027 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 823.027 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 871.941 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 0.239 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 3.917 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 23.683 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 14.588 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 14.012 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 61.067 km","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-08 15:49:20"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-08 15:49:21"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-08 15:49:21"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-08 15:49:21"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Tempo estimado calculado: 4 minutos.","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Tempo estimado para a entrega: 4 minutos","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Custo total da entrega calculado: 6.0478 unidades monetárias","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Tempo estimado calculado: 15 minutos.","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Tempo estimado para a entrega: 15 minutos","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Custo total da entrega calculado: 9.5334 unidades monetárias","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-08 15:49:22"}
+{"level":"info","message":"Tempo estimado calculado: 53 minutos.","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Tempo estimado para a entrega: 53 minutos","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Custo total da entrega calculado: 22.9866 unidades monetárias","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Tempo estimado calculado: 37 minutos.","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Tempo estimado para a entrega: 37 minutos","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Custo total da entrega calculado: 17.1676 unidades monetárias","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Tempo estimado calculado: 39 minutos.","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Tempo estimado para a entrega: 39 minutos","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Custo total da entrega calculado: 17.5524 unidades monetárias","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-08 15:49:23"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-08 15:49:24"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-08 15:49:24"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-08 15:49:24"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-08 15:49:24"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 5","timestamp":"2025-01-08 15:49:24"}
+{"level":"info","message":"Categorizando loja undefined como tipo: PDV","timestamp":"2025-01-08 15:49:24"}
+{"level":"info","message":"Categorizando loja undefined como tipo: PDV","timestamp":"2025-01-08 15:49:24"}
+{"level":"info","message":"Categorizando loja undefined como tipo: LOJA","timestamp":"2025-01-08 15:49:24"}
+{"level":"info","message":"Categorizando loja undefined como tipo: LOJA","timestamp":"2025-01-08 15:49:24"}
+{"level":"info","message":"Categorizando loja undefined como tipo: PDV","timestamp":"2025-01-08 15:49:24"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 3, Lojas: 2","timestamp":"2025-01-08 15:49:24"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-08 15:49:24"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"91349-900\",\"lojaTipo\":\"PDV\",\"distance\":\"0 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":4,\"totalCost\":\"R$ 6.05\"},\"pins\":{\"position\":{\"lat\":\"-30.02515\",\"lng\":\"-51.16217\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"91110-581\",\"lojaTipo\":\"PDV\",\"distance\":\"4 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":15,\"totalCost\":\"R$ 9.53\"},\"pins\":{\"position\":{\"lat\":\"-29.99769\",\"lng\":\"-51.14093\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"91787-170\",\"lojaTipo\":\"PDV\",\"distance\":\"24 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":53,\"totalCost\":\"R$ 22.99\"},\"pins\":{\"position\":{\"lat\":\"-30.22534\",\"lng\":\"-51.07524\"},\"title\":\"MEOWBLE 03\"}}],\"lojas\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"91790-180\",\"lojaTipo\":\"LOJA\",\"distance\":\"14 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":39,\"totalCost\":\"R$ 17.55\"},\"pins\":{\"position\":{\"lat\":\"-30.15208\",\"lng\":\"-51.14924\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"91786-299\",\"lojaTipo\":\"LOJA\",\"distance\":\"15 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":37,\"totalCost\":\"R$ 17.17\"},\"pins\":{\"position\":{\"lat\":\"-30.15787\",\"lng\":\"-51.16188\"},\"title\":\"MEOWBLE 03\"}}]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"lojaTipo\":\"LOJA\",\"distance\":\"61 km\",\"value\":[{\"prazo\":\"2 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"18590-000\",\"lojaTipo\":\"LOJA\",\"distance\":\"823 km\",\"value\":[{\"prazo\":\"4 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 58,20\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 30,80\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-23.10326\",\"lng\":\"-48.26095\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"13220-001\",\"lojaTipo\":\"LOJA\",\"distance\":\"872 km\",\"value\":[{\"prazo\":\"2 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 36,80\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"7 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 26,00\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-23.21287\",\"lng\":\"-46.83805\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":\"50\",\"offset\":0,\"total\":17}","timestamp":"2025-01-08 15:49:24"}
