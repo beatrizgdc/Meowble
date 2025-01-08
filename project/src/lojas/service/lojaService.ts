@@ -7,14 +7,6 @@ import { FindByUfService } from './findByUfService';
 import { findByCepServiceService } from './findByCep/findByCepService';
 import { ServicoDeLogger } from '../../utils/logger/logger';
 
-interface LojaRetorno {
-    stores: any[];
-    limit: number;
-    offset: number;
-    total: number;
-    mensagem?: string;
-}
-
 @Injectable()
 export class LojaService {
     constructor(

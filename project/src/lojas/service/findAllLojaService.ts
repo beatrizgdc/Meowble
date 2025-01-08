@@ -2,14 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { LojaRepository } from '../repo/lojaRepo';
 import { ServicoDeLogger } from '../../utils/logger/logger';
 import { LojaDocument } from '../schema/lojaSchema';
-
-interface LojaRetorno {
-    stores: any[];
-    limit: number;
-    offset: number;
-    total: number;
-    mensagem?: string;
-}
+import { LojaRetorno } from '../interface/LojaRetornoInterface';
 
 @Injectable()
 export class FindAllLojaService {
