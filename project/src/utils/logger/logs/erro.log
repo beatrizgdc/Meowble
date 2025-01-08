@@ -38,3 +38,24 @@
 {"level":"error","message":"Erro na chamada à API dos Correios:"}
 {"level":"error","message":"Erro na chamada à API dos Correios:"}
 {"level":"error","message":"Erro na chamada à API dos Correios:"}
+{"level":"error","message":"Erro ao buscar lojas por CEP:"}
+{"level":"error","message":"Erro ao buscar lojas por CEP:"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","mensagem":"Cannot read properties of undefined (reading 'valueOf')","message":"Erro ao buscar lojas por CEP: 05202-140","stack":"TypeError: Cannot read properties of undefined (reading 'valueOf')\n    at lojasMenor50Km.reduce.pdvs (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\service\\findByCep\\categorizeStores.ts:12:44)\n    at Array.reduce (<anonymous>)\n    at categorizeStores (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\service\\findByCep\\categorizeStores.ts:8:50)\n    at findByCepServiceService.findByCep (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\service\\findByCep\\findByCepService.ts:70:59)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async LojaController.findByCep (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\controller\\lojaController.ts:121:31)\n    at async C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at async C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}
+{"level":"error","message":"Erro na chamada à API dos Correios:"}
+{"level":"error","message":"Erro ao buscar lojas por CEP: 05202-140"}

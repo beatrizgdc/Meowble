@@ -1,34 +1,10 @@
 import { LojaComDistancia } from '../../interface/lojaComDistanciaInterface';
 import { CorreiosService } from '../../../correios/correiosService';
-import { CorreiosDto } from '../../../correios/correiosDTO';
 import { ServicoDeLogger } from '../../../utils/logger/logger';
-import { formatCep } from './formatCep';
-
-function formatStoreData(
-    loja: LojaComDistancia,
-    frete: any,
-    distanciaKm: number
-) {
-    return {
-        name: loja.lojaNome,
-        postalCode: loja.codigoPostal,
-        type: loja.lojaTipo,
-        distance: `${distanciaKm.toFixed(0)} km`,
-        value: frete.map((item: any) => ({
-            prazo: item.prazo,
-            codProdutoAgencia: item.codProdutoAgencia,
-            price: item.precoAgencia,
-            description: item.urlTitulo,
-        })),
-        pins: {
-            position: {
-                lat: loja.latitude,
-                lng: loja.longitude,
-            },
-            title: loja.lojaNome,
-        },
-    };
-}
+import { HereMapsServiceDelivery } from '../../../hereMaps/calculoDelivery/service/hereMapsDeliveryService';
+import formatStoreData from './formatStore';
+import { getDeliveryCost } from './getDeliveryCost';
+import { getFrete } from './getFrete';
 
 export async function filterStores(
     lojas: LojaComDistancia[],
@@ -37,59 +13,64 @@ export async function filterStores(
     logger: ServicoDeLogger,
     cepDestino: string,
     latDestino: string,
-    longDestino: string
+    longDestino: string,
+    hereMapsServiceDelivery: HereMapsServiceDelivery
 ) {
-    const lojasMenor50Km = lojas.filter(
-        (loja) => loja.distanciaKm !== null && loja.distanciaKm < distanceLimit
-    );
-
+    const lojasMenor50Km: any[] = [];
     const lojasMaiorIgual50Km: any[] = [];
+
+    // Categorizar e filtrar as lojas antes de calcular delivery/frete
     const lojasFiltradas = lojas.filter(
-        (loja) =>
-            loja.distanciaKm !== null &&
-            loja.distanciaKm >= distanceLimit &&
-            loja.lojaTipo !== 'PDV'
+        (loja) => loja.distanciaKm != null && !isNaN(loja.distanciaKm)
     );
 
     for (const loja of lojasFiltradas) {
-        const correiosDto: CorreiosDto = {
-            servico: '04014',
-            cepOrigem: formatCep(loja.codigoPostal),
-            cepDestino: formatCep(cepDestino),
-            Peso: '1',
-            Formato: '1',
-            Comprimento: '20',
-            Altura: '10',
-            Largura: '15',
-            Diametro: '0',
-            MaoPropria: 'N',
-            ValorDeclarado: '0',
-            AvisoRecebimento: 'N',
-        };
-
-        console.log('Dados enviados para a API dos Correios:', correiosDto);
-
-        try {
-            const frete = await correiosService.obterPrecosEPrazos(correiosDto);
-            loja.frete = frete;
-            lojasMaiorIgual50Km.push(
-                formatStoreData(loja, frete, loja.distanciaKm!)
-            );
-            console.log('sucesso!');
-        } catch (error) {
-            if (error instanceof Error) {
-                console.error(
-                    `Erro ao calcular o frete: ${error.message}`,
-                    error
+        if (
+            loja.distanciaKm != null &&
+            parseFloat(loja.distanciaKm.toString()) < distanceLimit
+        ) {
+            // Calcular delivery para lojas < 50km (todos os tipos)
+            try {
+                const deliveryCost = await getDeliveryCost(
+                    parseFloat(loja.latitude),
+                    parseFloat(loja.longitude),
+                    parseFloat(latDestino),
+                    parseFloat(longDestino),
+                    loja.distanciaKm!,
+                    hereMapsServiceDelivery,
+                    logger
                 );
-            } else {
-                console.error('Erro ao calcular o frete: tipo desconhecido');
+                lojasMenor50Km.push(
+                    formatStoreData(loja, [], loja.distanciaKm!, deliveryCost)
+                );
+            } catch (error) {
+                logger.error('Erro ao calcular o custo de delivery', error);
+            }
+        } else if (loja.lojaTipo === 'LOJA') {
+            try {
+                const frete = await getFrete(
+                    loja.codigoPostal,
+                    cepDestino,
+                    correiosService,
+                    logger
+                );
+                loja.frete = frete;
+                lojasMaiorIgual50Km.push(
+                    formatStoreData(loja, frete, loja.distanciaKm!)
+                );
+            } catch (error) {
+                logger.error('Erro ao calcular o frete', error);
             }
         }
     }
 
-    lojasMenor50Km.sort((a, b) => a.distanciaKm! - b.distanciaKm!);
-    lojasMaiorIgual50Km.sort((a, b) => a.distance - b.distance);
+    // Ordenar por distância
+    lojasMenor50Km.sort(
+        (a, b) => parseFloat(a.distance) - parseFloat(b.distance)
+    );
+    lojasMaiorIgual50Km.sort(
+        (a, b) => parseFloat(a.distance) - parseFloat(b.distance)
+    );
 
     return { lojasMenor50Km, lojasMaiorIgual50Km };
 }
