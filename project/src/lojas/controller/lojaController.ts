@@ -15,8 +15,10 @@ import { IsValidState } from '../../validators/estadoValidator';
 import { ValidationArguments } from 'class-validator';
 import { IsValidCep } from '../../validators/cepValidator';
 import { Response } from 'express';
+import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 
 @Controller('lojas')
+@ApiTags('meowble')
 export class LojaController {
     constructor(
         private readonly lojaService: LojaService,
@@ -25,6 +27,12 @@ export class LojaController {
     ) {}
 
     @Post()
+    @ApiOperation({ summary: 'Criação de loja' })
+    @ApiResponse({ status: 201, description: 'Loja criada com sucesso!' })
+    @ApiResponse({
+        status: 400,
+        description: 'Erro ao criar loja, parâmetro inválido.',
+    })
     async create(
         @Body() createLojaDto: CreateLojaDto,
         @Res() res: Response
@@ -41,6 +49,12 @@ export class LojaController {
     }
 
     @Get()
+    @ApiOperation({ summary: 'Listar todas as lojas' })
+    @ApiResponse({ status: 200, description: 'Lojas listadas com sucesso!' })
+    @ApiResponse({
+        status: 404,
+        description: 'Erro ao buscar lojas.',
+    })
     async listAll(@Res() res: Response) {
         try {
             console.log('Listando todas as lojas...');
@@ -58,6 +72,12 @@ export class LojaController {
     }
 
     @Get(':id')
+    @ApiOperation({ summary: 'Listar loja por ID' })
+    @ApiResponse({ status: 200, description: 'Loja listada com sucesso!' })
+    @ApiResponse({
+        status: 404,
+        description: 'Erro ao buscar loja por ID.',
+    })
     async findById(@Param('id') id: string, @Res() res: Response) {
         try {
             console.log(`Buscando loja pelo ID: ${id}`);
@@ -77,6 +97,12 @@ export class LojaController {
     }
 
     @Get('uf/:uf')
+    @ApiOperation({ summary: 'Listar lojas no estado.' })
+    @ApiResponse({ status: 200, description: 'Lojas listadas com sucesso!' })
+    @ApiResponse({
+        status: 404,
+        description: 'Erro ao buscar lojas por UF.',
+    })
     async findByUf(
         @Param('uf') uf: string,
         @Query('limit') limit: number = 1,
@@ -112,6 +138,15 @@ export class LojaController {
     }
 
     @Get('/buscarProx/:cep')
+    @ApiResponse({ status: 200, description: 'Lojas listadas com sucesso!' })
+    @ApiResponse({
+        status: 400,
+        description: 'Erro ao buscar loja por UF.',
+    })
+    @ApiOperation({
+        summary:
+            'Listar lojas próximas em 50km e calcular delivery e tempo de entrega, listar lojas mais distantes que 50km e calcular frete (PAC | SEDEX) e tempo de entrega',
+    })
     async findByCep(
         @Param('cep') cep: string,
         @Query('limit') limit: number = 1,
