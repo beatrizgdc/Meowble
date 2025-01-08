@@ -1,7 +1,7 @@
-export interface ProdutoDocument extends Document, Produto {}
+export interface ProdutoDocument extends Document, ProdutoLoja {}
 
-export interface Produto {
-    id: number;
+export interface ProdutoLoja {
+    _id: string;
     nomeProduto: string;
     descricaoProduto: string;
     precoProduto: number;
