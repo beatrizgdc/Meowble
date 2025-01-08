@@ -1176,3 +1176,9 @@
 {"level":"info","message":"Chamada à API dos Correios bem-sucedida."}
 {"level":"info","message":"Lojas filtradas com sucesso!"}
 {"level":"info","message":"Total de lojas recebidas: 6"}
+{"level":"info","message":"Chamada à API dos Correios bem-sucedida."}
+{"level":"error","message":"Erro na chamada à API dos Correios:"}
+{"level":"info","message":"Chamada à API dos Correios bem-sucedida."}
+{"level":"error","message":"Erro na chamada à API dos Correios:"}
+{"level":"info","message":"Chamada à API dos Correios bem-sucedida."}
+{"level":"error","message":"Erro na chamada à API dos Correios:"}
