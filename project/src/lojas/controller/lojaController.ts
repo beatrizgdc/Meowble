@@ -30,7 +30,9 @@ export class LojaController {
         @Res() res: Response
     ): Promise<Response> {
         try {
+            console.log('Criando loja com os dados:', createLojaDto);
             const loja = await this.lojaService.create(createLojaDto);
+            console.log('Loja criada com sucesso:', loja);
             return res.status(201).json(loja);
         } catch (error) {
             console.error('Erro ao criar loja:', error);
@@ -41,7 +43,9 @@ export class LojaController {
     @Get()
     async listAll(@Res() res: Response) {
         try {
+            console.log('Listando todas as lojas...');
             const resultado = await this.lojaService.findAll();
+            console.log('Lojas listadas com sucesso:', resultado);
             return res.status(200).json({
                 stores: resultado.stores,
                 total: resultado.total,
@@ -56,7 +60,9 @@ export class LojaController {
     @Get(':id')
     async findById(@Param('id') id: string, @Res() res: Response) {
         try {
+            console.log(`Buscando loja pelo ID: ${id}`);
             const resultado = await this.lojaService.findById(id);
+            console.log('Loja encontrada:', resultado);
             return res.status(200).json({
                 stores: resultado.stores,
                 total: resultado.total,
@@ -78,7 +84,9 @@ export class LojaController {
         @Res() res: Response
     ) {
         try {
+            console.log(`Buscando lojas pelo estado: ${uf}`);
             if (!this.IsValidState.validate(uf, {} as ValidationArguments)) {
+                console.log('Estado inválido:', uf);
                 throw new BadRequestException('O estado informado é inválido.');
             }
 
@@ -87,6 +95,7 @@ export class LojaController {
                 limit,
                 offset
             );
+            console.log('Lojas encontradas pelo estado:', resultado);
             return res.status(200).json({
                 stores: resultado.stores,
                 limit: resultado.limit,
@@ -110,12 +119,14 @@ export class LojaController {
         @Res() res: Response
     ) {
         try {
+            console.log(`Buscando lojas pelo CEP: ${cep}`);
             if (
                 !(await this.IsValidCep.validate(
                     cep,
                     {} as ValidationArguments
                 ))
             ) {
+                console.log('CEP inválido:', cep);
                 throw new BadRequestException('O CEP informado é inválido.');
             }
             const resultado = await this.lojaService.findByCep(
@@ -123,36 +134,18 @@ export class LojaController {
                 limit,
                 offset
             );
-
-            // Log para confirmar o JSON antes de enviar a resposta
-            // console.log('JSON retornado:', resultado);
-            console.log('lojas filtradas com sucesso!');
+            console.log('Lojas encontradas pelo CEP:', resultado);
             return res.status(200).json(resultado);
         } catch (error) {
             console.error('Erro ao buscar lojas por CEP:', error);
-
             const errorDetails =
                 error instanceof Error
                     ? { mensagem: error.message, stack: error.stack }
                     : { mensagem: 'Erro desconhecido', detalhes: error };
-
             return res.status(500).json({
                 mensagem: 'Erro ao buscar lojas por CEP.',
                 detalhes: errorDetails,
             });
         }
     }
-
-    // @Get('/buscarProx/:cep')
-    // async findByCep(
-    //     @Param('cep') cep: string,
-    //     @Query('limit') limit: number = 1,
-    //     @Query('offset') offset: number = 0
-    // ) {
-    //     if (!(await this.IsValidCep.validate(cep, {} as ValidationArguments))) {
-    //         throw new BadRequestException('O CEP informado é inválido.');
-    //     }
-    //     const result = await this.lojaService.findByCep(cep, limit, offset);
-    //     return result;
-    // }
 }

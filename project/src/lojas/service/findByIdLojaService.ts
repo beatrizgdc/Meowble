@@ -1,5 +1,4 @@
 import { Injectable } from '@nestjs/common';
-import { LojaDocument } from '../schema/lojaSchema';
 import { LojaRepository } from '../repo/lojaRepo';
 import { ServicoDeLogger } from '../../utils/logger/logger';
 
@@ -20,16 +19,13 @@ export class FindByIdService {
 
     async findById(id: string): Promise<LojaRetorno> {
         try {
+            this.logger.log(`Buscando loja pelo ID: ${id}...`);
+
             const loja = await this.lojaRepository.findById(id);
             if (!loja) {
-                this.logger.warn(`Loja com ID ${id} não encontrada 😔`);
-                return {
-                    stores: [],
-                    limit: 1,
-                    offset: 0,
-                    total: 0,
-                    mensagem: `A loja com ID ${id} não foi encontrada 😔`,
-                };
+                const mensagem = `Loja com ID ${id} não encontrada.`;
+                this.logger.warn(mensagem);
+                return { stores: [], limit: 1, offset: 0, total: 0, mensagem };
             }
 
             const {
@@ -40,18 +36,11 @@ export class FindByIdService {
                 disponivelNoEstoque,
                 ...resto
             } = loja.toObject();
-            this.logger.log(`Loja com ID ${id} encontrada com sucesso 😸😸`);
-            return {
-                stores: [resto],
-                limit: 1,
-                offset: 0,
-                total: 1,
-            };
+            this.logger.log(`Loja com ID ${id} encontrada com sucesso.`);
+
+            return { stores: [resto], limit: 1, offset: 0, total: 1 };
         } catch (error) {
-            this.logger.error(
-                `Erro ao buscar a loja com ID ${id}: 😿😿`,
-                error
-            );
+            this.logger.error(`Erro ao buscar loja com ID ${id}:`, error);
             throw error;
         }
     }

@@ -24,18 +24,17 @@ export class FindAllLojaService {
                 throw new Error('LojaRepository não está definido');
             }
 
+            this.logger.log(
+                `Buscando todas as lojas com limite: ${limit} e offset: ${offset}...`
+            );
+
             const lojas = await this.lojaRepository.findAll(limit, offset);
             const total = await this.lojaRepository.count();
 
             if (lojas.length === 0) {
-                this.logger.warn('Nenhuma loja encontrada 😔');
-                return {
-                    stores: [],
-                    limit,
-                    offset,
-                    total,
-                    mensagem: 'Nenhuma loja encontrada 😔',
-                };
+                const mensagem = 'Nenhuma loja encontrada.';
+                this.logger.warn(mensagem);
+                return { stores: [], limit, offset, total, mensagem };
             }
 
             const lojasFiltradas = lojas.map((loja: LojaDocument) => {
@@ -44,11 +43,12 @@ export class FindAllLojaService {
                 return resto;
             });
 
-            this.logger.log('Lojas listadas com sucesso 😸😸');
+            this.logger.log(
+                `Lojas listadas com sucesso. Total de lojas: ${total}`
+            );
             return { stores: lojasFiltradas, limit, offset, total };
         } catch (error) {
-            console.error('Erro ao tentar listar lojas:', error);
-            this.logger.error('Erro ao listar as lojas: 😿😿', error);
+            this.logger.error('Erro ao listar as lojas:', error);
             throw error;
         }
     }

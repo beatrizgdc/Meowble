@@ -23,20 +23,15 @@ export async function getDeliveryCost(
         const deliveryCost = await hereMapsServiceDelivery.getDeliveryCost(
             deliveryDto
         );
-        // logger.log('Custo de delivery calculado com sucesso!');
+        logger.log('Cálculo do custo de delivery concluído com sucesso.');
         return deliveryCost;
     } catch (error) {
-        if (error instanceof Error) {
-            logger.error(
-                `Erro ao calcular o custo de delivery: ${error.message}`,
-                error
-            );
-        } else {
-            logger.error(
-                'Erro ao calcular o custo de delivery: tipo desconhecido',
-                error
-            );
-        }
+        const errorMessage =
+            error instanceof Error ? error.message : 'Erro desconhecido';
+        logger.error(
+            `Falha ao calcular o custo de delivery: ${errorMessage}`,
+            error
+        );
         throw error;
     }
 }

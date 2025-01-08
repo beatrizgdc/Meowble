@@ -13,8 +13,7 @@ export function calculateDistances(
 
         if (isNaN(lojaLatitude) || isNaN(lojaLongitude)) {
             logger.error(
-                `Coordenadas inválidas para a loja ${loja.lojaNome}: Latitude ${loja.latitude}, Longitude ${loja.longitude}`,
-                new Error(`Invalid coordinates for store ${loja.lojaNome}`)
+                `Coordenadas inválidas para a loja ${loja.lojaNome}: Latitude ${loja.latitude}, Longitude ${loja.longitude}`
             );
             return {
                 ...loja.toObject(),
@@ -30,9 +29,15 @@ export function calculateDistances(
             { latitude: lojaLatitude, longitude: lojaLongitude }
         );
 
+        logger.log(
+            `Distância calculada para a loja ${loja.lojaNome}: ${
+                distanceInMeters / 1000
+            } km`
+        );
+
         return {
             ...loja.toObject(),
-            distanciaKm: distanceInMeters / 1000, // Converte para km
+            distanciaKm: distanceInMeters / 1000,
         };
     });
 }

@@ -1,20 +1,21 @@
 import { Injectable } from '@nestjs/common';
 import { GetEstimativaTempoService } from './calcTempoService';
 import { GetDeliveryCustoDto } from '../dto/hereMapsCustoDeliveryDtos';
-
+import { ServicoDeLogger } from '../../../utils/logger/logger';
 @Injectable()
 export class GetDeliveryCustoService {
     constructor(
-        private readonly getEstimatedTimeService: GetEstimativaTempoService
+        private readonly getEstimatedTimeService: GetEstimativaTempoService,
+        private readonly logger: ServicoDeLogger
     ) {}
 
     calculateDeliveryCost(
         distanciaKm: number,
         estimatedTimeMin: number
     ): number {
-        const costPerKm = 2.5; // Custo por quilômetro
-        const costPerMinute = 0.5; // Custo por minuto
-        const fixedCost = 5.0; // Custo fixo da entrega
+        const costPerKm = 2.5;
+        const costPerMinute = 0.5;
+        const fixedCost = 5.0;
 
         return (
             fixedCost +
@@ -33,6 +34,9 @@ export class GetDeliveryCustoService {
             destinoLongitude,
             distanciaKm,
         } = dto;
+
+        this.logger.log('Iniciando o cálculo do custo de entrega');
+
         const estimatedTimeMin =
             await this.getEstimatedTimeService.getEstimatedTime({
                 origemLatitude,
@@ -41,9 +45,17 @@ export class GetDeliveryCustoService {
                 destinoLongitude,
             });
 
+        this.logger.log(
+            `Tempo estimado para a entrega: ${estimatedTimeMin} minutos`
+        );
+
         const totalCost = this.calculateDeliveryCost(
             distanciaKm,
             estimatedTimeMin
+        );
+
+        this.logger.log(
+            `Custo total da entrega calculado: ${totalCost} unidades monetárias`
         );
 
         return { estimatedTimeMin, totalCost };

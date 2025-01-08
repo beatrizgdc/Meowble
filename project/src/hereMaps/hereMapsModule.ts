@@ -5,6 +5,7 @@ import { HereMapsService } from './buscarLatLong/service/hereMapsService';
 import { HereMapsServiceDelivery } from './calculoDelivery/service/hereMapsDeliveryService';
 import { GetDeliveryCustoService } from './calculoDelivery/service/calCustoDelivery';
 import { GetEstimativaTempoService } from './calculoDelivery/service/calcTempoService';
+import { ServicoDeLogger } from '../utils/logger/logger';
 
 @Module({
     imports: [
@@ -18,6 +19,7 @@ import { GetEstimativaTempoService } from './calculoDelivery/service/calcTempoSe
         HereMapsServiceDelivery,
         GetDeliveryCustoService,
         GetEstimativaTempoService,
+        ServicoDeLogger,
     ],
     exports: [
         HereMapsService,

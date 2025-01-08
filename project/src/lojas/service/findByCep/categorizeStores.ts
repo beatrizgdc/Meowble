@@ -5,8 +5,9 @@ export function categorizeStores(
     lojasMenor50Km: LojaComDistancia[],
     logger: ServicoDeLogger
 ) {
-    // Log para verificar o número de lojas antes da filtragem
-    logger.log(`Total de lojas recebidas: ${lojasMenor50Km.length}`);
+    logger.log(
+        `Iniciando categorização das lojas. Total de lojas recebidas: ${lojasMenor50Km.length}`
+    );
 
     const tiposDeLojasMenor50Km = lojasMenor50Km.reduce<{
         [key: string]: LojaComDistancia[];
@@ -14,6 +15,10 @@ export function categorizeStores(
         (acc, loja) => {
             if (loja && loja.lojaTipo) {
                 const lojaTipo = loja.lojaTipo;
+                logger.log(
+                    `Categorizando loja ${loja.id} como tipo: ${lojaTipo}`
+                );
+
                 if (lojaTipo === 'PDV') {
                     if (!acc['pdvs']) acc['pdvs'] = [];
                     acc['pdvs'].push(loja);
@@ -21,11 +26,15 @@ export function categorizeStores(
                     if (!acc['lojas']) acc['lojas'] = [];
                     acc['lojas'].push(loja);
                 } else {
-                    logger.warn(`Tipo de loja desconhecido: ${lojaTipo}`);
+                    logger.warn(
+                        `Tipo de loja desconhecido encontrado: ${lojaTipo} para loja ${loja.id}`
+                    );
                 }
             } else {
                 logger.warn(
-                    `Loja inválida ou sem tipo: ${JSON.stringify(loja)}`
+                    `Loja sem tipo válido encontrada. Dados: ${JSON.stringify(
+                        loja
+                    )}`
                 );
             }
             return acc;
@@ -33,7 +42,9 @@ export function categorizeStores(
         { pdvs: [], lojas: [] }
     );
 
-    // Log para conferir os tipos de lojas categorizadas
-    // logger.log(`Lojas categorizadas: ${JSON.stringify(tiposDeLojasMenor50Km)}`);
+    logger.log(
+        `Categorização concluída. Lojas PDV: ${tiposDeLojasMenor50Km.pdvs.length}, Lojas: ${tiposDeLojasMenor50Km.lojas.length}`
+    );
+
     return tiposDeLojasMenor50Km;
 }

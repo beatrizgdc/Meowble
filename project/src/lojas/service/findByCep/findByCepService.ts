@@ -23,7 +23,7 @@ export class findByCepServiceService {
     async findByCep(cep: string, limit: number = 1, offset: number = 0) {
         this.logger.log(`Iniciando busca de lojas para o CEP: ${cep}`);
         try {
-            // coordenadas (getCoordinates.ts)
+            // Coordenadas (getCoordinates.ts)
             const coordenadas = await getCoordinates(
                 this.hereMapsService,
                 cep,
@@ -35,26 +35,30 @@ export class findByCepServiceService {
                 !coordenadas.longitude
             ) {
                 this.logger.error(
-                    'Falha ao obter coordenadas para o CEP fornecido.',
+                    `Falha ao obter coordenadas para o CEP: ${cep}`,
                     error
                 );
                 throw new Error('Falha ao obter coordenadas.');
             }
-            this.logger.log(`Coordenadas obtidas`);
+            this.logger.log(
+                `Coordenadas obtidas com sucesso para o CEP: ${cep}`
+            );
 
-            // listar todas as lojas (lojaRepo.ts / uso do findAll)
+            // Listar todas as lojas (lojaRepo.ts / uso do findAll)
             const lojasData = await this.lojaRepository.findAll(limit, offset);
-            if (!lojasData) {
+            if (!lojasData || lojasData.length === 0) {
                 this.logger.error(
                     'Nenhuma loja encontrada no banco de dados.',
                     error
                 );
                 throw new Error('Nenhuma loja encontrada.');
             }
-            this.logger.log(`Lojas obtidas com sucesso!`);
+            this.logger.log(
+                `Lojas obtidas com sucesso. Total de lojas: ${lojasData.length}`
+            );
 
             const totalLojas = await this.lojaRepository.count();
-            this.logger.log(`Total de lojas encontradas: ${totalLojas}`);
+            this.logger.log(`Total de lojas no banco de dados: ${totalLojas}`);
 
             // Calcular distâncias (calculateDistances.ts)
             const lojasComDistancia = calculateDistances(
@@ -62,7 +66,7 @@ export class findByCepServiceService {
                 coordenadas,
                 this.logger
             );
-            if (!lojasComDistancia) {
+            if (!lojasComDistancia || lojasComDistancia.length === 0) {
                 this.logger.error(
                     'Falha ao calcular distâncias para as lojas.',
                     error
@@ -70,10 +74,10 @@ export class findByCepServiceService {
                 throw new Error('Erro ao calcular distâncias.');
             }
             this.logger.log(
-                `Calculo de distância das lojas realizados com sucesso!`
+                'Cálculo de distâncias das lojas realizado com sucesso.'
             );
 
-            // Filtrar lojas por distância e calc frete e delivery (filterStores.ts)
+            // Filtrar lojas por distância e calcular frete e delivery (filterStores.ts)
             const { lojasMenor50Km, lojasMaiorIgual50Km } = await filterStores(
                 lojasComDistancia,
                 50,
@@ -87,25 +91,19 @@ export class findByCepServiceService {
 
             if (!lojasMenor50Km) {
                 this.logger.error(
-                    'Erro ao filtrar lojas por distância do CEP fornecido. (lojasMenor50Km)',
-                    error
-                );
-            } else if (!lojasMaiorIgual50Km) {
-                this.logger.error(
-                    'Erro ao filtrar lojas por distância do CEP fornecido. (lojasMaiorIgual50Km)',
+                    'Erro ao filtrar lojas a menos de 50 km do CEP fornecido. (lojasMenor50Km)',
                     error
                 );
             }
-            this.logger.log(`Lojas filtradas com sucesso!`);
+            if (!lojasMaiorIgual50Km) {
+                this.logger.error(
+                    'Erro ao filtrar lojas a 50 km ou mais do CEP fornecido. (lojasMaiorIgual50Km)',
+                    error
+                );
+            }
+            this.logger.log('Filtragem de lojas concluída com sucesso.');
 
-            // this.logger.log(
-            //     `Lojas maiores ou iguais a 50km: ${JSON.stringify(
-            //         lojasMaiorIgual50Km
-            //     )}
-            //     Lojas menores que 50km: ${JSON.stringify(lojasMenor50Km)}`
-            // );
-
-            // categorirazar pdv/loja para lojasMenor50Km (categorizeStores.ts)
+            // Categorizar lojas (categorizeStores.ts)
             const tiposDeLojasMenor50Km = categorizeStores(
                 lojasMenor50Km,
                 this.logger
@@ -121,24 +119,34 @@ export class findByCepServiceService {
                 total: totalLojas,
             };
 
+            this.logger.log('Busca de lojas por CEP concluída com sucesso.');
             return response;
-
-            // tratamento erro
-        } catch (error) {
-            this.logger.error(
-                `Erro ao buscar lojas por CEP: ${cep} | erro tryCacth findByCep`,
-                error
-            );
-            return {
-                mensagem: 'Erro ao buscar lojas por CEP.',
-                detalhes: {
-                    mensagem:
-                        error instanceof Error
-                            ? error.message
-                            : 'Erro desconhecido.',
-                    stack: error instanceof Error ? error.stack : null,
-                },
-            };
+        } catch (error: unknown) {
+            if (error instanceof Error) {
+                this.logger.error(
+                    `Erro ao buscar lojas para o CEP: ${cep}. Erro: ${error.message}`,
+                    error
+                );
+                return {
+                    mensagem: 'Erro ao buscar lojas por CEP.',
+                    detalhes: {
+                        mensagem: error.message,
+                        stack: error.stack,
+                    },
+                };
+            } else {
+                this.logger.error(
+                    `Erro desconhecido ao buscar lojas para o CEP: ${cep}.`,
+                    error
+                );
+                return {
+                    mensagem: 'Erro desconhecido ao buscar lojas por CEP.',
+                    detalhes: {
+                        mensagem: 'Erro desconhecido.',
+                        stack: null,
+                    },
+                };
+            }
         }
     }
 }

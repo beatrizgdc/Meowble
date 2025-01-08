@@ -26,14 +26,12 @@ export async function getFrete(
 
     try {
         const frete = await correiosService.obterPrecosEPrazos(correiosDto);
-        // logger.log('Sucesso ao calcular o frete!');
+        logger.log('Frete calculado com sucesso.');
         return frete;
     } catch (error) {
-        if (error instanceof Error) {
-            logger.error(`Erro ao calcular o frete: ${error.message}`, error);
-        } else {
-            logger.error('Erro ao calcular o frete: tipo desconhecido', error);
-        }
+        const errorMessage =
+            error instanceof Error ? error.message : 'Erro desconhecido';
+        logger.error(`Falha ao calcular o frete: ${errorMessage}`, error);
         throw error;
     }
 }

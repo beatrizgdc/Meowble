@@ -12,14 +12,17 @@ export class CreateLojaService {
     ) {}
 
     async create(createLojaDto: CreateLojaDto): Promise<LojaDocument> {
-        this.logger.log('Recebendo dados para criação da loja 👩‍💻👩‍💻');
+        this.logger.log('Recebendo dados para criação da loja...');
+
         try {
             const resultado = await this.lojaRepository.create(createLojaDto);
-            this.logger.log('Loja criada com sucesso 😸😸');
+            this.logger.log('Loja criada com sucesso!');
             return resultado;
         } catch (error) {
-            this.logger.error('Erro ao salvar a nova loja: 😿😿', error);
-            throw error;
+            this.logger.error('Erro ao tentar criar a loja:', error);
+            throw new Error(
+                'Falha na criação da loja. Por favor, tente novamente.'
+            );
         }
     }
 }

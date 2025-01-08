@@ -31,6 +31,9 @@ export async function filterStores(
         ) {
             // Calcular delivery para lojas < 50km (todos os tipos)
             try {
+                logger.log(
+                    `Calculando custo de delivery para loja ${loja.id} (${loja.lojaNome})...`
+                );
                 const deliveryCost = await getDeliveryCost(
                     parseFloat(loja.latitude),
                     parseFloat(loja.longitude),
@@ -43,11 +46,26 @@ export async function filterStores(
                 lojasMenor50Km.push(
                     formatStoreData(loja, [], loja.distanciaKm!, deliveryCost)
                 );
+                logger.log(
+                    `Custo de delivery calculado com sucesso para a loja ${loja.id} (${loja.lojaNome}).`
+                );
             } catch (error) {
-                logger.error('Erro ao calcular o custo de delivery', error);
+                logger.error(
+                    `Erro ao calcular custo de delivery para loja ${loja.id} (${
+                        loja.lojaNome
+                    }). Erro: ${
+                        error instanceof Error
+                            ? error.message
+                            : 'Erro desconhecido'
+                    }`,
+                    error
+                );
             }
         } else if (loja.lojaTipo === 'LOJA') {
             try {
+                logger.log(
+                    `Calculando frete para loja ${loja.id} (${loja.lojaNome})...`
+                );
                 const frete = await getFrete(
                     loja.codigoPostal,
                     cepDestino,
@@ -58,8 +76,20 @@ export async function filterStores(
                 lojasMaiorIgual50Km.push(
                     formatStoreData(loja, frete, loja.distanciaKm!)
                 );
+                logger.log(
+                    `Frete calculado com sucesso para a loja ${loja.id} (${loja.lojaNome}).`
+                );
             } catch (error) {
-                logger.error('Erro ao calcular o frete', error);
+                logger.error(
+                    `Erro ao calcular frete para loja ${loja.id} (${
+                        loja.lojaNome
+                    }). Erro: ${
+                        error instanceof Error
+                            ? error.message
+                            : 'Erro desconhecido'
+                    }`,
+                    error
+                );
             }
         }
     }
@@ -71,6 +101,8 @@ export async function filterStores(
     lojasMaiorIgual50Km.sort(
         (a, b) => parseFloat(a.distance) - parseFloat(b.distance)
     );
+
+    logger.log('Filtro de lojas concluído com sucesso.');
 
     return { lojasMenor50Km, lojasMaiorIgual50Km };
 }
