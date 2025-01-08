@@ -13,8 +13,8 @@ export class GetDeliveryCustoService {
         distanciaKm: number,
         estimatedTimeMin: number
     ): number {
-        const costPerKm = 2.5;
-        const costPerMinute = 0.5;
+        const costPerKm = 0.2;
+        const costPerMinute = 0.25;
         const fixedCost = 5.0;
 
         return (
