@@ -16,10 +16,10 @@ export class CorreiosService {
     async obterPrecosEPrazos(correiosDto: CorreiosDto): Promise<any> {
         try {
             const response = await axios.post(this.apiUrl, correiosDto);
-            this.logger.log('Chamada à API dos Correios bem-sucedida.');
+            // this.logger.log('Chamada à API dos Correios bem-sucedida.');
             return response.data;
         } catch (error) {
-            this.logger.error('Erro na chamada à API dos Correios:', error);
+            // this.logger.error('Erro na chamada à API dos Correios:', error);
             throw new Error('Erro na chamada à API dos Correios');
         }
     }
