@@ -13,21 +13,19 @@ export function categorizeStores(
         [key: string]: LojaComDistancia[];
     }>(
         (acc, loja) => {
-            if (loja && loja.lojaTipo) {
-                const lojaTipo = loja.lojaTipo;
-                logger.log(
-                    `Categorizando loja ${loja.id} como tipo: ${lojaTipo}`
-                );
+            if (loja && loja.type) {
+                const type = loja.type;
+                logger.log(`Categorizando loja ${loja.id} como tipo: ${type}`);
 
-                if (lojaTipo === 'PDV') {
+                if (type === 'PDV') {
                     if (!acc['pdvs']) acc['pdvs'] = [];
                     acc['pdvs'].push(loja);
-                } else if (lojaTipo === 'LOJA') {
+                } else if (type === 'LOJA') {
                     if (!acc['lojas']) acc['lojas'] = [];
                     acc['lojas'].push(loja);
                 } else {
                     logger.warn(
-                        `Tipo de loja desconhecido encontrado: ${lojaTipo} para loja ${loja.id}`
+                        `Tipo de loja desconhecido encontrado: ${type} para loja ${loja.id}`
                     );
                 }
             } else {

@@ -7,9 +7,10 @@ function formatStoreData(
     deliveryCost?: { estimatedTimeMin: number; totalCost: number }
 ) {
     return {
-        name: loja.lojaNome,
-        postalCode: loja.codigoPostal,
-        lojaTipo: loja.lojaTipo,
+        name: loja.storeName,
+        postalCode: loja.postalCode,
+        city: loja.city,
+        type: loja.type,
         distance: `${distanciaKm.toFixed(0)} km`,
         value: frete.map((item: any) => ({
             prazo: item.prazo,
@@ -28,7 +29,7 @@ function formatStoreData(
                 lat: loja.latitude,
                 lng: loja.longitude,
             },
-            title: loja.lojaNome,
+            title: loja.storeName,
         },
     };
 }

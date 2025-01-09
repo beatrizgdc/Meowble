@@ -13,7 +13,7 @@ export function calculateDistances(
 
         if (isNaN(lojaLatitude) || isNaN(lojaLongitude)) {
             logger.error(
-                `Coordenadas inválidas para a loja ${loja.lojaNome}: Latitude ${loja.latitude}, Longitude ${loja.longitude}`
+                `Coordenadas inválidas para a loja ${loja.storeName}: Latitude ${loja.latitude}, Longitude ${loja.longitude}`
             );
             return {
                 ...loja.toObject(),
@@ -30,7 +30,7 @@ export function calculateDistances(
         );
 
         logger.log(
-            `Distância calculada para a loja ${loja.lojaNome}: ${
+            `Distância calculada para a loja ${loja.storeName}: ${
                 distanceInMeters / 1000
             } km`
         );

@@ -33,46 +33,40 @@ describe('CreateLojaService', () => {
 
     it('should create a loja successfully', async () => {
         const createLojaDto: CreateLojaDto = {
-            lojaNome: 'MEOWBLE 03',
-            lojaTipo: 'LOJA',
-            disponivelNoEstoque: true,
-            tempoDePreparo: 4,
+            storeName: 'MEOWBLE 03',
+            type: 'LOJA',
+            takeOutInStore: true,
+            shippingTimeInDays: 4,
             latitude: '-23.21287',
             longitude: '-46.83805',
-            codigoPostal: '13220-001',
-            numero: 800,
-            uf: 'SP',
-            pais: 'Brasil',
-            lojaTelefone: '12345678',
+            postalCode: '13220-001',
+            state: 'SP',
+            country: 'Brasil',
         };
 
         // Mock do LojaDocument com campos necessários
         const lojaMock: Partial<LojaDocument> = {
             _id: '123',
-            lojaNome: 'MEOWBLE 03',
-            lojaTipo: 'LOJA',
-            disponivelNoEstoque: true,
-            tempoDePreparo: 4,
+            storeName: 'MEOWBLE 03',
+            type: 'LOJA',
+            takeOutInStore: true,
+            shippingTimeInDays: 4,
             latitude: '-23.21287',
             longitude: '-46.83805',
-            codigoPostal: '13220-001',
-            numero: 800,
-            uf: 'SP',
-            pais: 'Brasil',
-            lojaTelefone: '12345678',
+            postalCode: '13220-001',
+            state: 'SP',
+            country: 'Brasil',
             toObject: () => ({
                 _id: '123',
-                lojaNome: 'MEOWBLE 03',
-                lojaTipo: 'LOJA',
-                disponivelNoEstoque: true,
-                tempoDePreparo: 4,
+                storeName: 'MEOWBLE 03',
+                type: 'LOJA',
+                takeOutInStore: true,
+                shippingTimeInDays: 4,
                 latitude: '-23.21287',
                 longitude: '-46.83805',
-                codigoPostal: '13220-001',
-                numero: 800,
-                uf: 'SP',
-                pais: 'Brasil',
-                lojaTelefone: '12345678',
+                postalCode: '13220-001',
+                state: 'SP',
+                country: 'Brasil',
             }),
         };
 
@@ -90,17 +84,15 @@ describe('CreateLojaService', () => {
 
     it('should throw an error if creation fails', async () => {
         const createLojaDto: CreateLojaDto = {
-            lojaNome: 'MEOWBLE 03',
-            lojaTipo: 'LOJA',
-            disponivelNoEstoque: true,
-            tempoDePreparo: 4,
+            storeName: 'MEOWBLE 03',
+            type: 'LOJA',
+            takeOutInStore: true,
+            shippingTimeInDays: 4,
             latitude: '-23.21287',
             longitude: '-46.83805',
-            codigoPostal: '13220-001',
-            numero: 800,
-            uf: 'SP',
-            pais: 'Brasil',
-            lojaTelefone: '12345678',
+            postalCode: '13220-001',
+            state: 'SP',
+            country: 'Brasil',
         };
 
         lojaRepository.create = jest

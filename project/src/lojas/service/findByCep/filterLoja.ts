@@ -32,7 +32,7 @@ export async function filterStores(
             // Calcular delivery para lojas < 50km (todos os tipos)
             try {
                 logger.log(
-                    `Calculando custo de delivery para loja ${loja.id} (${loja.lojaNome})...`
+                    `Calculando custo de delivery para loja ${loja.id} (${loja.storeName})...`
                 );
                 const deliveryCost = await getDeliveryCost(
                     parseFloat(loja.latitude),
@@ -47,12 +47,12 @@ export async function filterStores(
                     formatStoreData(loja, [], loja.distanciaKm!, deliveryCost)
                 );
                 logger.log(
-                    `Custo de delivery calculado com sucesso para a loja ${loja.id} (${loja.lojaNome}).`
+                    `Custo de delivery calculado com sucesso para a loja ${loja.id} (${loja.storeName}).`
                 );
             } catch (error) {
                 logger.error(
                     `Erro ao calcular custo de delivery para loja ${loja.id} (${
-                        loja.lojaNome
+                        loja.storeName
                     }). Erro: ${
                         error instanceof Error
                             ? error.message
@@ -61,13 +61,13 @@ export async function filterStores(
                     error
                 );
             }
-        } else if (loja.lojaTipo === 'LOJA') {
+        } else if (loja.type === 'LOJA') {
             try {
                 logger.log(
-                    `Calculando frete para loja ${loja.id} (${loja.lojaNome})...`
+                    `Calculando frete para loja ${loja.id} (${loja.storeName})...`
                 );
                 const frete = await getFrete(
-                    loja.codigoPostal,
+                    loja.postalCode,
                     cepDestino,
                     correiosService,
                     logger
@@ -77,12 +77,12 @@ export async function filterStores(
                     formatStoreData(loja, frete, loja.distanciaKm!)
                 );
                 logger.log(
-                    `Frete calculado com sucesso para a loja ${loja.id} (${loja.lojaNome}).`
+                    `Frete calculado com sucesso para a loja ${loja.id} (${loja.storeName}).`
                 );
             } catch (error) {
                 logger.error(
                     `Erro ao calcular frete para loja ${loja.id} (${
-                        loja.lojaNome
+                        loja.storeName
                     }). Erro: ${
                         error instanceof Error
                             ? error.message

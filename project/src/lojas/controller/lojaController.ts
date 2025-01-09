@@ -96,7 +96,7 @@ export class LojaController {
         }
     }
 
-    @Get('uf/:uf')
+    @Get('uf/:state')
     @ApiOperation({ summary: 'Listar lojas no estado.' })
     @ApiResponse({ status: 200, description: 'Lojas listadas com sucesso!' })
     @ApiResponse({
@@ -104,20 +104,20 @@ export class LojaController {
         description: 'Erro ao buscar lojas por UF.',
     })
     async findByUf(
-        @Param('uf') uf: string,
+        @Param('state') state: string,
         @Query('limit') limit: number = 1,
         @Query('offset') offset: number = 0,
         @Res() res: Response
     ) {
         try {
-            console.log(`Buscando lojas pelo estado: ${uf}`);
-            if (!this.IsValidState.validate(uf, {} as ValidationArguments)) {
-                console.log('Estado inválido:', uf);
+            console.log(`Buscando lojas pelo estado: ${state}`);
+            if (!this.IsValidState.validate(state, {} as ValidationArguments)) {
+                console.log('Estado inválido:', state);
                 throw new BadRequestException('O estado informado é inválido.');
             }
 
             const resultado = await this.lojaService.findByUf(
-                uf,
+                state,
                 limit,
                 offset
             );

@@ -33,16 +33,16 @@ export class LojaRepository {
 
     // Listar por UF
     async findByUf(
-        uf: string,
+        state: string,
         limit: number,
         offset: number
     ): Promise<LojaDocument[]> {
-        return this.lojaModel.find({ uf }).skip(offset).limit(limit).exec();
+        return this.lojaModel.find({ state }).skip(offset).limit(limit).exec();
     }
 
     // Contar documentos por UF
-    async countByUf(uf: string): Promise<number> {
-        return this.lojaModel.countDocuments({ uf }).exec();
+    async countByUf(state: string): Promise<number> {
+        return this.lojaModel.countDocuments({ state }).exec();
     }
 
     // Listar por Cep

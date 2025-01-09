@@ -1876,3 +1876,233 @@
 {"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 10:37:07"}
 {"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 10:37:28"}
 {"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 10:37:29"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:14:23"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:14:23"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:14:36"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:14:37"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:14:58"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:14:59"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:15:19"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:15:19"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:16:20"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:16:21"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:16:31"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:16:32"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:17:16"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:17:17"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:17:33"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:17:34"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:25:46"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:25:47"}
+{"level":"info","message":"Listando lojas com limite: 1 e offset: 0","timestamp":"2025-01-09 11:26:09"}
+{"level":"info","message":"Buscando todas as lojas com limite: 1 e offset: 0...","timestamp":"2025-01-09 11:26:09"}
+{"level":"info","message":"Lojas listadas com sucesso. Total de lojas: 17","timestamp":"2025-01-09 11:26:09"}
+{"level":"info","message":"Lojas listadas com sucesso: {\"stores\":[{\"_id\":\"677c52643b8db6ae4c4439c0\",\"lojaNome\":\"MEOWBLE 01\",\"lojaTipo\":\"PDV\",\"latitude\":\"-22.7281492\",\"longitude\":\"-47.6491166\",\"codigoPostal\":\"13400-070\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0}],\"limit\":1,\"offset\":0,\"total\":17}","timestamp":"2025-01-09 11:26:09"}
+{"level":"info","message":"Buscando loja pelo ID: 677c52643b8db6ae4c4439c0","timestamp":"2025-01-09 11:26:18"}
+{"level":"info","message":"Buscando loja pelo ID: 677c52643b8db6ae4c4439c0...","timestamp":"2025-01-09 11:26:18"}
+{"level":"info","message":"Loja com ID 677c52643b8db6ae4c4439c0 encontrada com sucesso.","timestamp":"2025-01-09 11:26:18"}
+{"level":"info","message":"Loja encontrada: {\"stores\":[{\"lojaNome\":\"MEOWBLE 01\",\"lojaTipo\":\"PDV\",\"codigoPostal\":\"13400-070\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0}],\"limit\":1,\"offset\":0,\"total\":1}","timestamp":"2025-01-09 11:26:18"}
+{"level":"info","message":"Buscando lojas por UF: SP com limite: 10 e offset: 0","timestamp":"2025-01-09 11:26:24"}
+{"level":"info","message":"Buscando lojas na UF SP...","timestamp":"2025-01-09 11:26:24"}
+{"level":"info","message":"Lojas na UF SP encontradas: 10","timestamp":"2025-01-09 11:26:24"}
+{"level":"info","message":"Lojas encontradas por UF: {\"stores\":[{\"_id\":\"677c52643b8db6ae4c4439c0\",\"lojaNome\":\"MEOWBLE 01\",\"lojaTipo\":\"PDV\",\"codigoPostal\":\"13400-070\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0},{\"_id\":\"677c53153b8db6ae4c4439c2\",\"lojaNome\":\"MEOWBLE 01\",\"lojaTipo\":\"PDV\",\"codigoPostal\":\"13405-112\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0},{\"_id\":\"677c54633b8db6ae4c4439c4\",\"lojaNome\":\"MEOWBLE 02\",\"lojaTipo\":\"PDV\",\"codigoPostal\":\"01451-000\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0},{\"_id\":\"677c54b03b8db6ae4c4439c6\",\"lojaNome\":\"MEOWBLE 02\",\"lojaTipo\":\"PDV\",\"codigoPostal\":\"02256-000\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0},{\"_id\":\"677c54fd3b8db6ae4c4439c8\",\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"PDV\",\"codigoPostal\":\"13220-001\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0},{\"_id\":\"677c554d3b8db6ae4c4439ca\",\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"PDV\",\"codigoPostal\":\"13234-221\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0},{\"_id\":\"677d910b650560d76b47d989\",\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"PDV\",\"codigoPostal\":\"13234-221\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0},{\"_id\":\"677d9145561bb7acb182eccb\",\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"PDV\",\"codigoPostal\":\"13234-221\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0},{\"_id\":\"677da6a754b648a9878ed125\",\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"LOJA\",\"codigoPostal\":\"18590-000\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0},{\"_id\":\"677e6256b8ecb91685fdfde8\",\"lojaNome\":\"MEOWBLE 03\",\"lojaTipo\":\"PDV\",\"codigoPostal\":\"18590-000\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0}],\"limit\":\"10\",\"offset\":\"0\",\"total\":17}","timestamp":"2025-01-09 11:26:24"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:30:43"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:30:43"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:31:10"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:31:10"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:31:32"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:31:33"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:31:57"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:31:58"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:32:19"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:32:19"}
+{"level":"info","message":"Buscando lojas por UF: SP com limite: 10 e offset: 0","timestamp":"2025-01-09 11:32:29"}
+{"level":"info","message":"Buscando lojas na UF SP...","timestamp":"2025-01-09 11:32:29"}
+{"level":"warn","message":"Nenhuma loja encontrada na UF SP.","timestamp":"2025-01-09 11:32:29"}
+{"level":"info","message":"Lojas encontradas por UF: {\"stores\":[],\"limit\":\"10\",\"offset\":\"0\",\"total\":0,\"mensagem\":\"Nenhuma loja encontrada na UF SP.\"}","timestamp":"2025-01-09 11:32:29"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 50 e offset: 0","timestamp":"2025-01-09 11:32:50"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 11:32:50"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 17","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Total de lojas no banco de dados: 17","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 886.043 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 844.52 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 830.739 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 0.239 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 3.917 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 23.683 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.588 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.012 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Distância calculada para a loja undefined: 61.067 km","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 11:32:51"}
+{"level":"info","message":"Tempo estimado calculado: 4 minutos.","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Tempo estimado para a entrega: 4 minutos","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Custo total da entrega calculado: 6.0478 unidades monetárias","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Tempo estimado calculado: 15 minutos.","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Tempo estimado para a entrega: 15 minutos","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Custo total da entrega calculado: 9.5334 unidades monetárias","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Tempo estimado calculado: 52 minutos.","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Tempo estimado para a entrega: 52 minutos","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Custo total da entrega calculado: 22.7366 unidades monetárias","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Tempo estimado calculado: 37 minutos.","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Tempo estimado para a entrega: 37 minutos","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Custo total da entrega calculado: 17.1676 unidades monetárias","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Tempo estimado calculado: 40 minutos.","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Tempo estimado para a entrega: 40 minutos","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Custo total da entrega calculado: 17.8024 unidades monetárias","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 5","timestamp":"2025-01-09 11:32:52"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"0 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":4,\"totalCost\":\"R$ 6.05\"},\"pins\":{\"position\":{\"lat\":\"-30.02515\",\"lng\":\"-51.16217\"}}}","timestamp":"2025-01-09 11:32:52"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"4 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":15,\"totalCost\":\"R$ 9.53\"},\"pins\":{\"position\":{\"lat\":\"-29.99769\",\"lng\":\"-51.14093\"}}}","timestamp":"2025-01-09 11:32:52"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"14 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":40,\"totalCost\":\"R$ 17.80\"},\"pins\":{\"position\":{\"lat\":\"-30.15208\",\"lng\":\"-51.14924\"}}}","timestamp":"2025-01-09 11:32:52"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"15 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":37,\"totalCost\":\"R$ 17.17\"},\"pins\":{\"position\":{\"lat\":\"-30.15787\",\"lng\":\"-51.16188\"}}}","timestamp":"2025-01-09 11:32:52"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"24 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":52,\"totalCost\":\"R$ 22.74\"},\"pins\":{\"position\":{\"lat\":\"-30.22534\",\"lng\":\"-51.07524\"}}}","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":\"50\",\"offset\":0,\"total\":17}","timestamp":"2025-01-09 11:32:52"}
+{"level":"info","message":"Iniciando a criação da loja com os dados: {\"storeName\":\"MEOWBLE 03\",\"type\":\"LOJA\",\"takeOutInStore\":true,\"shippingTimeInDays\":4,\"latitude\":\"-29.50284\",\"longitude\":\"-50.97666\",\"postalCode\":\"93995-000\",\"state\":\"SP\",\"country\":\"Brasil\"}","timestamp":"2025-01-09 11:33:54"}
+{"level":"info","message":"Recebendo dados para criação da loja...","timestamp":"2025-01-09 11:33:54"}
+{"detalhes":"ValidationError","level":"error","message":"Erro ao tentar criar a loja:: Loja validation failed: lojaTelefone: Path `lojaTelefone` is required., lojaTipo: Path `lojaTipo` is required.","stack":"ValidationError: Loja validation failed: lojaTelefone: Path `lojaTelefone` is required., lojaTipo: Path `lojaTipo` is required.\n    at model.Document.invalidate (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\document.js:3331:32)\n    at C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\document.js:3092:17\n    at C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-01-09 11:33:54"}
+{"detalhes":"Error","level":"error","message":"Erro ao criar loja: Falha na criação da loja. Por favor, tente novamente.","stack":"Error: Falha na criação da loja. Por favor, tente novamente.\n    at CreateLojaService.create (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\service\\createLojaService.ts:23:19)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async LojaService.create (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\service\\lojaService.ts:28:26)\n    at async LojaController.create (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\controller\\lojaController.ts:42:26)\n    at async C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at async C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17","timestamp":"2025-01-09 11:33:54"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:35:05"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:35:06"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:48:52"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:48:53"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:51:21"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:51:22"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:52:34"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:52:35"}
+{"level":"info","message":"Iniciando a criação da loja com os dados: {\"storeName\":\"MEOWBLE 03\",\"type\":\"LOJA\",\"takeOutInStore\":true,\"shippingTimeInDays\":4,\"latitude\":\"-29.50284\",\"longitude\":\"-50.97666\",\"postalCode\":\"93995-000\",\"state\":\"SP\",\"country\":\"Brasil\"}","timestamp":"2025-01-09 11:52:37"}
+{"level":"info","message":"Recebendo dados para criação da loja...","timestamp":"2025-01-09 11:52:37"}
+{"detalhes":"ValidationError","level":"error","message":"Erro ao tentar criar a loja:: Loja validation failed: lojaTipo: Path `lojaTipo` is required.","stack":"ValidationError: Loja validation failed: lojaTipo: Path `lojaTipo` is required.\n    at model.Document.invalidate (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\document.js:3331:32)\n    at C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\document.js:3092:17\n    at C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-01-09 11:52:37"}
+{"detalhes":"Error","level":"error","message":"Erro ao criar loja: Falha na criação da loja. Por favor, tente novamente.","stack":"Error: Falha na criação da loja. Por favor, tente novamente.\n    at CreateLojaService.create (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\service\\createLojaService.ts:23:19)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async LojaService.create (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\service\\lojaService.ts:28:26)\n    at async LojaController.create (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\controller\\lojaController.ts:42:26)\n    at async C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at async C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17","timestamp":"2025-01-09 11:52:37"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:53:03"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:53:03"}
+{"level":"info","message":"Iniciando a criação da loja com os dados: {\"storeName\":\"MEOWBLE 03\",\"type\":\"LOJA\",\"takeOutInStore\":true,\"shippingTimeInDays\":4,\"latitude\":\"-29.50284\",\"longitude\":\"-50.97666\",\"postalCode\":\"93995-000\",\"state\":\"SP\",\"country\":\"Brasil\"}","timestamp":"2025-01-09 11:53:10"}
+{"level":"info","message":"Recebendo dados para criação da loja...","timestamp":"2025-01-09 11:53:10"}
+{"level":"info","message":"Loja criada com sucesso!","timestamp":"2025-01-09 11:53:10"}
+{"level":"info","message":"Loja criada com sucesso: {\"storeName\":\"MEOWBLE 03\",\"type\":\"LOJA\",\"takeOutInStore\":true,\"shippingTimeInDays\":4,\"latitude\":\"-29.50284\",\"longitude\":\"-50.97666\",\"postalCode\":\"93995-000\",\"state\":\"SP\",\"country\":\"Brasil\",\"_id\":\"677fe2d62607e5b6a6d04bcc\",\"__v\":0}","timestamp":"2025-01-09 11:53:10"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 50 e offset: 0","timestamp":"2025-01-09 11:53:27"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 11:53:27"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 18","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Total de lojas no banco de dados: 18","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 886.043 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 844.52 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 830.739 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 0.239 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 3.917 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 23.683 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.588 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.012 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 61.067 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 61.067 km","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 11:53:28"}
+{"level":"info","message":"Tempo estimado calculado: 4 minutos.","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Tempo estimado para a entrega: 4 minutos","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Custo total da entrega calculado: 6.0478 unidades monetárias","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Tempo estimado calculado: 14 minutos.","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Tempo estimado para a entrega: 14 minutos","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Custo total da entrega calculado: 9.2834 unidades monetárias","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Tempo estimado calculado: 52 minutos.","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Tempo estimado para a entrega: 52 minutos","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Custo total da entrega calculado: 22.7366 unidades monetárias","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Tempo estimado calculado: 38 minutos.","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Tempo estimado para a entrega: 38 minutos","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Custo total da entrega calculado: 17.4176 unidades monetárias","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 11:53:29"}
+{"level":"info","message":"Tempo estimado calculado: 41 minutos.","timestamp":"2025-01-09 11:53:30"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 11:53:30"}
+{"level":"info","message":"Tempo estimado para a entrega: 41 minutos","timestamp":"2025-01-09 11:53:30"}
+{"level":"info","message":"Custo total da entrega calculado: 18.0524 unidades monetárias","timestamp":"2025-01-09 11:53:30"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 11:53:30"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 11:53:30"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 11:53:31"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 11:53:31"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 11:53:31"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 11:53:31"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 5","timestamp":"2025-01-09 11:53:31"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"0 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":4,\"totalCost\":\"R$ 6.05\"},\"pins\":{\"position\":{\"lat\":\"-30.02515\",\"lng\":\"-51.16217\"}}}","timestamp":"2025-01-09 11:53:31"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"4 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":14,\"totalCost\":\"R$ 9.28\"},\"pins\":{\"position\":{\"lat\":\"-29.99769\",\"lng\":\"-51.14093\"}}}","timestamp":"2025-01-09 11:53:31"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"14 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":41,\"totalCost\":\"R$ 18.05\"},\"pins\":{\"position\":{\"lat\":\"-30.15208\",\"lng\":\"-51.14924\"}}}","timestamp":"2025-01-09 11:53:31"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"15 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":38,\"totalCost\":\"R$ 17.42\"},\"pins\":{\"position\":{\"lat\":\"-30.15787\",\"lng\":\"-51.16188\"}}}","timestamp":"2025-01-09 11:53:31"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"24 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":52,\"totalCost\":\"R$ 22.74\"},\"pins\":{\"position\":{\"lat\":\"-30.22534\",\"lng\":\"-51.07524\"}}}","timestamp":"2025-01-09 11:53:31"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 11:53:31"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 11:53:31"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"61 km\",\"value\":[{\"prazo\":\"2 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":\"50\",\"offset\":0,\"total\":18}","timestamp":"2025-01-09 11:53:31"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:56:27"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:56:28"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:56:44"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:56:44"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:56:55"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:56:55"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 11:58:19"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 11:58:19"}
+{"level":"info","message":"Iniciando a criação da loja com os dados: {\"storeName\":\"MEOWBLE 03\",\"type\":\"LOJA\",\"takeOutInStore\":true,\"shippingTimeInDays\":4,\"latitude\":\"-29.50284\",\"longitude\":\"-50.97666\",\"postalCode\":\"93995-000\",\"state\":\"SP\",\"city\":\"SP\",\"country\":\"Brasil\"}","timestamp":"2025-01-09 11:58:27"}
+{"level":"info","message":"Recebendo dados para criação da loja...","timestamp":"2025-01-09 11:58:27"}
+{"level":"info","message":"Loja criada com sucesso!","timestamp":"2025-01-09 11:58:27"}
+{"level":"info","message":"Loja criada com sucesso: {\"storeName\":\"MEOWBLE 03\",\"type\":\"LOJA\",\"takeOutInStore\":true,\"shippingTimeInDays\":4,\"latitude\":\"-29.50284\",\"longitude\":\"-50.97666\",\"postalCode\":\"93995-000\",\"state\":\"SP\",\"city\":\"SP\",\"country\":\"Brasil\",\"_id\":\"677fe4137670523f92b7dc39\",\"__v\":0}","timestamp":"2025-01-09 11:58:27"}

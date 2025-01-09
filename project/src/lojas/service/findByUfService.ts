@@ -12,18 +12,22 @@ export class FindByUfService {
     ) {}
 
     async findByUf(
-        uf: string,
+        state: string,
         limit: number = 1,
         offset: number = 0
     ): Promise<LojaRetorno> {
         try {
-            this.logger.log(`Buscando lojas na UF ${uf}...`);
+            this.logger.log(`Buscando lojas na UF ${state}...`);
 
-            const lojas = await this.lojaRepository.findByUf(uf, limit, offset);
-            const total = await this.lojaRepository.countByUf(uf);
+            const lojas = await this.lojaRepository.findByUf(
+                state,
+                limit,
+                offset
+            );
+            const total = await this.lojaRepository.countByUf(state);
 
             if (lojas.length === 0) {
-                const mensagem = `Nenhuma loja encontrada na UF ${uf}.`;
+                const mensagem = `Nenhuma loja encontrada na UF ${state}.`;
                 this.logger.warn(mensagem);
                 return { stores: [], limit, offset, total, mensagem };
             }
@@ -39,10 +43,12 @@ export class FindByUfService {
                 return resto;
             });
 
-            this.logger.log(`Lojas na UF ${uf} encontradas: ${lojas.length}`);
+            this.logger.log(
+                `Lojas na UF ${state} encontradas: ${lojas.length}`
+            );
             return { stores: lojasFiltradas, limit, offset, total };
         } catch (error) {
-            this.logger.error(`Erro ao buscar lojas na UF ${uf}:`, error);
+            this.logger.error(`Erro ao buscar lojas na UF ${state}:`, error);
             throw error;
         }
     }

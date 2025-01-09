@@ -10,13 +10,13 @@ import {
 import { IsValidCep } from '../../validators/cepValidator';
 import { IsValidCountry } from '../../validators/paisValidator';
 import { IsValidState } from '../../validators/estadoValidator';
-import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
+import { ApiProperty } from '@nestjs/swagger';
 
 export class CreateLojaDto {
     @ApiProperty()
     @IsNotEmpty({ message: 'O nome da loja é um campo obrigatório.' })
     @IsString({ message: 'O nome da loja deve ser uma string.' })
-    lojaNome!: string;
+    storeName!: string;
 
     @ApiProperty()
     @IsNotEmpty({ message: 'O tipo da loja é um campo  obrigatório.' })
@@ -24,7 +24,7 @@ export class CreateLojaDto {
     @IsIn(['LOJA', 'PDV'], {
         message: 'O tipo da loja deve ser "LOJA" ou "PDV".',
     })
-    lojaTipo!: string;
+    type!: string;
 
     @ApiProperty()
     @IsNotEmpty({
@@ -34,12 +34,12 @@ export class CreateLojaDto {
         message:
             'O campo disponível no estoque deve ser preenchido com "true" ou "false".',
     })
-    disponivelNoEstoque!: boolean;
+    takeOutInStore!: boolean;
 
     @ApiProperty()
     @IsNotEmpty({ message: 'O Tempo de preparo é um campo obrigatório.' })
     @IsNumber({}, { message: 'O tempo de preparo deve ser um número (dias).' })
-    tempoDePreparo!: number;
+    shippingTimeInDays!: number;
 
     @ApiProperty()
     @IsNotEmpty({ message: 'A latitude da loja é um campo obrigatório.' })
@@ -73,24 +73,22 @@ export class CreateLojaDto {
         message: 'O código postal deve estar no formato 99999-999.',
     })
     @Validate(IsValidCep, { message: 'O CEP informado é inválido.' })
-    codigoPostal!: string;
-
-    @IsNumber({}, { message: 'O número deve ser um número.' })
-    numero?: number;
+    postalCode!: string;
 
     @ApiProperty()
     @IsNotEmpty({ message: 'O estado da loja é um campo obrigatório.' })
     @IsString({ message: 'O estado deve ser uma string.' })
     @Validate(IsValidState, { message: 'O estado informado é inválido.' })
-    uf!: string;
+    state!: string;
+
+    @ApiProperty()
+    @IsNotEmpty({ message: 'A cidade da loja é um campo obrigatório.' })
+    @IsString({ message: 'A cidade deve ser uma string.' })
+    city!: string;
 
     @ApiProperty()
     @IsNotEmpty({ message: 'O país da loja é um campo obrigatório.' })
     @IsString({ message: 'O país deve ser uma string.' })
     @Validate(IsValidCountry, { message: 'O País informado é inválido.' })
-    pais!: string;
-
-    @ApiPropertyOptional()
-    @IsString({ message: 'O telefone da loja deve ser uma string.' })
-    lojaTelefone?: string;
+    country!: string;
 }
