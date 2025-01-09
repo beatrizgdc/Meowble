@@ -12,7 +12,7 @@ async function bootstrap() {
     app.setBaseViewsDir(join(__dirname, '..', 'src/public/views'));
     app.setViewEngine('ejs');
 
-    app.useStaticAssets(join(__dirname, '..', 'public'));
+    app.useStaticAssets(join(__dirname, '..', 'src', 'public'));
 
     // Swagger
     const config = new DocumentBuilder()
@@ -30,7 +30,6 @@ async function bootstrap() {
         })
     );
 
-    // Inicia a aplicação
     await app.listen(3000);
     console.log(`Aplicação rodando em http://localhost:3000`);
     console.log(`Swagger disponível em http://localhost:3000/swagger`);
