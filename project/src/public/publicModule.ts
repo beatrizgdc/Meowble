@@ -1,9 +1,10 @@
 import { Module } from '@nestjs/common';
-import { publicController } from './publicController';
+import { PublicController } from './publicController';
+import { ProdutoModule } from '../produtos/produtoModule';
 
 @Module({
-    imports: [],
-    controllers: [publicController],
+    imports: [ProdutoModule],
+    controllers: [PublicController],
     providers: [],
 })
 export class publicModule {}

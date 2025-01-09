@@ -11,5 +11,6 @@ import { ProdutoSchema } from './schema/ProdutoSchema';
     ],
     providers: [ProdutoService, ProdutoRepository],
     controllers: [ProdutoController],
+    exports: [ProdutoService],
 })
 export class ProdutoModule {}

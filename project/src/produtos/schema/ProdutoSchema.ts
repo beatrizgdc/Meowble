@@ -5,6 +5,7 @@ const ProdutoSchema = new mongoose.Schema({
     nomeProduto: { type: String, required: true },
     descricaoProduto: { type: String, required: true },
     precoProduto: { type: Number, required: true },
+    caminhoImg: { type: String, required: true },
     createdAt: { type: Date, default: Date.now },
 });
 

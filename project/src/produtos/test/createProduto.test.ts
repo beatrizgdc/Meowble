@@ -33,6 +33,7 @@ describe('ProdutoService - createProduto', () => {
             nomeProduto: 'Novo Produto',
             descricaoProduto: 'Nova descrição',
             precoProduto: 20,
+            caminhoImg: 'a',
         };
         const createdProduto: Partial<ProdutoDocument> = {
             _id: '1',

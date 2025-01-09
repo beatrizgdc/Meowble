@@ -24,4 +24,9 @@ export class CreateProdutoDto {
     @IsNotEmpty()
     @ApiProperty()
     precoProduto!: number;
+
+    @IsString()
+    @IsNotEmpty()
+    @ApiProperty()
+    caminhoImg!: string;
 }

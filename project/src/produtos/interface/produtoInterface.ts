@@ -5,5 +5,6 @@ export interface ProdutoLoja {
     nomeProduto: string;
     descricaoProduto: string;
     precoProduto: number;
+    caminhoImg: string;
     createdAt: Date;
 }

@@ -1,16 +1,21 @@
-import { Controller, Get, Render } from '@nestjs/common';
+import { Controller, Get, Render, Param } from '@nestjs/common';
+import { ProdutoService } from '../produtos/service/produtoService';
 
 @Controller()
-export class publicController {
+export class PublicController {
+    constructor(private readonly produtoService: ProdutoService) {}
+
     @Get()
     @Render('index')
-    root() {
-        return { message: 'Bem-vindo à Meowble!' };
+    async root() {
+        const produtos = await this.produtoService.findAllProdutos();
+        return { produtos };
     }
 
-    @Get('/produtos')
+    @Get('/produto-detalhes/:id')
     @Render('produto')
-    produtos() {
-        return { message: 'Aqui estão os produtos!' };
+    async produtoDetalhes(@Param('id') id: string) {
+        const produto = await this.produtoService.findProdutoById(id);
+        return { produto };
     }
 }

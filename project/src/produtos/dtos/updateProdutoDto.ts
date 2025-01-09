@@ -24,4 +24,9 @@ export class UpdateProdutoDto {
     @IsNotEmpty()
     @ApiProperty({ required: false })
     precoProduto?: number;
+
+    @IsString()
+    @IsNotEmpty()
+    @ApiProperty()
+    caminhoImg?: string;
 }

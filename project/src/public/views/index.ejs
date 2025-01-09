@@ -10,18 +10,14 @@
             rel="stylesheet"
         />
         <title>Meowble</title>
-        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="/css/style.css" />
     </head>
     <body>
         <!-- TOPO -->
         <header class="topo">
             <div class="alinha">
                 <div class="logo">
-                    <img
-                        src="../img/logoBlack.png"
-                        width="175px"
-                        alt="Meowble"
-                    />
+                    <img src="/img/logoBlack.png" width="175px" alt="Meowble" />
                 </div>
                 <nav class="menu">
                     <button>Home</button>
@@ -48,7 +44,7 @@
                     para nossos clientes. Nosso foco está em qualidade e
                     satisfação. Venha conhecer mais sobre nós!
                 </p>
-                <img src="../img/sobre.png" alt="Sobre Nós" />
+                <img src="/img/sobre.png" alt="Sobre Nós" />
             </div>
         </section>
 
@@ -60,55 +56,22 @@
         <section class="produtos">
             <h2>Nossos Produtos</h2>
             <p>Confira nosso catálogo de produtos abaixo:</p>
+
             <div class="catalogo">
-                <div class="produto">
-                    <img src="../img/cam1.png" width:100% alt="" />
-                    <div class="alinhaDesc">
-                        <h3>Camiseta</h3>
-                        <p>R$ 20,00</p>
+                <% produtos.forEach(function(produto) { %>
+                <a href="/produto-detalhes/<%= produto._id %>">
+                    <div class="produto">
+                        <img src="<%= produto.caminhoImg %>" alt="" />
+                        <h3><%= produto.nomeProduto %></h3>
+                        <% if (produto.precoProduto !== undefined && typeof
+                        produto.precoProduto === 'number') { %>
+                        <p>R$ <%= produto.precoProduto.toFixed(2) %></p>
+                        <% } else { %>
+                        <p>Preço não disponível</p>
+                        <% } %>
                     </div>
-                    <button>Ver mais</button>
-                </div>
-                <div class="produto">
-                    <img src="../img/cam2.png" width:100% alt="" />
-                    <div class="alinhaDesc">
-                        <h3>Camiseta</h3>
-                        <p>R$ 20,00</p>
-                    </div>
-                    <button>Ver mais</button>
-                </div>
-                <div class="produto">
-                    <img src="../img/cam3.png" width:100% alt="" />
-                    <div class="alinhaDesc">
-                        <h3>Camiseta</h3>
-                        <p>R$ 20,00</p>
-                    </div>
-                    <button>Ver mais</button>
-                </div>
-                <div class="produto">
-                    <img src="../img/cam4.png" width:100% alt="" />
-                    <div class="alinhaDesc">
-                        <h3>Camiseta</h3>
-                        <p>R$ 20,00</p>
-                    </div>
-                    <button>Ver mais</button>
-                </div>
-                <div class="produto">
-                    <img src="../img/cam5.png" width:100% alt="" />
-                    <div class="alinhaDesc">
-                        <h3>Camiseta</h3>
-                        <p>R$ 20,00</p>
-                    </div>
-                    <button>Ver mais</button>
-                </div>
-                <div class="produto">
-                    <img src="../img/cam6.png" width:100% alt="" />
-                    <div class="alinhaDesc">
-                        <h3>Camiseta</h3>
-                        <p>R$ 20,00</p>
-                    </div>
-                    <button>Ver mais</button>
-                </div>
+                </a>
+                <% }); %>
             </div>
         </section>
 
@@ -116,7 +79,7 @@
         <footer class="rodape">
             <div class="alinha">
                 <div class="alinhafaixa">
-                    <img src="../img/logoBlack.png" width="300px" alt="" />
+                    <img src="/img/logoBlack.png" width="300px" alt="" />
                     <nav class="contato">
                         <p>Contato:</p>
                         <span><b>Telefone: </b>(99) 99999-9999</span>

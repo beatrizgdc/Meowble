@@ -12,7 +12,7 @@ async function bootstrap() {
     app.setBaseViewsDir(join(__dirname, '..', 'src/public/views'));
     app.setViewEngine('ejs');
 
-    app.useStaticAssets(join(__dirname, '..', 'src', 'public'));
+    app.useStaticAssets(join(__dirname, '..', 'src/public/CSS'));
 
     // Swagger
     const config = new DocumentBuilder()

@@ -37,6 +37,7 @@ describe('ProdutoService - updateProduto', () => {
             nomeProduto: 'Produto Atualizado',
             descricaoProduto: 'Descrição',
             precoProduto: 15,
+            caminhoImg: 'b',
             createdAt: new Date(),
         };
         mockRepository.updateProduto.mockResolvedValue(updatedProduto);
