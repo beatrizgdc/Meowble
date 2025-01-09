@@ -210,6 +210,7 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-top: 70px;
 }
 
 .sobre {
@@ -355,7 +356,7 @@ p {
     width: 100%;
     display: flex;
     align-items: flex-start;
-    gap: 50px;
+    gap: 100px;
     background-color: var(--cor9);
     border-radius: 15px;
     padding: 20px 25px 40px 25px;
@@ -366,11 +367,61 @@ p {
 }
 
 .pagProduto .alinhaDetalhes {
-    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 150px;
+}
+
+.pagProduto .alinhaTxt {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.pagProduto h2 {
+    font-family: var(--font-family2);
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--cor2);
+}
+
+.pagProduto h3 {
+    font-family: var(--font-family2);
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--cor2);
+}
+
+.pagProduto form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pagProduto input {
+    height: 45px;
+    width: 40%;
+    border: 1px solid var(--cor7);
+    border-radius: 5px 0 0 5px;
+    padding: 0 0 0 10px;
+}
+
+.pagProduto button {
+    height: 45px;
+    width: 60%;
+    font-family: var(--font-family2);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor7);
+    border-radius: 0 5px 5px 0;
+    transition: 0.2s;
+}
+
+.pagProduto button:hover {
+    background-color: var(--cor8);
 }
 
 /*-------- Produtos --------*/
