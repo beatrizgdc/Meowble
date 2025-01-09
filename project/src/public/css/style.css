@@ -338,6 +338,43 @@ p {
 
 /*-------- Home --------*/
 
+/*-------- Produtos --------*/
+
+.pagProduto {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor4);
+    padding: 150px 0 100px 0;
+}
+
+.pagProduto .alinha {
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    background-color: var(--cor9);
+    border-radius: 15px;
+    padding: 20px 25px 40px 25px;
+}
+
+.pagProduto .alinha img {
+    border-radius: 10px;
+}
+
+.pagProduto .alinhaDetalhes {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*-------- Produtos --------*/
+
 /*-------- Rodape --------*/
 
 .rodape {

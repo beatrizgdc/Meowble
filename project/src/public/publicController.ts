@@ -7,4 +7,10 @@ export class publicController {
     root() {
         return { message: 'Bem-vindo à Meowble!' };
     }
+
+    @Get('/produtos')
+    @Render('produto')
+    produtos() {
+        return { message: 'Aqui estão os produtos!' };
+    }
 }
