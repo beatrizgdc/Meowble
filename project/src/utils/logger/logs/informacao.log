@@ -2106,3 +2106,342 @@
 {"level":"info","message":"Recebendo dados para criação da loja...","timestamp":"2025-01-09 11:58:27"}
 {"level":"info","message":"Loja criada com sucesso!","timestamp":"2025-01-09 11:58:27"}
 {"level":"info","message":"Loja criada com sucesso: {\"storeName\":\"MEOWBLE 03\",\"type\":\"LOJA\",\"takeOutInStore\":true,\"shippingTimeInDays\":4,\"latitude\":\"-29.50284\",\"longitude\":\"-50.97666\",\"postalCode\":\"93995-000\",\"state\":\"SP\",\"city\":\"SP\",\"country\":\"Brasil\",\"_id\":\"677fe4137670523f92b7dc39\",\"__v\":0}","timestamp":"2025-01-09 11:58:27"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 12:01:01"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 12:01:01"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 50 e offset: 0","timestamp":"2025-01-09 12:01:25"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 12:01:25"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 886.043 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 844.52 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 830.739 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 0.239 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 3.917 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 23.683 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.588 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.012 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 61.067 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 61.067 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 61.067 km","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:01:26"}
+{"level":"info","message":"Tempo estimado calculado: 4 minutos.","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Tempo estimado para a entrega: 4 minutos","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Custo total da entrega calculado: 6.0478 unidades monetárias","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Tempo estimado calculado: 15 minutos.","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Tempo estimado para a entrega: 15 minutos","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Custo total da entrega calculado: 9.5334 unidades monetárias","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Tempo estimado calculado: 52 minutos.","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Tempo estimado para a entrega: 52 minutos","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Custo total da entrega calculado: 22.7366 unidades monetárias","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Tempo estimado calculado: 37 minutos.","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Tempo estimado para a entrega: 37 minutos","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Custo total da entrega calculado: 17.1676 unidades monetárias","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Tempo estimado calculado: 40 minutos.","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Tempo estimado para a entrega: 40 minutos","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Custo total da entrega calculado: 17.8024 unidades monetárias","timestamp":"2025-01-09 12:01:27"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 12:01:28"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 12:01:28"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 12:01:28"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 12:01:29"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 12:01:29"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 12:01:29"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 12:01:29"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 5","timestamp":"2025-01-09 12:01:29"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"0 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":4,\"totalCost\":\"R$ 6.05\"},\"pins\":{\"position\":{\"lat\":\"-30.02515\",\"lng\":\"-51.16217\"}}}","timestamp":"2025-01-09 12:01:29"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"4 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":15,\"totalCost\":\"R$ 9.53\"},\"pins\":{\"position\":{\"lat\":\"-29.99769\",\"lng\":\"-51.14093\"}}}","timestamp":"2025-01-09 12:01:29"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"14 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":40,\"totalCost\":\"R$ 17.80\"},\"pins\":{\"position\":{\"lat\":\"-30.15208\",\"lng\":\"-51.14924\"}}}","timestamp":"2025-01-09 12:01:29"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"15 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":37,\"totalCost\":\"R$ 17.17\"},\"pins\":{\"position\":{\"lat\":\"-30.15787\",\"lng\":\"-51.16188\"}}}","timestamp":"2025-01-09 12:01:29"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"24 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":52,\"totalCost\":\"R$ 22.74\"},\"pins\":{\"position\":{\"lat\":\"-30.22534\",\"lng\":\"-51.07524\"}}}","timestamp":"2025-01-09 12:01:29"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 12:01:29"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 12:01:29"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"61 km\",\"value\":[{\"prazo\":\"2 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"61 km\",\"value\":[{\"prazo\":\"2 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":\"50\",\"offset\":0,\"total\":19}","timestamp":"2025-01-09 12:01:29"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 12:09:43"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 12:09:52"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 12:09:52"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 12:47:34"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 12:47:35"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 50 e offset: 0","timestamp":"2025-01-09 12:47:40"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 12:47:40"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 886.043 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 844.52 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 830.739 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 0.239 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 3.917 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 23.683 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.588 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.012 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 61.067 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 61.067 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 61.067 km","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:47:41"}
+{"level":"info","message":"Tempo estimado calculado: 4 minutos.","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Tempo estimado para a entrega: 4 minutos","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Custo total da entrega calculado: 6.0478 unidades monetárias","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Tempo estimado calculado: 14 minutos.","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Tempo estimado para a entrega: 14 minutos","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Custo total da entrega calculado: 9.2834 unidades monetárias","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Tempo estimado calculado: 50 minutos.","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Tempo estimado para a entrega: 50 minutos","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Custo total da entrega calculado: 22.2366 unidades monetárias","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Tempo estimado calculado: 36 minutos.","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Tempo estimado para a entrega: 36 minutos","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Custo total da entrega calculado: 16.9176 unidades monetárias","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Tempo estimado calculado: 39 minutos.","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Tempo estimado para a entrega: 39 minutos","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Custo total da entrega calculado: 17.5524 unidades monetárias","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 12:47:42"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 12:47:43"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 12:47:43"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 12:47:43"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 12:47:43"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 12:47:43"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 12:47:43"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 12:47:43"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 5","timestamp":"2025-01-09 12:47:43"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"0 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":4,\"totalCost\":\"R$ 6.05\"},\"pins\":{\"position\":{\"lat\":\"-30.02515\",\"lng\":\"-51.16217\"}}}","timestamp":"2025-01-09 12:47:43"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"4 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":14,\"totalCost\":\"R$ 9.28\"},\"pins\":{\"position\":{\"lat\":\"-29.99769\",\"lng\":\"-51.14093\"}}}","timestamp":"2025-01-09 12:47:43"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"14 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":39,\"totalCost\":\"R$ 17.55\"},\"pins\":{\"position\":{\"lat\":\"-30.15208\",\"lng\":\"-51.14924\"}}}","timestamp":"2025-01-09 12:47:43"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"15 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":36,\"totalCost\":\"R$ 16.92\"},\"pins\":{\"position\":{\"lat\":\"-30.15787\",\"lng\":\"-51.16188\"}}}","timestamp":"2025-01-09 12:47:43"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"24 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":50,\"totalCost\":\"R$ 22.24\"},\"pins\":{\"position\":{\"lat\":\"-30.22534\",\"lng\":\"-51.07524\"}}}","timestamp":"2025-01-09 12:47:43"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 12:47:43"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 12:47:43"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"61 km\",\"value\":[{\"prazo\":\"2 dias úteis4\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"8 dias úteis4\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"61 km\",\"value\":[{\"prazo\":\"2 dias úteis4\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"8 dias úteis4\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":\"50\",\"offset\":0,\"total\":19}","timestamp":"2025-01-09 12:47:43"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 50 e offset: 0","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 886.043 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 844.52 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 830.739 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 0.239 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 3.917 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 23.683 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.588 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.012 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja undefined: 61.067 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 61.067 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 61.067 km","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:49:38"}
+{"level":"info","message":"Tempo estimado calculado: 4 minutos.","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Tempo estimado para a entrega: 4 minutos","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Custo total da entrega calculado: 6.0478 unidades monetárias","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Tempo estimado calculado: 14 minutos.","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Tempo estimado para a entrega: 14 minutos","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Custo total da entrega calculado: 9.2834 unidades monetárias","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Tempo estimado calculado: 49 minutos.","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Tempo estimado para a entrega: 49 minutos","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Custo total da entrega calculado: 21.9866 unidades monetárias","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Tempo estimado calculado: 35 minutos.","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Tempo estimado para a entrega: 35 minutos","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Custo total da entrega calculado: 16.6676 unidades monetárias","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 12:49:39"}
+{"level":"info","message":"Tempo estimado calculado: 38 minutos.","timestamp":"2025-01-09 12:49:40"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 12:49:40"}
+{"level":"info","message":"Tempo estimado para a entrega: 38 minutos","timestamp":"2025-01-09 12:49:40"}
+{"level":"info","message":"Custo total da entrega calculado: 17.3024 unidades monetárias","timestamp":"2025-01-09 12:49:40"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 12:49:40"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 12:49:40"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 12:49:40"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 12:49:40"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 12:49:40"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 12:49:41"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 12:49:41"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 12:49:41"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 12:49:41"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 5","timestamp":"2025-01-09 12:49:41"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"0 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":4,\"totalCost\":\"R$ 6.05\"},\"pins\":{\"position\":{\"lat\":\"-30.02515\",\"lng\":\"-51.16217\"}}}","timestamp":"2025-01-09 12:49:41"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"4 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":14,\"totalCost\":\"R$ 9.28\"},\"pins\":{\"position\":{\"lat\":\"-29.99769\",\"lng\":\"-51.14093\"}}}","timestamp":"2025-01-09 12:49:41"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"14 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":38,\"totalCost\":\"R$ 17.30\"},\"pins\":{\"position\":{\"lat\":\"-30.15208\",\"lng\":\"-51.14924\"}}}","timestamp":"2025-01-09 12:49:41"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"15 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":35,\"totalCost\":\"R$ 16.67\"},\"pins\":{\"position\":{\"lat\":\"-30.15787\",\"lng\":\"-51.16188\"}}}","timestamp":"2025-01-09 12:49:41"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"24 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":49,\"totalCost\":\"R$ 21.99\"},\"pins\":{\"position\":{\"lat\":\"-30.22534\",\"lng\":\"-51.07524\"}}}","timestamp":"2025-01-09 12:49:41"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 12:49:41"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 12:49:41"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"61 km\",\"value\":[{\"prazo\":\"2 dias úteis4\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"8 dias úteis4\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"61 km\",\"value\":[{\"prazo\":\"2 dias úteis4\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"8 dias úteis4\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":\"50\",\"offset\":0,\"total\":19}","timestamp":"2025-01-09 12:49:41"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 12:59:54"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 12:59:55"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 13:00:25"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 13:00:25"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 50 e offset: 0","timestamp":"2025-01-09 13:00:29"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 13:00:29"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 886.043 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 844.52 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 830.739 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 0.239 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 3.917 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 23.683 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.588 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.012 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 61.067 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 61.067 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 61.067 km","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 13:00:30"}
+{"level":"info","message":"Tempo estimado calculado: 3 minutos.","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Tempo estimado para a entrega: 3 minutos","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Custo total da entrega calculado: 5.7978 unidades monetárias","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Tempo estimado calculado: 14 minutos.","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Tempo estimado para a entrega: 14 minutos","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Custo total da entrega calculado: 9.2834 unidades monetárias","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Tempo estimado calculado: 50 minutos.","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Tempo estimado para a entrega: 50 minutos","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Custo total da entrega calculado: 22.2366 unidades monetárias","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Tempo estimado calculado: 36 minutos.","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Tempo estimado para a entrega: 36 minutos","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Custo total da entrega calculado: 16.9176 unidades monetárias","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Tempo estimado calculado: 39 minutos.","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Tempo estimado para a entrega: 39 minutos","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Custo total da entrega calculado: 17.5524 unidades monetárias","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 13:00:31"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 13:00:32"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 13:00:32"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 13:00:32"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 13:00:32"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 13:00:32"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 13:00:32"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 13:00:32"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 5","timestamp":"2025-01-09 13:00:32"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"0 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":3,\"totalCost\":\"R$ 5.80\"},\"pins\":{\"position\":{\"lat\":\"-30.02515\",\"lng\":\"-51.16217\"}}}","timestamp":"2025-01-09 13:00:32"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"4 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":14,\"totalCost\":\"R$ 9.28\"},\"pins\":{\"position\":{\"lat\":\"-29.99769\",\"lng\":\"-51.14093\"}}}","timestamp":"2025-01-09 13:00:32"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"14 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":39,\"totalCost\":\"R$ 17.55\"},\"pins\":{\"position\":{\"lat\":\"-30.15208\",\"lng\":\"-51.14924\"}}}","timestamp":"2025-01-09 13:00:32"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"15 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":36,\"totalCost\":\"R$ 16.92\"},\"pins\":{\"position\":{\"lat\":\"-30.15787\",\"lng\":\"-51.16188\"}}}","timestamp":"2025-01-09 13:00:32"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"24 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":50,\"totalCost\":\"R$ 22.24\"},\"pins\":{\"position\":{\"lat\":\"-30.22534\",\"lng\":\"-51.07524\"}}}","timestamp":"2025-01-09 13:00:32"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 13:00:32"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 13:00:32"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"61 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"61 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":\"50\",\"offset\":0,\"total\":19}","timestamp":"2025-01-09 13:00:32"}

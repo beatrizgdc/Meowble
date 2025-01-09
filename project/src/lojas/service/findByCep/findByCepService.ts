@@ -4,7 +4,7 @@ import { ServicoDeLogger } from '../../../utils/logger/logger';
 import { HereMapsService } from '../../../hereMaps/buscarLatLong/service/hereMapsService';
 import { getCoordinates } from './getCoordinates';
 import { calculateDistances } from './calculateDistances';
-import { filterStores } from './filterLoja';
+import { filterStores } from './filterStore';
 import { categorizeStores } from './categorizeLoja';
 import { CorreiosService } from '../../../correios/correiosService';
 import { HereMapsServiceDelivery } from '../../../hereMaps/calculoDelivery/service/hereMapsDeliveryService';

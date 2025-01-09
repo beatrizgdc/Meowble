@@ -44,7 +44,13 @@ export async function filterStores(
                     logger
                 );
                 lojasMenor50Km.push(
-                    formatStoreData(loja, [], loja.distanciaKm!, deliveryCost)
+                    formatStoreData(
+                        loja,
+                        [],
+                        loja.distanciaKm!,
+                        loja.shippingTimeInDays,
+                        deliveryCost
+                    )
                 );
                 logger.log(
                     `Custo de delivery calculado com sucesso para a loja ${loja.id} (${loja.storeName}).`
@@ -74,7 +80,12 @@ export async function filterStores(
                 );
                 loja.frete = frete;
                 lojasMaiorIgual50Km.push(
-                    formatStoreData(loja, frete, loja.distanciaKm!)
+                    formatStoreData(
+                        loja,
+                        frete,
+                        loja.distanciaKm!,
+                        loja.shippingTimeInDays
+                    )
                 );
                 logger.log(
                     `Frete calculado com sucesso para a loja ${loja.id} (${loja.storeName}).`
