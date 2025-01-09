@@ -40,6 +40,7 @@ describe('CreateLojaService', () => {
             latitude: '-23.21287',
             longitude: '-46.83805',
             postalCode: '13220-001',
+            city: 'São Paulo',
             state: 'SP',
             country: 'Brasil',
         };
@@ -54,6 +55,7 @@ describe('CreateLojaService', () => {
             latitude: '-23.21287',
             longitude: '-46.83805',
             postalCode: '13220-001',
+            city: 'São Paulo',
             state: 'SP',
             country: 'Brasil',
             toObject: () => ({
@@ -65,6 +67,7 @@ describe('CreateLojaService', () => {
                 latitude: '-23.21287',
                 longitude: '-46.83805',
                 postalCode: '13220-001',
+                city: 'São Paulo',
                 state: 'SP',
                 country: 'Brasil',
             }),
@@ -91,6 +94,7 @@ describe('CreateLojaService', () => {
             latitude: '-23.21287',
             longitude: '-46.83805',
             postalCode: '13220-001',
+            city: 'São Paulo',
             state: 'SP',
             country: 'Brasil',
         };
