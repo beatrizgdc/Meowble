@@ -55,11 +55,9 @@ export class findByCepServiceService {
         private readonly hereMapsServiceDelivery: HereMapsServiceDelivery
     ) {}
 
-    async findByCep(cep: string, limit: number = 50, offset: number = 0) { ... }
+    async findByCep(cep: string, limit: number = 20, offset: number = 0) { ... }
 }
 ```
-
-````
 
 ## Funcionamento do Serviço
 
@@ -141,4 +139,3 @@ As principais regras de negócio implementadas no serviço `findByCepServiceServ
 ```
 
 ```
-````
