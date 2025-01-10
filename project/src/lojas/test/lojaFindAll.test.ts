@@ -17,7 +17,6 @@ describe('FindAllLojaService', () => {
                     tempoDePreparo: 10,
                     disponivelNoEstoque: true,
                     toObject: jest.fn().mockReturnValue({
-                        // Mock do método toObject
                         _id: '1',
                         nome: 'Loja 1',
                         endereco: 'Endereço 1',
@@ -30,7 +29,6 @@ describe('FindAllLojaService', () => {
                     tempoDePreparo: 15,
                     disponivelNoEstoque: false,
                     toObject: jest.fn().mockReturnValue({
-                        // Mock do método toObject
                         _id: '2',
                         nome: 'Loja 2',
                         endereco: 'Endereço 2',

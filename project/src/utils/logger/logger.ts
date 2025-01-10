@@ -4,10 +4,10 @@ import { createLogger, format, transports } from 'winston';
 @Injectable()
 class ServicoDeLogger implements LoggerService {
     private readonly logger = createLogger({
-        level: 'info', // Nível padrão de log
+        level: 'info',
         format: format.combine(
             format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
-            format.errors({ stack: true }), // Inclui stack trace para erros
+            format.errors({ stack: true }),
             format.json()
         ),
         transports: [
@@ -27,7 +27,7 @@ class ServicoDeLogger implements LoggerService {
             this.logger.add(
                 new transports.Console({
                     format: format.combine(
-                        format.colorize(), // Aplica cores ao log no console
+                        format.colorize(),
                         format.printf(
                             ({ level, message, timestamp, stack }) => {
                                 return stack
@@ -42,17 +42,15 @@ class ServicoDeLogger implements LoggerService {
     }
 
     /**
-     * Loga uma mensagem informativa.
-     * @param mensagem - Mensagem a ser logada.
+    @param mensagem - Mensagem a ser logada.
      */
     log(mensagem: string) {
         this.logger.info(mensagem);
     }
 
     /**
-     * Loga uma mensagem de erro, incluindo detalhes do stack trace.
-     * @param mensagem - Mensagem de erro personalizada.
-     * @param erro - Objeto de erro ou mensagem adicional.
+     * @param mensagem - Mensagem de erro.
+     * @param erro
      */
     error(mensagem: string, erro?: unknown) {
         if (erro instanceof Error) {
@@ -66,7 +64,6 @@ class ServicoDeLogger implements LoggerService {
     }
 
     /**
-     * Loga uma mensagem de aviso.
      * @param mensagem - Mensagem de aviso.
      */
     warn(mensagem: string) {
@@ -74,7 +71,6 @@ class ServicoDeLogger implements LoggerService {
     }
 
     /**
-     * Loga mensagens de debug para informações detalhadas.
      * @param mensagem - Mensagem de debug.
      */
     debug(mensagem: string) {
@@ -82,9 +78,8 @@ class ServicoDeLogger implements LoggerService {
     }
 
     /**
-     * Loga uma mensagem crítica, usada para falhas graves no sistema.
      * @param mensagem - Mensagem crítica.
-     * @param erro - Objeto de erro ou detalhes adicionais.
+     * @param erro
      */
     critical(mensagem: string, erro?: unknown) {
         if (erro instanceof Error) {
@@ -111,7 +106,6 @@ class SeuServico {
     algumMetodo() {
         try {
             this.logger.log('Iniciando operação...');
-            // Simulação de erro
             throw new Error('Erro simulado!');
         } catch (erro) {
             this.logger.error('Erro durante a execução de algumMetodo', erro);

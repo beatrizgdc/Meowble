@@ -45,7 +45,6 @@ describe('CreateLojaService', () => {
             country: 'Brasil',
         };
 
-        // Mock do LojaDocument com campos necessários
         const lojaMock: Partial<LojaDocument> = {
             _id: '123',
             storeName: 'MEOWBLE 03',
