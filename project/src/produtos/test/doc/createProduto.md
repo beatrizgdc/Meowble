@@ -8,7 +8,6 @@
 4. [Cenário de Teste](#cenário-de-teste)
     - [Mock do Repositório](#mock-do-repositório)
     - [Teste de Criação de Produto](#teste-de-criação-de-produto)
-5. [Conclusão](#conclusão)
 
 ## Introdução
 
@@ -41,8 +40,6 @@ beforeEach(async () => {
     repository = module.get<ProdutoRepository>(ProdutoRepository);
 });
 ```
-
-````
 
 ## Cenário de Teste
 
@@ -81,4 +78,3 @@ it('should create and return a produto', async () => {
     expect(mockRepository.createProduto).toHaveBeenCalledTimes(1);
 });
 ```
-````

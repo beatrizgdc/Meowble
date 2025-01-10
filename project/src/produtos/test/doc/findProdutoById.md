@@ -8,7 +8,6 @@
 4. [Cenário de Teste](#cenário-de-teste)
     - [Mock do Repositório](#mock-do-repositório)
     - [Teste de Retorno de Produto por ID](#teste-de-retorno-de-produto-por-id)
-5. [Conclusão](#conclusão)
 
 ## Introdução
 

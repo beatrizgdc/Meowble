@@ -2,16 +2,10 @@
 
 ## Índice
 
-1. [Introdução](#introdução)
-2. [Configuração do Teste](#configuração-do-teste)
-3. [Cenários de Teste](#cenários-de-teste)
+1. [Configuração do Teste](#configuração-do-teste)
+2. [Cenários de Teste](#cenários-de-teste)
     - [Cenário 1: Criar uma loja com sucesso](#cenário-1-criar-uma-loja-com-sucesso)
     - [Cenário 2: Lançar um erro se a criação falhar](#cenário-2-lançar-um-erro-se-a-criação-falhar)
-4. [Conclusão](#conclusão)
-
-## Introdução
-
-Este documento descreve os testes unitários para o serviço `CreateLojaService` utilizando o framework Jest. O objetivo é garantir que o serviço crie uma nova loja corretamente e trate adequadamente os casos em que a criação falha.
 
 ## Configuração do Teste
 

@@ -8,7 +8,6 @@
 4. [Cenário de Teste](#cenário-de-teste)
     - [Mock do Repositório](#mock-do-repositório)
     - [Teste de Atualização de Produto](#teste-de-atualização-de-produto)
-5. [Conclusão](#conclusão)
 
 ## Introdução
 

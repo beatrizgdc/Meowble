@@ -1,76 +1,87 @@
-# Testes do Serviço `findByCepServiceService`
+# Documentação de Cenários de Teste - `findByCepServiceService`
 
 ## Índice
 
-1. [Introdução](#introdução)
-2. [Critérios de Teste](#critérios-de-teste)
-    - [Cenário 1: Mockar coordenadas de latitude e longitude](#cenário-1-mockar-coordenadas-de-latitude-e-longitude)
-    - [Cenário 2: Mockar dados das lojas e suas distâncias](#cenário-2-mockar-dados-das-lojas-e-suas-distâncias)
-    - [Cenário 3: Mockar os métodos](#cenário-3-mockar-os-métodos)
-    - [Cenário 4: Verificar o resultado do serviço](#cenário-4-verificar-o-resultado-do-serviço)
-    - [Cenário 5: Verificar que o logger registra a mensagem de sucesso](#cenário-5-verificar-que-o-logger-registra-a-mensagem-de-sucesso)
-3. [Conclusão](#conclusão)
+1. [Descrição Geral](#descricao-geral)
+2. [Cenários Testados](#cenários-testados)
+    - [Cenário 1: Retorno Bem-Sucedido de Lojas Categorizadas por Distância](#1-retorno-bem-sucedido-de-lojas-categorizadas-por-distância)
+    - [Cenário 2: Falha ao Obter Coordenadas do CEP](#2-falha-ao-obter-coordenadas-do-cep)
+    - [Cenário 3: Nenhuma Loja Encontrada no Banco de Dados](#3-nenhuma-loja-encontrada-no-banco-de-dados)
 
-## Introdução
+## Descrição Geral
 
-Este documento descreve os critérios e cenários de teste para garantir que o serviço `findByCepServiceService` retorne as lojas categorizadas corretamente com distâncias a menos e mais de 50km. Além disso, verifica-se se o serviço loga mensagens de sucesso adequadamente.
+O serviço `findByCepServiceService` é responsável por localizar e categorizar lojas com base em um CEP fornecido. Esta documentação apresenta os cenários de teste utilizados para garantir o correto funcionamento desta funcionalidade, bem como sugestões de cenários adicionais para aumentar a cobertura dos testes.
 
-## Critérios de Teste
+---
 
-### Cenário 1: Mockar coordenadas de latitude e longitude
+## Cenários Testados
 
--   **Descrição**: O método `getCoordinates` deve retornar coordenadas específicas.
--   **Mock**:
-    ```javascript
-    { latitude: -23.5489, longitude: -46.6388 }
-    ```
+### **1. Retorno Bem-Sucedido de Lojas Categorizadas por Distância**
 
-### Cenário 2: Mockar dados das lojas e suas distâncias
+-   **Descrição:**
+    O método deve retornar corretamente lojas categorizadas em duas listas:
 
--   **Descrição**: O método `calculateDistances` deve retornar uma lista de lojas com suas respectivas distâncias.
--   **Mock**:
-    ```javascript
-    [
-        { id: 1, name: 'Loja 1', distancia: 30 },
-        { id: 2, name: 'Loja 2', distancia: 60 },
-    ];
-    ```
+    -   **`menor50Km`**: Lojas com distância menor que 50 km.
+    -   **`maiorIgual50Km`**: Lojas com distância maior ou igual a 50 km.
 
-### Cenário 3: Mockar os métodos
+-   **Mocks Utilizados:**
 
--   **Descrição**: Mockar os métodos `getCoordinates`, `calculateDistances`, `filterStores` e `categorizeStores` para retornarem dados específicos.
--   **Mock**:
-    -   `getCoordinates` retorna `{ latitude: -23.5489, longitude: -46.6388 }`
-    -   `calculateDistances` retorna uma lista de lojas com distâncias
-    -   `filterStores` retorna lojas divididas em `lojasMenor50Km` e `lojasMaiorIgual50Km`
-        ```javascript
+    -   **`getCoordinates`**: Retorna coordenadas simuladas.
+    -   **`calculateDistances`**: Retorna distâncias simuladas das lojas.
+    -   **`filterStores`**: Retorna as lojas separadas por distâncias.
+    -   **`categorizeStores`**: Retorna categorias de lojas vazias.
+    -   **`lojaRepository.findAll`**: Simula dados de lojas no banco de dados.
+    -   **`lojaRepository.count`**: Simula a contagem total de lojas.
+
+-   **Resultado Esperado:**
+    -   A lista de lojas categorizada é retornada corretamente.
+    -   O log de sucesso é registrado: `Busca de lojas por CEP concluída com sucesso.`
+
+---
+
+### **2. Falha ao Obter Coordenadas do CEP**
+
+-   **Descrição:**
+    O método deve lidar corretamente com o caso em que não é possível obter as coordenadas do CEP fornecido.
+
+-   **Mocks Utilizados:**
+
+    -   **`getCoordinates`**: Retorna `null`.
+
+-   **Resultado Esperado:**
+    -   O método retorna um erro com a mensagem:
+        ```json
         {
-            lojasMenor50Km: [{ id: 1, name: 'Loja 1', distancia: 30 }],
-            lojasMaiorIgual50Km: [{ id: 2, name: 'Loja 2', distancia: 60 }],
+            "mensagem": "Erro ao buscar lojas por CEP.",
+            "detalhes": {
+                "mensagem": "Falha ao obter coordenadas.",
+                "stack": "..."
+            }
         }
         ```
-    -   `categorizeStores` retorna `{ tipoA: [], tipoB: [] }`
+    -   O log de erro é registrado: `Falha ao obter coordenadas.`
 
-### Cenário 4: Verificar o resultado do serviço
+---
 
--   **Descrição**: Verificar que o serviço `findByCep` retorna as lojas categorizadas corretamente.
--   **Resultado Esperado**:
-    ```javascript
-    {
-        stores: {
-            menor50Km: { tipoA: [], tipoB: [] },
-            maiorIgual50Km: [{ id: 2, name: 'Loja 2', distancia: 60 }],
-        },
-        limit: 10,
-        offset: 0,
-        total: 2,
-    }
-    ```
+### **3. Nenhuma Loja Encontrada no Banco de Dados**
 
-### Cenário 5: Verificar que o logger registra a mensagem de sucesso
+-   **Descrição:**
+    O método deve tratar corretamente o caso em que nenhuma loja é encontrada no banco de dados.
 
--   **Descrição**: Após a execução do serviço, o logger deve registrar uma mensagem de sucesso.
--   **Resultado Esperado**:
-    ```javascript
-    'Busca de lojas por CEP concluída com sucesso.';
-    ```
+-   **Mocks Utilizados:**
+
+    -   **`getCoordinates`**: Retorna coordenadas simuladas.
+    -   **`lojaRepository.findAll`**: Retorna uma lista vazia.
+
+-   **Resultado Esperado:**
+    -   O método retorna um erro com a mensagem:
+        ```json
+        {
+            "mensagem": "Erro ao buscar lojas por CEP.",
+            "detalhes": {
+                "mensagem": "Nenhuma loja encontrada.",
+                "stack": "..."
+            }
+        }
+        ```
+    -   O log de erro é registrado: `Nenhuma loja encontrada.`

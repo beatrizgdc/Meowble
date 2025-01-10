@@ -2,16 +2,10 @@
 
 ## Índice
 
-1. [Introdução](#introdução)
-2. [Configuração do Teste](#configuração-do-teste)
-3. [Cenários de Teste](#cenários-de-teste)
+1. [Configuração do Teste](#configuração-do-teste)
+2. [Cenários de Teste](#cenários-de-teste)
     - [Cenário 1: Retornar todas as lojas com limite e offset](#cenário-1-retornar-todas-as-lojas-com-limite-e-offset)
     - [Cenário 2: Retornar uma lista vazia quando nenhuma loja é encontrada](#cenário-2-retornar-uma-lista-vazia-quando-nenhuma-loja-é-encontrada)
-4. [Conclusão](#conclusão)
-
-## Introdução
-
-Este documento descreve os testes unitários para o serviço `FindAllLojaService` utilizando o framework Jest. O objetivo é garantir que o serviço retorne todas as lojas corretamente e trate adequadamente os casos em que nenhuma loja é encontrada.
 
 ## Configuração do Teste
 
@@ -31,7 +25,3 @@ Este documento descreve os testes unitários para o serviço `FindAllLojaService
 
 -   **Descrição**: Verifica se o serviço retorna uma lista vazia e uma mensagem apropriada quando nenhuma loja é encontrada.
 -   **Expectativa**: O serviço deve retornar uma lista vazia com uma mensagem indicando que nenhuma loja foi encontrada.
-
-```
-
-```

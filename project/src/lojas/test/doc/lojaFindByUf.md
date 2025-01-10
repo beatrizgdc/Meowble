@@ -6,7 +6,6 @@
 2. [Cenários de Teste](#cenários-de-teste)
     - [Cenário 1: Retornar uma lista vazia se nenhuma loja for encontrada](#cenário-1-retornar-uma-lista-vazia-se-nenhuma-loja-for-encontrada)
     - [Cenário 2: Retornar lojas filtradas se lojas forem encontradas](#cenário-2-retornar-lojas-filtradas-se-lojas-forem-encontradas)
-3. [Conclusão](#conclusão)
 
 ## Introdução
 

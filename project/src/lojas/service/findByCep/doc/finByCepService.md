@@ -4,15 +4,14 @@
 
 1. [Introdução](#introdução)
 2. [Dependências](#dependências)
-3. [Estrutura do Código](#estrutura-do-código)
-4. [Funcionamento do Serviço](#funcionamento-do-serviço)
+3. [Funcionamento do Serviço](#funcionamento-do-serviço)
     - [Obter Coordenadas](#obter-coordenadas)
     - [Listar Todas as Lojas](#listar-todas-as-lojas)
     - [Calcular Distâncias](#calcular-distâncias)
     - [Filtrar Lojas](#filtrar-lojas)
     - [Categorizar Lojas](#categorizar-lojas)
-5. [Tratamento de Erros](#tratamento-de-erros)
-6. [Regras de Negócio](#regras-de-negócio)
+4. [Tratamento de Erros](#tratamento-de-erros)
+5. [Regras de Negócio](#regras-de-negócio)
 
 ## Introdução
 
@@ -28,36 +27,6 @@ O serviço depende dos seguintes módulos e serviços:
 -   `HereMapsService`: Serviço para obtenção de coordenadas geográficas a partir de um CEP.
 -   `CorreiosService`: Serviço para cálculo de frete e entrega.
 -   `HereMapsServiceDelivery`: Serviço para cálculo de rotas de entrega.
-
-## Estrutura do Código
-
-O código do serviço é estruturado da seguinte forma:
-
-```typescript
-import { Injectable } from '@nestjs/common';
-import { LojaRepository } from '../../repo/lojaRepo';
-import { ServicoDeLogger } from '../../../utils/logger/logger';
-import { HereMapsService } from '../../../hereMaps/buscarLatLong/service/hereMapsService';
-import { getCoordinates } from './getCoordinates';
-import { calculateDistances } from './calculateDistances';
-import { filterStores } from './filterStore';
-import { categorizeStores } from './categorizeLoja';
-import { CorreiosService } from '../../../correios/correiosService';
-import { HereMapsServiceDelivery } from '../../../hereMaps/calculoDelivery/service/hereMapsDeliveryService';
-
-@Injectable()
-export class findByCepServiceService {
-    constructor(
-        private readonly lojaRepository: LojaRepository,
-        private readonly logger: ServicoDeLogger,
-        private readonly hereMapsService: HereMapsService,
-        private readonly correiosService: CorreiosService,
-        private readonly hereMapsServiceDelivery: HereMapsServiceDelivery
-    ) {}
-
-    async findByCep(cep: string, limit: number = 20, offset: number = 0) { ... }
-}
-```
 
 ## Funcionamento do Serviço
 
@@ -135,7 +104,3 @@ As principais regras de negócio implementadas no serviço `findByCepServiceServ
 -   **Cálculo de Distâncias**: Calcular a distância entre as coordenadas fornecidas e as lojas.
 -   **Filtragem de Lojas**: Dividir as lojas em duas categorias (menor que 50 km e maior ou igual a 50 km) e calcular frete (para lojas tipo:loja ocultando as tipo:PDV) e delivery (para ambos os tipos).
 -   **Categorização de Lojas**: Categorizar as lojas de acordo com critérios específicos (LOJA | PDV).
-
-```
-
-```
