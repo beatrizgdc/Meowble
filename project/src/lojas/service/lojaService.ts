@@ -86,7 +86,7 @@ export class LojaService {
     }
 
     // Buscar por CEP
-    async findByCep(cep: string, limit: number = 1, offset: number = 0) {
+    async findByCep(cep: string, limit: number = 50, offset: number = 0) {
         this.logger.log(
             `Buscando lojas pelo CEP: ${cep} com limite: ${limit} e offset: ${offset}`
         );

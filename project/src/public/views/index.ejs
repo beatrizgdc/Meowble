@@ -2,6 +2,7 @@
 <html lang="pt ">
     <head>
         <meta charset="UTF-8" />
+        <link rel="shortcut icon" href="/img/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +21,7 @@
                     <img src="/img/logoBlack.png" width="175px" alt="Meowble" />
                 </div>
                 <nav class="menu">
-                    <button>Home</button>
+                    <button onclick="window.open('/', '_self')">Home</button>
                     <button>Sobre</button>
                     <button>Produtos</button>
                 </nav>
@@ -30,8 +31,7 @@
         <!-- BANNER -->
         <section class="banner"></section>
 
-        <!-- DIVISÃO -->
-        <section class="divRosa" style="margin: -4px; width: 7px"></section>
+        <!-- DIVISÃO  -->
         <section class="divRosa"></section>
         <section class="divAmarelo"></section>
 
@@ -42,15 +42,24 @@
                 <p>
                     Somos uma empresa dedicada a trazer os melhores produtos
                     para nossos clientes. Nosso foco está em qualidade e
-                    satisfação. Venha conhecer mais sobre nós!
+                    satisfação. Venha conhecer mais sobre nós! Somos uma empresa
+                    dedicada a trazer os melhores produtos para nossos clientes.
+                    Nosso foco está em qualidade e satisfação. Venha conhecer
+                    mais sobre nós!Somos uma empresa dedicada a trazer os
+                    melhores produtos para nossos clientes. Nosso foco está em
+                    qualidade e satisfação. Venha conhecer mais sobre nós! Somos
+                    uma empresa dedicada a trazer os melhores produtos para
+                    nossos clientes. Nosso foco está em qualidade e satisfação.
+                    Venha conhecer mais sobre nós!Somos uma empresa dedicada a
+                    trazer os melhores produtos para nossos clientes. Nosso foco
+                    está em qualidade e satisfação. Venha conhecer mais sobre
+                    nós! Somos uma empresa dedicada a trazer os melhores
+                    produtos para nossos clientes. Nosso foco está em qualidade
+                    e satisfação. Venha conhecer mais sobre nós!
                 </p>
                 <img src="/img/sobre.png" alt="Sobre Nós" />
             </div>
         </section>
-
-        <!-- DIVISÃO -->
-        <section class="divAmarelo"></section>
-        <section class="divRosa"></section>
 
         <!-- PRODUTOS -->
         <section class="produtos">
@@ -75,6 +84,29 @@
             </div>
         </section>
 
+        <!-- LOJAS PRÓXIMAS A MIM -->
+        <section class="lojasProx">
+            <div class="alinha">
+                <h2>Procure lojas próximas</h2>
+                <p>
+                    Visite nossas lojas e participe do sistema de distribuição
+                    de gatos!
+                </p>
+                <div class="alinhafaixa">
+                    <div id="result"></div>
+                    <form id="cepForm">
+                        <input
+                            type="text"
+                            id="cepInput"
+                            placeholder="Seu cep:"
+                            required
+                        />
+                        <button type="submit">Lojas próximas a mim</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
         <!-- RODAPÉ -->
         <footer class="rodape">
             <div class="alinha">
@@ -96,3 +128,26 @@
         </footer>
     </body>
 </html>
+
+<script>
+    document
+        .getElementById('cepForm')
+        .addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const cep = document.getElementById('cepInput').value;
+            const endpoint = `/api/buscarProx/${cep}`;
+            try {
+                const response = await fetch(endpoint);
+                const lojas = await response.json();
+                document.getElementById('result').innerText = JSON.stringify(
+                    lojas,
+                    null,
+                    2
+                );
+            } catch (error) {
+                console.error('Erro ao buscar lojas:', error);
+                document.getElementById('result').innerText =
+                    'Erro ao buscar lojas.';
+            }
+        });
+</script>

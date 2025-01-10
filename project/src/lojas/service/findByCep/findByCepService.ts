@@ -20,7 +20,7 @@ export class findByCepServiceService {
         private readonly hereMapsServiceDelivery: HereMapsServiceDelivery
     ) {}
 
-    async findByCep(cep: string, limit: number = 1, offset: number = 0) {
+    async findByCep(cep: string, limit: number = 50, offset: number = 0) {
         this.logger.log(`Iniciando busca de lojas para o CEP: ${cep}`);
         try {
             // Coordenadas (getCoordinates.ts)

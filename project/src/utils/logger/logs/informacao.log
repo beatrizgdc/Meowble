@@ -2559,3 +2559,1420 @@
 {"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 18:24:07"}
 {"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 18:34:59"}
 {"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 18:35:00"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 19:51:26"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 19:51:26"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 19:52:56"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 19:52:56"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 20:04:05"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 20:04:05"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 20:04:34"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 20:04:35"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 20:06:50"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 20:06:51"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 20:07:25"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 20:07:25"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 20:08:29"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 20:08:30"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 20:09:41"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 20:09:41"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 20:10:13"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 20:10:13"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 20:17:49"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 20:17:50"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 20:21:46"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 20:21:57"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 20:21:57"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 20:30:34"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 20:30:35"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 20:59:19"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 20:59:20"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:04:36"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:04:36"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:05:01"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:05:01"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:23:31"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:23:32"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:25:00"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:25:01"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:26:12"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:26:13"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:28:53"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:28:53"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:29:08"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:29:08"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:32:01"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:32:01"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:37:00"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:37:01"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:37:58"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:37:59"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:05"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 21:38:05"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 21:38:06"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:06"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:06"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 21:38:06"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 21:38:06"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:06"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 21:38:06"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 21:38:06"}
+{"level":"info","message":"Tempo estimado calculado: 11 minutos.","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Tempo estimado para a entrega: 11 minutos","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Custo total da entrega calculado: 8.2564 unidades monetárias","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 1","timestamp":"2025-01-09 21:38:07"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":11,\"totalCost\":\"R$ 8.26\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Tempo estimado calculado: 11 minutos.","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Tempo estimado para a entrega: 11 minutos","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Custo total da entrega calculado: 8.2564 unidades monetárias","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 1","timestamp":"2025-01-09 21:38:07"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":11,\"totalCost\":\"R$ 8.26\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:07"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:27"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 21:38:27"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 21:38:28"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:28"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:28"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:28"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:28"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:28"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:28"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:28"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:28"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:28"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:30"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 21:38:30"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 21:38:30"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:30"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:30"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:30"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:30"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:30"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:30"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:30"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:30"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:30"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:36"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:37"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:38:39"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:38:40"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:40"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:40"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:40"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:40"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:40"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:40"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:40"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:40"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:40"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:40"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:38:41"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:42"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:46"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:38:46"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:38:46"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:46"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:46"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:46"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:46"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:46"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:46"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:46"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:46"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:46"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:46"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:47"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:38:47"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:38:47"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:47"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:47"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:47"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:47"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:47"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:47"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:47"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:47"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:47"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:47"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:38:52"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 21:38:52"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 21:38:52"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:38:52"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:38:52"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:38:52"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:38:52"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:38:52"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:38:52"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:38:52"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:38:52"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:38:52"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:38:52"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:40:33"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:40:34"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:41:45"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:41:45"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:42:32"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:42:33"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 50 e offset: 0","timestamp":"2025-01-09 21:42:40"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 21:42:40"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 886.043 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 844.52 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 830.739 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 879.384 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 823.027 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 871.941 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 0.239 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 3.917 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 23.683 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.588 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 14.012 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja undefined: 61.067 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 61.067 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 61.067 km","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Tempo estimado calculado: 4 minutos.","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Tempo estimado para a entrega: 4 minutos","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Custo total da entrega calculado: 6.0478 unidades monetárias","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 21:42:41"}
+{"level":"info","message":"Tempo estimado calculado: 13 minutos.","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Tempo estimado para a entrega: 13 minutos","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Custo total da entrega calculado: 9.0334 unidades monetárias","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Tempo estimado calculado: 47 minutos.","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Tempo estimado para a entrega: 47 minutos","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Custo total da entrega calculado: 21.4866 unidades monetárias","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Tempo estimado calculado: 32 minutos.","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Tempo estimado para a entrega: 32 minutos","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Custo total da entrega calculado: 15.9176 unidades monetárias","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Tempo estimado calculado: 35 minutos.","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Tempo estimado para a entrega: 35 minutos","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Custo total da entrega calculado: 16.5524 unidades monetárias","timestamp":"2025-01-09 21:42:42"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 21:42:43"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 21:42:43"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 21:42:43"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 21:42:43"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 21:42:43"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:42:43"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:42:43"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 5","timestamp":"2025-01-09 21:42:43"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"0 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":4,\"totalCost\":\"R$ 6.05\"},\"pins\":{\"position\":{\"lat\":\"-30.02515\",\"lng\":\"-51.16217\"}}}","timestamp":"2025-01-09 21:42:43"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"4 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":13,\"totalCost\":\"R$ 9.03\"},\"pins\":{\"position\":{\"lat\":\"-29.99769\",\"lng\":\"-51.14093\"}}}","timestamp":"2025-01-09 21:42:43"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"14 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":35,\"totalCost\":\"R$ 16.55\"},\"pins\":{\"position\":{\"lat\":\"-30.15208\",\"lng\":\"-51.14924\"}}}","timestamp":"2025-01-09 21:42:43"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"15 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":32,\"totalCost\":\"R$ 15.92\"},\"pins\":{\"position\":{\"lat\":\"-30.15787\",\"lng\":\"-51.16188\"}}}","timestamp":"2025-01-09 21:42:43"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"24 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":47,\"totalCost\":\"R$ 21.49\"},\"pins\":{\"position\":{\"lat\":\"-30.22534\",\"lng\":\"-51.07524\"}}}","timestamp":"2025-01-09 21:42:43"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:42:43"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:42:43"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"61 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"61 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":\"50\",\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:42:43"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:43:36"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:43:37"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:44:14"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:44:15"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:44:33"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 21:44:33"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 21:44:33"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:44:33"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:44:33"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 21:44:33"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 21:44:33"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:44:33"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 21:44:33"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 21:44:33"}
+{"level":"info","message":"Tempo estimado calculado: 10 minutos.","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Tempo estimado para a entrega: 10 minutos","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Custo total da entrega calculado: 8.0064 unidades monetárias","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 1","timestamp":"2025-01-09 21:44:34"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":10,\"totalCost\":\"R$ 8.01\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Tempo estimado calculado: 10 minutos.","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Tempo estimado para a entrega: 10 minutos","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Custo total da entrega calculado: 8.0064 unidades monetárias","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 1","timestamp":"2025-01-09 21:44:34"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":10,\"totalCost\":\"R$ 8.01\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 21:44:34"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Tempo estimado calculado: 10 minutos.","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Tempo estimado para a entrega: 10 minutos","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Custo total da entrega calculado: 8.0064 unidades monetárias","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 1","timestamp":"2025-01-09 21:44:35"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":10,\"totalCost\":\"R$ 8.01\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:44:35"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:45:49"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:45:50"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:46:23"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:46:23"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:46:29"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 21:46:29"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 21:46:29"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:46:29"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:46:29"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 21:46:29"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 21:46:29"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:46:29"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 21:46:29"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 21:46:29"}
+{"level":"info","message":"Tempo estimado calculado: 10 minutos.","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Tempo estimado para a entrega: 10 minutos","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Custo total da entrega calculado: 8.0064 unidades monetárias","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 1","timestamp":"2025-01-09 21:46:30"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":10,\"totalCost\":\"R$ 8.01\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Tempo estimado calculado: 10 minutos.","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Tempo estimado para a entrega: 10 minutos","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Custo total da entrega calculado: 8.0064 unidades monetárias","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 1","timestamp":"2025-01-09 21:46:30"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":10,\"totalCost\":\"R$ 8.01\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:46:30"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:01"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 21:47:01"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 21:47:01"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:01"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:01"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:01"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:01"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:01"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:01"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:01"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:01"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:01"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:01"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 21:47:03"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340-001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340-001","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340-001","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:04"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:06"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:47:06"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:47:06"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:06"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:06"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:06"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:06"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:06"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:06"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:06"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:06"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:06"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:06"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:47:07"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:08"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:13"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:47:13"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:47:13"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:13"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:47:14"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:56:42"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:56:42"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:56:43"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:56:43"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:56:43"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:56:43"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:56:43"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:56:43"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:56:43"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:56:43"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:56:43"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:56:43"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:56:43"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:56:44"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:56:44"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:56:45"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:57:26"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:57:26"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:57:29"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:57:29"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:57:30"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:57:30"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:57:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:57:30"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:57:30"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:57:30"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:57:30"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:57:30"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:57:30"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:57:30"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:57:30"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:57:33"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:57:33"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:57:33"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:57:33"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:57:34"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91340001 com limite: 1 e offset: 0","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91340001","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91340001","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.699 km","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 21:57:35"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 21:57:55"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 21:57:55"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 1 e offset: 0","timestamp":"2025-01-09 22:02:26"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 22:02:26"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 22:02:26"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 22:02:26"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 22:02:26"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 22:02:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 22:02:26"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 22:02:26"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 22:02:26"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 22:02:26"}
+{"level":"info","message":"Tempo estimado calculado: 10 minutos.","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Tempo estimado para a entrega: 10 minutos","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Custo total da entrega calculado: 8.0064 unidades monetárias","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 1","timestamp":"2025-01-09 22:02:27"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":10,\"totalCost\":\"R$ 8.01\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 1 e offset: 0","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 22:02:27"}
+{"level":"info","message":"Tempo estimado calculado: 10 minutos.","timestamp":"2025-01-09 22:02:28"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 22:02:28"}
+{"level":"info","message":"Tempo estimado para a entrega: 10 minutos","timestamp":"2025-01-09 22:02:28"}
+{"level":"info","message":"Custo total da entrega calculado: 8.0064 unidades monetárias","timestamp":"2025-01-09 22:02:28"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 22:02:28"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 22:02:28"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 22:02:28"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 1","timestamp":"2025-01-09 22:02:28"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":10,\"totalCost\":\"R$ 8.01\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 22:02:28"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 22:02:28"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 22:02:28"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 22:02:28"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 1 e offset: 0","timestamp":"2025-01-09 22:04:16"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 22:04:16"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 22:04:17"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 22:04:17"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 22:04:17"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 22:04:17"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 22:04:17"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 22:04:17"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 22:04:17"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 22:04:17"}
+{"level":"info","message":"Tempo estimado calculado: 10 minutos.","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Tempo estimado para a entrega: 10 minutos","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Custo total da entrega calculado: 8.0064 unidades monetárias","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 1","timestamp":"2025-01-09 22:04:18"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":10,\"totalCost\":\"R$ 8.01\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 1 e offset: 0","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 1","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Tempo estimado calculado: 10 minutos.","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Tempo estimado para a entrega: 10 minutos","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Custo total da entrega calculado: 8.0064 unidades monetárias","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 1","timestamp":"2025-01-09 22:04:18"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":10,\"totalCost\":\"R$ 8.01\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[]},\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 22:04:18"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 22:13:23"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 22:13:24"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 50 e offset: 0","timestamp":"2025-01-09 22:13:27"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 22:13:27"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 5.795 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 134.056 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 134.751 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 96.772 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 105.348 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 105.348 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 105.348 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 77.192 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 77.192 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 96.772 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.999 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 881.371 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 902.028 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 898.474 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 897.392 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja undefined: 824.657 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 824.657 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 824.657 km","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 22:13:28"}
+{"level":"info","message":"Tempo estimado calculado: 10 minutos.","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Tempo estimado para a entrega: 10 minutos","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Custo total da entrega calculado: 8.0064 unidades monetárias","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Tempo estimado calculado: 18 minutos.","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Tempo estimado para a entrega: 18 minutos","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Custo total da entrega calculado: 10.658999999999999 unidades monetárias","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:13:29"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 2","timestamp":"2025-01-09 22:13:30"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":10,\"totalCost\":\"R$ 8.01\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 22:13:30"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"6 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":18,\"totalCost\":\"R$ 10.66\"},\"pins\":{\"position\":{\"lat\":\"-22.7058\",\"lng\":\"-47.67344\"}}}","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"825 km\",\"value\":[{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 58,20\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 30,80\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"825 km\",\"value\":[{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 58,20\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 30,80\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":50,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 50 e offset: 0","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 5.795 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 134.056 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 134.751 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 96.772 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 105.348 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 105.348 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 105.348 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 77.192 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 77.192 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 96.772 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.999 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 881.371 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 902.028 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 898.474 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 897.392 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja undefined: 824.657 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 824.657 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 824.657 km","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Tempo estimado calculado: 10 minutos.","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Tempo estimado para a entrega: 10 minutos","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Custo total da entrega calculado: 8.0064 unidades monetárias","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 22:13:30"}
+{"level":"info","message":"Tempo estimado calculado: 18 minutos.","timestamp":"2025-01-09 22:13:31"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 22:13:31"}
+{"level":"info","message":"Tempo estimado para a entrega: 18 minutos","timestamp":"2025-01-09 22:13:31"}
+{"level":"info","message":"Custo total da entrega calculado: 10.658999999999999 unidades monetárias","timestamp":"2025-01-09 22:13:31"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 22:13:31"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:13:31"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:13:31"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:13:31"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:13:31"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:13:32"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:13:32"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 22:13:32"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 22:13:32"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 2","timestamp":"2025-01-09 22:13:32"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":10,\"totalCost\":\"R$ 8.01\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 22:13:32"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"6 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":18,\"totalCost\":\"R$ 10.66\"},\"pins\":{\"position\":{\"lat\":\"-22.7058\",\"lng\":\"-47.67344\"}}}","timestamp":"2025-01-09 22:13:32"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 22:13:32"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 22:13:32"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"825 km\",\"value\":[{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 58,20\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 30,80\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"825 km\",\"value\":[{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 58,20\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 30,80\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":50,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 22:13:32"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 50 e offset: 0","timestamp":"2025-01-09 22:18:17"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 22:18:17"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 5.795 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 134.056 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 134.751 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 96.772 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 105.348 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 105.348 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 105.348 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 77.192 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 77.192 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 96.772 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.999 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 881.371 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 902.028 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 898.474 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 897.392 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja undefined: 824.657 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 824.657 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 824.657 km","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 22:18:18"}
+{"level":"info","message":"Tempo estimado calculado: 10 minutos.","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Tempo estimado para a entrega: 10 minutos","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Custo total da entrega calculado: 8.0064 unidades monetárias","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Tempo estimado calculado: 18 minutos.","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Tempo estimado para a entrega: 18 minutos","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Custo total da entrega calculado: 10.658999999999999 unidades monetárias","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:18:19"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 2","timestamp":"2025-01-09 22:18:20"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":10,\"totalCost\":\"R$ 8.01\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 22:18:20"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"6 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":18,\"totalCost\":\"R$ 10.66\"},\"pins\":{\"position\":{\"lat\":\"-22.7058\",\"lng\":\"-47.67344\"}}}","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"825 km\",\"value\":[{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 58,20\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 30,80\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"825 km\",\"value\":[{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 58,20\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 30,80\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":50,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Buscando lojas pelo CEP: 13420410 com limite: 50 e offset: 0","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 13420410","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 13420410","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 2.532 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 5.795 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 134.056 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 134.751 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 96.772 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 105.348 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 105.348 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 105.348 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 77.192 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 77.192 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 96.772 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 884.999 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 881.371 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 902.028 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 898.474 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 897.392 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja undefined: 824.657 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 824.657 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 824.657 km","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Tempo estimado calculado: 10 minutos.","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Calculando custo de delivery para loja undefined (undefined)...","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Tempo estimado para a entrega: 10 minutos","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Custo total da entrega calculado: 8.0064 unidades monetárias","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Iniciando o cálculo do custo de entrega","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Iniciando a solicitação para obter o tempo estimado","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Tempo estimado calculado: 18 minutos.","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Cálculo do custo de delivery concluído com sucesso.","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Tempo estimado para a entrega: 18 minutos","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Custo total da entrega calculado: 10.658999999999999 unidades monetárias","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Custo de delivery calculado com sucesso para a loja undefined (undefined).","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:18:20"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:18:21"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:18:21"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:18:21"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:18:22"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:18:22"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 22:18:22"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 22:18:22"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 2","timestamp":"2025-01-09 22:18:22"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"3 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":10,\"totalCost\":\"R$ 8.01\"},\"pins\":{\"position\":{\"lat\":\"-22.7281492\",\"lng\":\"-47.6491166\"}}}","timestamp":"2025-01-09 22:18:22"}
+{"level":"warn","message":"Loja sem tipo válido encontrada. Dados: {\"distance\":\"6 km\",\"value\":[],\"delivery\":{\"estimatedTimeMin\":18,\"totalCost\":\"R$ 10.66\"},\"pins\":{\"position\":{\"lat\":\"-22.7058\",\"lng\":\"-47.67344\"}}}","timestamp":"2025-01-09 22:18:22"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 22:18:22"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 22:18:22"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"825 km\",\"value\":[{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 58,20\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 30,80\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"825 km\",\"value\":[{\"prazo\":\"8 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 58,20\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 30,80\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":50,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 22:18:22"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91349-900 com limite: 50 e offset: 0","timestamp":"2025-01-09 22:38:55"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91349-900","timestamp":"2025-01-09 22:38:55"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91349-900","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9933.33 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.642 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9957.787 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9971.706 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10801.282 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10797.604 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10814.642 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10813.325 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10812.096 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10743.446 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:38:56"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":50,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91349-900 com limite: 50 e offset: 0","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91349-900","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91349-900","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9933.33 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.642 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9957.787 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9971.706 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10801.282 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10797.604 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10814.642 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10813.325 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10812.096 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10743.446 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:38:57"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:38:58"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:38:58"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:38:58"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:38:59"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:38:59"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 22:38:59"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 22:38:59"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 22:38:59"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 22:38:59"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 22:38:59"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":50,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 22:38:59"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91349900 com limite: 50 e offset: 0","timestamp":"2025-01-09 22:39:04"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91349900","timestamp":"2025-01-09 22:39:04"}
+{"detalhes":"TypeError","level":"error","message":"Erro ao buscar lojas para o CEP: 91349900. Erro: Cannot read properties of undefined (reading 'position'): Cannot read properties of undefined (reading 'position')","stack":"TypeError: Cannot read properties of undefined (reading 'position')\n    at HereMapsService.getCoordinates (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\hereMaps\\buscarLatLong\\service\\hereMapsService.ts:37:49)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async getCoordinates (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\service\\findByCep\\getCoordinates.ts:9:25)\n    at async findByCepServiceService.findByCep (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\service\\findByCep\\findByCepService.ts:27:33)\n    at async LojaService.findByCep (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\lojas\\service\\lojaService.ts:94:31)\n    at async PublicController.encontrarLoja (C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\src\\public\\publicController.ts:22:27)\n    at async C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at async C:\\Users\\Catnip\\Documents\\DEV\\Estagio\\Meowble-1\\project\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17","timestamp":"2025-01-09 22:39:05"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"mensagem\":\"Erro ao buscar lojas por CEP.\",\"detalhes\":{\"mensagem\":\"Cannot read properties of undefined (reading 'position')\",\"stack\":\"TypeError: Cannot read properties of undefined (reading 'position')\\n    at HereMapsService.getCoordinates (C:\\\\Users\\\\Catnip\\\\Documents\\\\DEV\\\\Estagio\\\\Meowble-1\\\\project\\\\src\\\\hereMaps\\\\buscarLatLong\\\\service\\\\hereMapsService.ts:37:49)\\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async getCoordinates (C:\\\\Users\\\\Catnip\\\\Documents\\\\DEV\\\\Estagio\\\\Meowble-1\\\\project\\\\src\\\\lojas\\\\service\\\\findByCep\\\\getCoordinates.ts:9:25)\\n    at async findByCepServiceService.findByCep (C:\\\\Users\\\\Catnip\\\\Documents\\\\DEV\\\\Estagio\\\\Meowble-1\\\\project\\\\src\\\\lojas\\\\service\\\\findByCep\\\\findByCepService.ts:27:33)\\n    at async LojaService.findByCep (C:\\\\Users\\\\Catnip\\\\Documents\\\\DEV\\\\Estagio\\\\Meowble-1\\\\project\\\\src\\\\lojas\\\\service\\\\lojaService.ts:94:31)\\n    at async PublicController.encontrarLoja (C:\\\\Users\\\\Catnip\\\\Documents\\\\DEV\\\\Estagio\\\\Meowble-1\\\\project\\\\src\\\\public\\\\publicController.ts:22:27)\\n    at async C:\\\\Users\\\\Catnip\\\\Documents\\\\DEV\\\\Estagio\\\\Meowble-1\\\\project\\\\node_modules\\\\@nestjs\\\\core\\\\router\\\\router-execution-context.js:46:28\\n    at async C:\\\\Users\\\\Catnip\\\\Documents\\\\DEV\\\\Estagio\\\\Meowble-1\\\\project\\\\node_modules\\\\@nestjs\\\\core\\\\router\\\\router-proxy.js:9:17\"}}","timestamp":"2025-01-09 22:39:05"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91349-900 com limite: 50 e offset: 0","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91349-900","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91349-900","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9933.33 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.642 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9957.787 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9971.706 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10801.282 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10797.604 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10814.642 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10813.325 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10812.096 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10743.446 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:39:09"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:39:10"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:39:10"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 22:39:10"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 22:39:11"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 22:39:11"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 22:39:11"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 22:39:11"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 22:39:11"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 22:39:11"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 22:39:11"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":50,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 22:39:11"}
+{"level":"info","message":"Conectando no MongoDB 🐈","timestamp":"2025-01-09 22:41:38"}
+{"level":"info","message":"MongoDB conectado com sucesso! 🎉 😺 😺","timestamp":"2025-01-09 22:41:38"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91349-900 com limite: 50 e offset: 0","timestamp":"2025-01-09 23:01:20"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91349-900","timestamp":"2025-01-09 23:01:20"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91349-900","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9933.33 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.642 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9957.787 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9971.706 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10801.282 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10797.604 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10814.642 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10813.325 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10812.096 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10743.446 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 23:01:21"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":50,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91349-900 com limite: 50 e offset: 0","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91349-900","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91349-900","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9933.33 km","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.642 km","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9957.787 km","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9971.706 km","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10801.282 km","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10797.604 km","timestamp":"2025-01-09 23:01:22"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10814.642 km","timestamp":"2025-01-09 23:01:23"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10813.325 km","timestamp":"2025-01-09 23:01:23"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10812.096 km","timestamp":"2025-01-09 23:01:23"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10743.446 km","timestamp":"2025-01-09 23:01:23"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 23:01:23"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 23:01:23"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 23:01:23"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 23:01:23"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 23:01:24"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 23:01:24"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 23:01:24"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":50,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91349-900 com limite: 50 e offset: 0","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91349-900","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91349-900","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9933.33 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.642 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9957.787 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9971.706 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10801.282 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10797.604 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10814.642 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10813.325 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10812.096 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10743.446 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 23:01:26"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":50,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Buscando lojas pelo CEP: 91349-900 com limite: 50 e offset: 0","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Iniciando busca de lojas para o CEP: 91349-900","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Coordenadas obtidas com sucesso para o CEP: 91349-900","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Lojas obtidas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Total de lojas no banco de dados: 19","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9933.33 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.642 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9957.787 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9971.706 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9924.393 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10002.905 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 9932.493 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10801.282 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10797.604 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10814.642 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10813.325 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10812.096 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja undefined: 10743.446 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Distância calculada para a loja MEOWBLE 03: 10743.446 km","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Cálculo de distâncias das lojas realizado com sucesso.","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 23:01:27"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 23:01:28"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 23:01:28"}
+{"level":"info","message":"Calculando frete para loja undefined (MEOWBLE 03)...","timestamp":"2025-01-09 23:01:28"}
+{"level":"info","message":"Frete calculado com sucesso.","timestamp":"2025-01-09 23:01:28"}
+{"level":"info","message":"Frete calculado com sucesso para a loja undefined (MEOWBLE 03).","timestamp":"2025-01-09 23:01:28"}
+{"level":"info","message":"Filtro de lojas concluído com sucesso.","timestamp":"2025-01-09 23:01:28"}
+{"level":"info","message":"Filtragem de lojas concluída com sucesso.","timestamp":"2025-01-09 23:01:28"}
+{"level":"info","message":"Iniciando categorização das lojas. Total de lojas recebidas: 0","timestamp":"2025-01-09 23:01:28"}
+{"level":"info","message":"Categorização concluída. Lojas PDV: 0, Lojas: 0","timestamp":"2025-01-09 23:01:28"}
+{"level":"info","message":"Busca de lojas por CEP concluída com sucesso.","timestamp":"2025-01-09 23:01:28"}
+{"level":"info","message":"Lojas encontradas pelo CEP: {\"stores\":{\"menor50Km\":{\"pdvs\":[],\"lojas\":[]},\"maiorIgual50Km\":[{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}},{\"name\":\"MEOWBLE 03\",\"postalCode\":\"93995-000\",\"city\":\"SP\",\"type\":\"LOJA\",\"distance\":\"10743 km\",\"value\":[{\"prazo\":\"6 dias úteis\",\"codProdutoAgencia\":\"04014\",\"price\":\"R$ 27,00\",\"description\":\"Sedex a encomenda expressa dos Correios\"},{\"prazo\":\"12 dias úteis\",\"codProdutoAgencia\":\"04510\",\"price\":\"R$ 25,50\",\"description\":\"PAC a encomenda economica dos Correios\"}],\"pins\":{\"position\":{\"lat\":\"-29.50284\",\"lng\":\"-50.97666\"},\"title\":\"MEOWBLE 03\"}}]},\"limit\":50,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 23:01:28"}
+{"level":"info","message":"Listando lojas com limite: 1 e offset: 0","timestamp":"2025-01-09 23:02:05"}
+{"level":"info","message":"Buscando todas as lojas com limite: 1 e offset: 0...","timestamp":"2025-01-09 23:02:05"}
+{"level":"info","message":"Lojas listadas com sucesso. Total de lojas: 19","timestamp":"2025-01-09 23:02:06"}
+{"level":"info","message":"Lojas listadas com sucesso: {\"stores\":[{\"_id\":\"677c52643b8db6ae4c4439c0\",\"lojaNome\":\"MEOWBLE 01\",\"lojaTipo\":\"PDV\",\"latitude\":\"-22.7281492\",\"longitude\":\"-47.6491166\",\"codigoPostal\":\"13400-070\",\"numero\":800,\"uf\":\"SP\",\"pais\":\"Brasil\",\"lojaTelefone\":\"12345678\",\"__v\":0}],\"limit\":1,\"offset\":0,\"total\":19}","timestamp":"2025-01-09 23:02:06"}
+{"level":"info","message":"Buscando lojas por UF: SP com limite: 10 e offset: 0","timestamp":"2025-01-09 23:02:33"}
+{"level":"info","message":"Buscando lojas na UF SP...","timestamp":"2025-01-09 23:02:33"}
+{"level":"info","message":"Lojas na UF SP encontradas: 2","timestamp":"2025-01-09 23:02:33"}
+{"level":"info","message":"Lojas encontradas por UF: {\"stores\":[{\"_id\":\"677fe2d62607e5b6a6d04bcc\",\"storeName\":\"MEOWBLE 03\",\"type\":\"LOJA\",\"takeOutInStore\":true,\"shippingTimeInDays\":4,\"postalCode\":\"93995-000\",\"state\":\"SP\",\"country\":\"Brasil\",\"__v\":0},{\"_id\":\"677fe4137670523f92b7dc39\",\"storeName\":\"MEOWBLE 03\",\"type\":\"LOJA\",\"takeOutInStore\":true,\"shippingTimeInDays\":4,\"postalCode\":\"93995-000\",\"state\":\"SP\",\"city\":\"SP\",\"country\":\"Brasil\",\"__v\":0}],\"limit\":\"10\",\"offset\":\"0\",\"total\":2}","timestamp":"2025-01-09 23:02:33"}

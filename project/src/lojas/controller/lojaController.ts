@@ -149,7 +149,7 @@ export class LojaController {
     })
     async findByCep(
         @Param('cep') cep: string,
-        @Query('limit') limit: number = 1,
+        @Query('limit') limit: number = 50,
         @Query('offset') offset: number = 0,
         @Res() res: Response
     ) {

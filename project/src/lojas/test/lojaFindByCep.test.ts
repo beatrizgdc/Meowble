@@ -79,7 +79,7 @@ describe('findByCepServiceService', () => {
                 menor50Km: mockCategorias,
                 maiorIgual50Km: [{ id: 2, name: 'Loja 2', distancia: 60 }],
             },
-            limit: 10,
+            limit: 50,
             offset: 0,
             total: 2,
         });

@@ -28,7 +28,7 @@ export class IsValidCep implements ValidatorConstraintInterface {
                 return false;
             }
         } catch (error) {
-            this.logger.error(`Erro ao validar o CEP: ${cep}`, error);
+            // this.logger.error(`Erro ao validar o CEP: ${cep}`, error);
             return false;
         }
     }
