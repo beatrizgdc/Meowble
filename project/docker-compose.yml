@@ -1,0 +1,19 @@
+version: '3.9'
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - '3000:3000'
+        environment:
+            - NODE_ENV=development
+            - MONGO_URI=${MONGO_URI}
+            - HERE_MAPS_API_KEY=${HERE_MAPS_API_KEY}
+        volumes:
+            - .:/project
+            - ./src:/project/src
+            - ./tsconfig.json:/project/tsconfig.json
+            - .env:/project/.env
+            - ./src/public:/project/src/public
+        command: npm run start
