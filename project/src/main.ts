@@ -30,13 +30,13 @@ async function bootstrap() {
         })
     );
 
-    // await app.listen(3000);
-    // console.log(`Aplicação rodando em http://localhost:3000`);
+    await app.listen(3000);
+    console.log(`Aplicação rodando em http://localhost:3000`);
 
-    await app.listen(3000, '18.209.56.159', () => {
-        console.log('Aplicação rodando em http://18.209.56.159:3000');
-    });
-    console.log(`Swagger disponível em http://18.209.56.159:3000/swagger`);
+    // await app.listen(3000, '18.209.56.159', () => {
+    //     console.log('Aplicação rodando em http://18.209.56.159:3000');
+    // });
+    // console.log(`Swagger disponível em http://18.209.56.159:3000/swagger`);
 }
 
 bootstrap();

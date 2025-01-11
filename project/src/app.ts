@@ -6,6 +6,7 @@ import { LojaModule } from './lojas/lojaModule';
 import { ProdutoModule } from './produtos/produtoModule';
 import { publicModule } from './public/publicModule';
 import { join } from 'path';
+import { MigrationModule } from './migrations/migrationModule';
 @Module({
     imports: [
         ServeStaticModule.forRoot({
@@ -16,6 +17,7 @@ import { join } from 'path';
         LojaModule,
         ProdutoModule,
         publicModule,
+        MigrationModule,
     ],
 })
 export class AppModule {}
