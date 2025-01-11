@@ -7,6 +7,7 @@ import { ProdutoModule } from './produtos/produtoModule';
 import { publicModule } from './public/publicModule';
 import { join } from 'path';
 import { MigrationModule } from './migrations/migrationModule';
+
 @Module({
     imports: [
         ServeStaticModule.forRoot({

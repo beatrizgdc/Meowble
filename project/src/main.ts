@@ -32,7 +32,9 @@ async function bootstrap() {
     );
 
     const port = PORT as string | number;
-    await app.listen(port);
+    const host = HOST as string;
+
+    await app.listen(port, host);
     console.log(`Aplicação rodando em http://${HOST}:${PORT}`);
     console.log(`Swagger disponível em http://${HOST}:${PORT}/swagger`);
 }
