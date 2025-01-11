@@ -63,6 +63,8 @@ O projeto integra as seguintes APIs externas para fornecer dados geográficos e 
   ```env
   MONGO_URI=
   HERE_API_KEY=
+  PORT=3000
+  HOST=localhost
   ```
 
 ### **Iniciar o Projeto**

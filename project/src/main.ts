@@ -4,6 +4,7 @@ import { AppModule } from './app';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { join } from 'path';
 import { NestExpressApplication } from '@nestjs/platform-express';
+import { PORT, HOST } from './config/dotenvConfig';
 
 async function bootstrap() {
     const app = await NestFactory.create<NestExpressApplication>(AppModule);
@@ -30,13 +31,10 @@ async function bootstrap() {
         })
     );
 
-    await app.listen(3000);
-    console.log(`Aplicação rodando em http://localhost:3000`);
-
-    // await app.listen(3000, '18.209.56.159', () => {
-    //     console.log('Aplicação rodando em http://18.209.56.159:3000');
-    // });
-    // console.log(`Swagger disponível em http://18.209.56.159:3000/swagger`);
+    const port = PORT as string | number;
+    await app.listen(port);
+    console.log(`Aplicação rodando em http://${HOST}:${PORT}`);
+    console.log(`Swagger disponível em http://${HOST}:${PORT}/swagger`);
 }
 
 bootstrap();
